@@ -1,4 +1,4 @@
-# Unnecessary file
+# Large file, uncomment to upload all
 *.csv
 *.xlsx
 *.pkl
@@ -6,8 +6,8 @@
 *.pdf
 *.tar.gz
 *.zip
-
-
+*.rar
+*.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
