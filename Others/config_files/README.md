@@ -1,0 +1,1 @@
+该文件夹用于存储一些本机电脑与linux服务器里的配置文件，包括settings.json，.bashrc，.vscode等工具，记录软件配置文件、linux command、redis history等，方便新入职时可以快速配置linux服务器和电脑。
