@@ -284,7 +284,8 @@ sunnytrader是由黄灿老板开发的交易系统，quantlab是由启能达和�
 
 **策略编写**
 三个步骤：建立项目、添加引用、配置调试
-- 建立项目：打开visual studio，语言选择C#，选择下面的类库，然后项目命名，文件夹位置放在`MyStrategy`的统一目录下，仍然建议`MyStrategy`设置为根目录，然后选择把解决方案和项目放在同一目录下，
+- 建立项目：打开visual studio，语言选择C#，选择下面的类库，然后项目命名，文件夹位置放在`MyStrategy`的统一目录下，仍然建议`MyStrategy`设置为根目录，然后选择把解决方案和项目放在同一目录下(也就是place solution and project in the same directory)，之前我没有勾选过这个选项，不勾选就会让`.sln`文件的目录比和项目同名的project文件夹高一级目录，这样方便查找到solution文件打开project，如果勾选的话，solution文件会放到和project一个目录下，由于里面有很多其他的文件，包括主程序cs文件，还有`.csproj`文件等等，虽然乱，但是这样的好处是能让我们的不同策略集中到一个大的父目录下面，方便管理。接下来选择.NET5框架创建。
+- 添加引用：
 
 
 
