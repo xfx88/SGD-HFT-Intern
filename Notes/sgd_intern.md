@@ -356,12 +356,6 @@ output = m(input)
 print(output[output==0].shape)
 ```
 
-### 2. Coursera: Sequential Models
-
-#### 2.1 Recurrent Neural Networks
-**RNN基础**
-- 应用场景：输入是序列，输出是序列，比如speech recognition, music generation, sentiment, DNA sequence analysis, machine translation, video activity recognition, name entity recognition等。注意输入输出长度可以不同。
-- 使用传统的one-hot对单词在语料库中做一个编码，可以输入普通的DNN当中，target variable是是否该单词属于一个人的名字，一个01变量。第一个原因是输入和输出的长度可能不同。就算对input做一个zero padding也不是很好。第二个不好的原因是DNN没有实现文本不同位置的关联，DNN只是把输入的单词分开处理的。要理解这些网络的本质，CNN的力量在于能够迅速的把一个image的信息快速提取并拓展到其他image，那文本我们也有这样的要求，尽可能快速的泛化，而不是按照单词割裂开来，每次都单独学习。同时这样的one hot作为input，会产生很大的Input matrix，参数量巨大，无法训练。
 - RNN只能实现one time stamp的信息传输，导致在后续持续的传输过程中，先前层的信息在持续的反向传播中对后续层的影响会指数级递减。而另一个缺点是他并没有实现真正的“recurrent”，因为前面的时刻t并不能使用到后续时刻的信息，而在文本中，后续信息可能很重要，比如识别到人名的第一个词的时候，向前看并没有有用的信息，向后看反而更重要。这就是Bidirectional RNN (BRNN)的意义所在。
 - speech recognition显然就是一个M TO N的问题。各种machine translation也是不等长的输入输出。影评的sentimental analysis，接受的各种不同长度的影评，放到序列上就是不同时刻的input，每一刻不同的影评代表不同的training sample，然后每一个时刻t就输入同一个t下不同的影评对应的单词，缺失的地方做padding，然后最终就输出一个对整个电影的评价，一个binary response，所以是一个N to 1的问题。而1 to 1就是普通的DNN，代表固定时刻的输入，然后对应的输出，没有任何时序上的关联。1 to N的例子，就是music generation，output是a set of notes，而input可能就是一个integer，告诉genre of the music，比如输入一个关键词，folk民谣，然后就要生成一个曲子，这就像那个狗屁不通文章生成器，就是一个典型的1 to N的问题。不**过此时的RNN序列有点不同，由于除了t=1都没有输入，因此后续时间往往会把前一层的输出y拿来作为后续层的输入，这个比较科学**。N to M的时候，自动形成了encoder-decoder的架构。
 
@@ -376,20 +370,20 @@ print(output[output==0].shape)
 
 
 
-### 3. 深度学习用于时序预测的文献阅读
+### 2. 深度学习用于时序预测的文献阅读
 
 
-#### 3.1 Paper: A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction (DA-RNN)
-
-
-
+#### 2.1 Paper: A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction (DA-RNN)
 
 
 
-#### 3.2 Paper: Informer (AAAI'21 Best Paper)
 
 
-#### 3.3 Paper: Autoformer (NeurIPS 2021)
+
+#### 2.2 Paper: Informer (AAAI'21 Best Paper)
+
+
+#### 2.3 Paper: Autoformer (NeurIPS 2021)
 
 
 
