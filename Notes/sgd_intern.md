@@ -356,16 +356,6 @@ output = m(input)
 print(output[output==0].shape)
 ```
 
-- RNN只能实现one time stamp的信息传输，导致在后续持续的传输过程中，先前层的信息在持续的反向传播中对后续层的影响会指数级递减。而另一个缺点是他并没有实现真正的“recurrent”，因为前面的时刻t并不能使用到后续时刻的信息，而在文本中，后续信息可能很重要，比如识别到人名的第一个词的时候，向前看并没有有用的信息，向后看反而更重要。这就是Bidirectional RNN (BRNN)的意义所在。
-- speech recognition显然就是一个M TO N的问题。各种machine translation也是不等长的输入输出。影评的sentimental analysis，接受的各种不同长度的影评，放到序列上就是不同时刻的input，每一刻不同的影评代表不同的training sample，然后每一个时刻t就输入同一个t下不同的影评对应的单词，缺失的地方做padding，然后最终就输出一个对整个电影的评价，一个binary response，所以是一个N to 1的问题。而1 to 1就是普通的DNN，代表固定时刻的输入，然后对应的输出，没有任何时序上的关联。1 to N的例子，就是music generation，output是a set of notes，而input可能就是一个integer，告诉genre of the music，比如输入一个关键词，folk民谣，然后就要生成一个曲子，这就像那个狗屁不通文章生成器，就是一个典型的1 to N的问题。不**过此时的RNN序列有点不同，由于除了t=1都没有输入，因此后续时间往往会把前一层的输出y拿来作为后续层的输入，这个比较科学**。N to M的时候，自动形成了encoder-decoder的架构。
-
-**语言模型**
-- 无论是machine translation，还是speech recognition，都是通过对语音、文本做各类信息提取之后得出不同的可能的结果计算概率，然后输出最有可能的那种作为最后的output。比如speech听到了一个apple and pear，那么英文里面有很多和pear读音相像甚至一模一样的单词，比如pair，那完全需要通过上下文的语境判断，这是一种水果，所以pear的概率要大于pair。
-- **language modelling with RNN**：拿到large corpus of texts，然后先tokenize，句尾标记一个<EOS>代表end of sentence。标点符号是否要单独作为一个token，都可以，算token的话在语料库里面也要加上标点符号。如果遇到了不在语料库里面的特殊单词，一般我们把他标记成UNK，代表unknown word，就不记忆他具体的形式了。这个把句子变成序列的方式就是tokenization。
-
-
-
-
 
 
 
