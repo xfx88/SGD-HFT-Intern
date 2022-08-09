@@ -1,0 +1,1802 @@
+maximum lead correlation of pair (000776 vs 000166) (lead = 0:00:01): 0.2502787279641703
+minimum lead correlation of pair (000776 vs 000166) (lead = 0:05:00): 0.015974187332821833
+maximum lag correlation of pair (000776 vs 000166) (lag = 0:00:20): 0.3070895549391699
+minimum lag correlation of pair (000776 vs 000166) (lag = 0:05:00): 0.06942722531668609
+Original correlation of pair (000776 vs 000166): 0.2424274272349014
+Lead/lag ratio of pair (000776 vs 000166): 0.32283492050989215
+maximum lead correlation of pair (000776 vs 000725) (lead = 0:00:01): 0.332036866049625
+minimum lead correlation of pair (000776 vs 000725) (lead = 0:05:00): 0.042655478585873825
+maximum lag correlation of pair (000776 vs 000725) (lag = 0:00:20): 0.35824395071030724
+minimum lag correlation of pair (000776 vs 000725) (lag = 0:05:00): 0.1180698129976016
+Original correlation of pair (000776 vs 000725): 0.3347265405279594
+Lead/lag ratio of pair (000776 vs 000725): 0.532162651820294
+maximum lead correlation of pair (000776 vs 000157) (lead = 0:00:01): 0.20526210915981047
+minimum lead correlation of pair (000776 vs 000157) (lead = 0:03:00): 0.0037501793326218274
+maximum lag correlation of pair (000776 vs 000157) (lag = 0:00:01): 0.2039547071906391
+minimum lag correlation of pair (000776 vs 000157) (lag = 0:05:00): 0.008222870279785292
+Original correlation of pair (000776 vs 000157): 0.18749176397358108
+Lead/lag ratio of pair (000776 vs 000157): 0.7372677455328946
+maximum lead correlation of pair (000776 vs 000425) (lead = 0:00:01): 0.1720146062427348
+minimum lead correlation of pair (000776 vs 000425) (lead = 0:05:00): -0.0008632201881488245
+maximum lag correlation of pair (000776 vs 000425) (lag = 0:00:04): 0.178003196298023
+minimum lag correlation of pair (000776 vs 000425) (lag = 0:05:00): 0.022371789876211384
+Original correlation of pair (000776 vs 000425): 0.16090064632030932
+Lead/lag ratio of pair (000776 vs 000425): 0.5363916902259027
+maximum lead correlation of pair (000776 vs 002024) (lead = 0:00:01): 0.02315106476981502
+minimum lead correlation of pair (000776 vs 002024) (lead = 0:04:00): -0.035933082137081754
+maximum lag correlation of pair (000776 vs 002024) (lag = 0:00:01): 0.003974303471295362
+minimum lag correlation of pair (000776 vs 002024) (lag = 0:05:00): -0.11017486389972476
+Original correlation of pair (000776 vs 002024): 0.0234050616082062
+Lead/lag ratio of pair (000776 vs 002024): 0.13047451575682895
+maximum lead correlation of pair (000776 vs 000783) (lead = 0:00:01): 0.26538975215939353
+minimum lead correlation of pair (000776 vs 000783) (lead = 0:03:00): 0.009972011787187856
+maximum lag correlation of pair (000776 vs 000783) (lag = 0:00:04): 0.28067377791783327
+minimum lag correlation of pair (000776 vs 000783) (lag = 0:05:00): 0.019196122690335413
+Original correlation of pair (000776 vs 000783): 0.24674976089565243
+Lead/lag ratio of pair (000776 vs 000783): 0.47826725388606306
+maximum lead correlation of pair (000776 vs 000703) (lead = 0:00:01): 0.15534267739077887
+minimum lead correlation of pair (000776 vs 000703) (lead = 0:05:00): -0.03912728789012402
+maximum lag correlation of pair (000776 vs 000703) (lag = 0:00:01): 0.152232079604888
+minimum lag correlation of pair (000776 vs 000703) (lag = 0:04:00): 0.008093314609585626
+Original correlation of pair (000776 vs 000703): 0.13762955111000874
+Lead/lag ratio of pair (000776 vs 000703): 0.5566597378341254
+maximum lead correlation of pair (000776 vs 000800) (lead = 0:00:01): 0.15450025266230893
+minimum lead correlation of pair (000776 vs 000800) (lead = 0:03:00): 0.004936249054421802
+maximum lag correlation of pair (000776 vs 000800) (lag = 0:00:08): 0.16773113722460037
+minimum lag correlation of pair (000776 vs 000800) (lag = 0:04:00): 0.011016086599457737
+Original correlation of pair (000776 vs 000800): 0.14620561715443744
+Lead/lag ratio of pair (000776 vs 000800): 0.5274710600645435
+maximum lead correlation of pair (000776 vs 002044) (lead = 0:03:00): 0.04170603198930665
+minimum lead correlation of pair (000776 vs 002044) (lead = 0:05:00): 0.0146004116911981
+maximum lag correlation of pair (000776 vs 002044) (lag = 0:00:01): 0.03395598090740988
+minimum lag correlation of pair (000776 vs 002044) (lag = 0:03:00): -0.03336433662923174
+Original correlation of pair (000776 vs 002044): 0.028946563031444262
+Lead/lag ratio of pair (000776 vs 002044): 0.9753548776628336
+maximum lead correlation of pair (000776 vs 002027) (lead = 0:00:50): 0.04925086342752979
+minimum lead correlation of pair (000776 vs 002027) (lead = 0:04:00): -0.03163041406685618
+maximum lag correlation of pair (000776 vs 002027) (lag = 0:00:40): 0.03548607310370373
+minimum lag correlation of pair (000776 vs 002027) (lag = 0:04:00): -0.007892280117816789
+Original correlation of pair (000776 vs 002027): 0.01171291424289866
+Lead/lag ratio of pair (000776 vs 002027): 2.037290465375305
+maximum lead correlation of pair (000776 vs 000625) (lead = 0:00:01): 0.17170916695633093
+minimum lead correlation of pair (000776 vs 000625) (lead = 0:05:00): -0.017152373589051945
+maximum lag correlation of pair (000776 vs 000625) (lag = 0:00:01): 0.17194610665155513
+minimum lag correlation of pair (000776 vs 000625) (lag = 0:05:00): -0.006078018268791565
+Original correlation of pair (000776 vs 000625): 0.1547628278848664
+Lead/lag ratio of pair (000776 vs 000625): 0.7224708493311455
+maximum lead correlation of pair (000776 vs 002064) (lead = 0:00:01): 0.13202931873182885
+minimum lead correlation of pair (000776 vs 002064) (lead = 0:03:00): -0.020422809247305322
+maximum lag correlation of pair (000776 vs 002064) (lag = 0:00:01): 0.14500681983468078
+minimum lag correlation of pair (000776 vs 002064) (lag = 0:05:00): -0.015280550594346447
+Original correlation of pair (000776 vs 002064): 0.12519328293962292
+Lead/lag ratio of pair (000776 vs 002064): 0.4188393919488138
+maximum lead correlation of pair (000776 vs 000338) (lead = 0:00:01): 0.16748947835407002
+minimum lead correlation of pair (000776 vs 000338) (lead = 0:05:00): 0.004743960263408518
+maximum lag correlation of pair (000776 vs 000338) (lag = 0:00:01): 0.17186117614207816
+minimum lag correlation of pair (000776 vs 000338) (lag = 0:05:00): -0.004572146813222803
+Original correlation of pair (000776 vs 000338): 0.1456882605640949
+Lead/lag ratio of pair (000776 vs 000338): 0.7707924896747008
+maximum lead correlation of pair (000776 vs 000301) (lead = 0:00:01): 0.1465788967121205
+minimum lead correlation of pair (000776 vs 000301) (lead = 0:04:00): 0.010757323048959771
+maximum lag correlation of pair (000776 vs 000301) (lag = 0:00:01): 0.14953785189525287
+minimum lag correlation of pair (000776 vs 000301) (lag = 0:04:00): 0.008558847001680043
+Original correlation of pair (000776 vs 000301): 0.11889054272042016
+Lead/lag ratio of pair (000776 vs 000301): 0.7087156023438342
+maximum lead correlation of pair (000776 vs 002157) (lead = 0:00:01): 0.10927337858383687
+minimum lead correlation of pair (000776 vs 002157) (lead = 0:03:00): 0.014328302253888791
+maximum lag correlation of pair (000776 vs 002157) (lag = 0:00:01): 0.12063074394448607
+minimum lag correlation of pair (000776 vs 002157) (lag = 0:05:00): -0.006227369223671697
+Original correlation of pair (000776 vs 002157): 0.09845131716791579
+Lead/lag ratio of pair (000776 vs 002157): 0.519393105295259
+maximum lead correlation of pair (000776 vs 000069) (lead = 0:00:01): 0.09774042041866897
+minimum lead correlation of pair (000776 vs 000069) (lead = 0:03:00): -0.004035468722673776
+maximum lag correlation of pair (000776 vs 000069) (lag = 0:00:01): 0.09804821040599167
+minimum lag correlation of pair (000776 vs 000069) (lag = 0:03:00): -0.010558906509539745
+Original correlation of pair (000776 vs 000069): 0.0819490841246447
+Lead/lag ratio of pair (000776 vs 000069): 0.5176771404979121
+maximum lead correlation of pair (000776 vs 000938) (lead = 0:00:01): 0.12024844763045989
+minimum lead correlation of pair (000776 vs 000938) (lead = 0:04:00): 0.0016120188974715938
+maximum lag correlation of pair (000776 vs 000938) (lag = 0:00:01): 0.11092322438811865
+minimum lag correlation of pair (000776 vs 000938) (lag = 0:05:00): -0.007182666479878286
+Original correlation of pair (000776 vs 000938): 0.09838756688583325
+Lead/lag ratio of pair (000776 vs 000938): 1.0973920122546794
+maximum lead correlation of pair (000776 vs 002050) (lead = 0:04:00): 0.01651990704557958
+minimum lead correlation of pair (000776 vs 002050) (lead = 0:00:01): -0.01215082942233245
+maximum lag correlation of pair (000776 vs 002050) (lag = 0:05:00): 0.012775116082513817
+minimum lag correlation of pair (000776 vs 002050) (lag = 0:00:01): -0.006896416699162423
+Original correlation of pair (000776 vs 002050): -0.009878035800119808
+Lead/lag ratio of pair (000776 vs 002050): 1.5705217049055478
+maximum lead correlation of pair (000776 vs 000708) (lead = 0:00:01): 0.11123080720188062
+minimum lead correlation of pair (000776 vs 000708) (lead = 0:05:00): 0.0010009349999446843
+maximum lag correlation of pair (000776 vs 000708) (lag = 0:00:01): 0.1083905906284348
+minimum lag correlation of pair (000776 vs 000708) (lag = 0:02:00): -0.008596863045203558
+Original correlation of pair (000776 vs 000708): 0.07911959299048396
+Lead/lag ratio of pair (000776 vs 000708): 0.8597492772958648
+maximum lead correlation of pair (000776 vs 002007) (lead = 0:00:01): 0.13907065841138316
+minimum lead correlation of pair (000776 vs 002007) (lead = 0:04:00): -0.0024080665329594734
+maximum lag correlation of pair (000776 vs 002007) (lag = 0:00:01): 0.13009980788726996
+minimum lag correlation of pair (000776 vs 002007) (lag = 0:03:00): -0.0012265085541194993
+Original correlation of pair (000776 vs 002007): 0.11267182769941035
+Lead/lag ratio of pair (000776 vs 002007): 0.7963209350462078
+maximum lead correlation of pair (000776 vs 000776) (lead = 0:00:01): 0.7998620864862879
+minimum lead correlation of pair (000776 vs 000776) (lead = 0:02:00): 0.0044882380338848475
+maximum lag correlation of pair (000776 vs 000776) (lag = 0:00:01): 0.7998620864862879
+minimum lag correlation of pair (000776 vs 000776) (lag = 0:02:00): 0.004488238033884849
+Original correlation of pair (000776 vs 000776): 0.9997822418204583
+Lead/lag ratio of pair (000776 vs 000776): 1.0
+maximum lead correlation of pair (000776 vs 002032) (lead = 0:00:01): 0.0927435580433094
+minimum lead correlation of pair (000776 vs 002032) (lead = 0:01:00): -0.001275613948943855
+maximum lag correlation of pair (000776 vs 002032) (lag = 0:00:01): 0.09105864638125245
+minimum lag correlation of pair (000776 vs 002032) (lag = 0:03:00): -0.009874536755848583
+Original correlation of pair (000776 vs 002032): 0.07335973226663313
+Lead/lag ratio of pair (000776 vs 002032): 1.129141980175248
+maximum lead correlation of pair (000776 vs 000977) (lead = 0:05:00): 0.03173903080316485
+minimum lead correlation of pair (000776 vs 000977) (lead = 0:02:00): -0.006288117225938602
+maximum lag correlation of pair (000776 vs 000977) (lag = 0:00:50): 0.0163044501304974
+minimum lag correlation of pair (000776 vs 000977) (lag = 0:03:00): -0.008640227942584568
+Original correlation of pair (000776 vs 000977): 0.009002232164260965
+Lead/lag ratio of pair (000776 vs 000977): 1.0724845008927593
+maximum lead correlation of pair (000776 vs 000651) (lead = 0:00:01): 0.14860236015821457
+minimum lead correlation of pair (000776 vs 000651) (lead = 0:03:00): -0.0018699197294101807
+maximum lag correlation of pair (000776 vs 000651) (lag = 0:00:01): 0.14745576181410994
+minimum lag correlation of pair (000776 vs 000651) (lag = 0:04:00): 0.0018109824313500495
+Original correlation of pair (000776 vs 000651): 0.12172695224209608
+Lead/lag ratio of pair (000776 vs 000651): 0.9626623401722945
+maximum lead correlation of pair (000776 vs 000786) (lead = 0:00:01): 0.1339850588505878
+minimum lead correlation of pair (000776 vs 000786) (lead = 0:02:00): -0.0011520091040415758
+maximum lag correlation of pair (000776 vs 000786) (lag = 0:00:01): 0.12837434784386903
+minimum lag correlation of pair (000776 vs 000786) (lag = 0:03:00): -0.0021902395311394337
+Original correlation of pair (000776 vs 000786): 0.09783899541946249
+Lead/lag ratio of pair (000776 vs 000786): 1.0141861904333744
+maximum lead correlation of pair (000776 vs 000538) (lead = 0:00:01): 0.09176239783598476
+minimum lead correlation of pair (000776 vs 000538) (lead = 0:05:00): 0.0038013600601444104
+maximum lag correlation of pair (000776 vs 000538) (lag = 0:00:04): 0.08941906100041704
+minimum lag correlation of pair (000776 vs 000538) (lag = 0:04:00): -0.0037273850683888477
+Original correlation of pair (000776 vs 000538): 0.06307919135581253
+Lead/lag ratio of pair (000776 vs 000538): 0.9500358644806653
+maximum lead correlation of pair (000776 vs 000768) (lead = 0:00:08): 0.025361047918873253
+minimum lead correlation of pair (000776 vs 000768) (lead = 0:03:00): -0.02410514874427429
+maximum lag correlation of pair (000776 vs 000768) (lag = 0:00:10): 0.030113335387914834
+minimum lag correlation of pair (000776 vs 000768) (lag = 0:05:00): -0.010226209750475444
+Original correlation of pair (000776 vs 000768): 0.019694981417820927
+Lead/lag ratio of pair (000776 vs 000768): 0.5135215695377272
+maximum lead correlation of pair (000776 vs 000876) (lead = 0:00:01): 0.10529807669303344
+minimum lead correlation of pair (000776 vs 000876) (lead = 0:02:00): -0.0125368266010652
+maximum lag correlation of pair (000776 vs 000876) (lag = 0:00:01): 0.10992768913068193
+minimum lag correlation of pair (000776 vs 000876) (lag = 0:03:00): -0.01271094919274973
+Original correlation of pair (000776 vs 000876): 0.08789606003027706
+Lead/lag ratio of pair (000776 vs 000876): 0.7208012214456371
+maximum lead correlation of pair (000776 vs 000963) (lead = 0:00:01): 0.031004549912391655
+minimum lead correlation of pair (000776 vs 000963) (lead = 0:01:00): -0.009147206077517817
+maximum lag correlation of pair (000776 vs 000963) (lag = 0:00:01): 0.029720263196579545
+minimum lag correlation of pair (000776 vs 000963) (lag = 0:03:00): -0.007205204398123209
+Original correlation of pair (000776 vs 000963): 0.02320020944823171
+Lead/lag ratio of pair (000776 vs 000963): 1.0655659988530877
+maximum lead correlation of pair (000776 vs 002001) (lead = 0:00:01): 0.11919545640888633
+minimum lead correlation of pair (000776 vs 002001) (lead = 0:03:00): 0.0028513379788492306
+maximum lag correlation of pair (000776 vs 002001) (lag = 0:00:01): 0.11527028548941766
+minimum lag correlation of pair (000776 vs 002001) (lag = 0:03:00): -0.00911108768048727
+Original correlation of pair (000776 vs 002001): 0.08818257469034932
+Lead/lag ratio of pair (000776 vs 002001): 0.9266680545131546
+maximum lead correlation of pair (000776 vs 002120) (lead = 0:00:01): 0.02799144166623135
+minimum lead correlation of pair (000776 vs 002120) (lead = 0:03:00): -0.018307988253083735
+maximum lag correlation of pair (000776 vs 002120) (lag = 0:00:01): 0.0289060974562919
+minimum lag correlation of pair (000776 vs 002120) (lag = 0:04:00): -0.009589756966359357
+Original correlation of pair (000776 vs 002120): 0.022800955963285463
+Lead/lag ratio of pair (000776 vs 002120): 1.0985162355175753
+maximum lead correlation of pair (000776 vs 000002) (lead = 0:00:01): 0.11249752690567816
+minimum lead correlation of pair (000776 vs 000002) (lead = 0:05:00): 0.002539336173153605
+maximum lag correlation of pair (000776 vs 000002) (lag = 0:00:01): 0.11011001950222156
+minimum lag correlation of pair (000776 vs 000002) (lag = 0:02:00): 0.0004782606245398027
+Original correlation of pair (000776 vs 000002): 0.0845876033164538
+Lead/lag ratio of pair (000776 vs 000002): 0.6803663988994865
+maximum lead correlation of pair (000776 vs 000100) (lead = 0:00:04): 0.17467544683655029
+minimum lead correlation of pair (000776 vs 000100) (lead = 0:03:00): -0.013869826756966373
+maximum lag correlation of pair (000776 vs 000100) (lag = 0:00:01): 0.16449858737638115
+minimum lag correlation of pair (000776 vs 000100) (lag = 0:03:00): -0.0009702420309840318
+Original correlation of pair (000776 vs 000100): 0.16835506937860503
+Lead/lag ratio of pair (000776 vs 000100): 1.0059869867148734
+maximum lead correlation of pair (000776 vs 000895) (lead = 0:00:01): 0.09047203089038185
+minimum lead correlation of pair (000776 vs 000895) (lead = 0:02:00): -0.012177687498355566
+maximum lag correlation of pair (000776 vs 000895) (lag = 0:00:01): 0.07847807239874907
+minimum lag correlation of pair (000776 vs 000895) (lag = 0:05:00): -0.008951148274995964
+Original correlation of pair (000776 vs 000895): 0.06827305423575361
+Lead/lag ratio of pair (000776 vs 000895): 1.0705062538015828
+maximum lead correlation of pair (000776 vs 000333) (lead = 0:00:01): 0.14270964469656888
+minimum lead correlation of pair (000776 vs 000333) (lead = 0:05:00): -0.002315447259763281
+maximum lag correlation of pair (000776 vs 000333) (lag = 0:00:01): 0.13110256374993126
+minimum lag correlation of pair (000776 vs 000333) (lag = 0:03:00): -0.0016887096556176722
+Original correlation of pair (000776 vs 000333): 0.10671948648384835
+Lead/lag ratio of pair (000776 vs 000333): 1.128107619649633
+maximum lead correlation of pair (000776 vs 000066) (lead = 0:00:01): 0.16766332064003098
+minimum lead correlation of pair (000776 vs 000066) (lead = 0:05:00): -0.013611238691777312
+maximum lag correlation of pair (000776 vs 000066) (lag = 0:00:01): 0.1537920955581437
+minimum lag correlation of pair (000776 vs 000066) (lag = 0:05:00): -0.0011177301064056906
+Original correlation of pair (000776 vs 000066): 0.16180982218376253
+Lead/lag ratio of pair (000776 vs 000066): 1.1042276695085287
+maximum lead correlation of pair (000776 vs 002179) (lead = 0:00:01): 0.0829917603340209
+minimum lead correlation of pair (000776 vs 002179) (lead = 0:02:00): -0.0022997791444490916
+maximum lag correlation of pair (000776 vs 002179) (lag = 0:00:01): 0.06789558331787811
+minimum lag correlation of pair (000776 vs 002179) (lag = 0:05:00): -0.005996295784389894
+Original correlation of pair (000776 vs 002179): 0.05695860774258556
+Lead/lag ratio of pair (000776 vs 002179): 1.3166066218256627
+maximum lead correlation of pair (000776 vs 000063) (lead = 0:00:01): 0.16684764523900855
+minimum lead correlation of pair (000776 vs 000063) (lead = 0:03:00): -0.009386008780441652
+maximum lag correlation of pair (000776 vs 000063) (lag = 0:00:01): 0.1586272376876931
+minimum lag correlation of pair (000776 vs 000063) (lag = 0:05:00): -0.0032402889503079604
+Original correlation of pair (000776 vs 000063): 0.16297648628812872
+Lead/lag ratio of pair (000776 vs 000063): 0.9436528848584786
+maximum lead correlation of pair (000776 vs 001979) (lead = 0:00:01): 0.07434915930023665
+minimum lead correlation of pair (000776 vs 001979) (lead = 0:03:00): -0.0036219663696829907
+maximum lag correlation of pair (000776 vs 001979) (lag = 0:00:01): 0.08030992372737719
+minimum lag correlation of pair (000776 vs 001979) (lag = 0:03:00): -0.000443886712659024
+Original correlation of pair (000776 vs 001979): 0.0522555374592122
+Lead/lag ratio of pair (000776 vs 001979): 0.5073839587706002
+maximum lead correlation of pair (000776 vs 000001) (lead = 0:00:01): 0.23366061669594668
+minimum lead correlation of pair (000776 vs 000001) (lead = 0:03:00): -0.007088186263919562
+maximum lag correlation of pair (000776 vs 000001) (lag = 0:00:01): 0.2238755341512292
+minimum lag correlation of pair (000776 vs 000001) (lag = 0:05:00): -0.0032655288908862924
+Original correlation of pair (000776 vs 000001): 0.22825723736105497
+Lead/lag ratio of pair (000776 vs 000001): 1.0969145046986941
+maximum lead correlation of pair (000776 vs 002008) (lead = 0:05:00): 0.03936813432085473
+minimum lead correlation of pair (000776 vs 002008) (lead = 0:00:40): -0.0035325024678128742
+maximum lag correlation of pair (000776 vs 002008) (lag = 0:00:01): 0.010664487320368668
+minimum lag correlation of pair (000776 vs 002008) (lag = 0:04:00): -0.024001977969137934
+Original correlation of pair (000776 vs 002008): 0.011300108381297549
+Lead/lag ratio of pair (000776 vs 002008): 2.021658605293314
+maximum lead correlation of pair (000776 vs 002129) (lead = 0:00:01): 0.1143461059048434
+minimum lead correlation of pair (000776 vs 002129) (lead = 0:01:00): -0.0013700844681762572
+maximum lag correlation of pair (000776 vs 002129) (lag = 0:00:01): 0.11495779515923864
+minimum lag correlation of pair (000776 vs 002129) (lag = 0:04:00): -0.00615667721089811
+Original correlation of pair (000776 vs 002129): 0.08799871021555325
+Lead/lag ratio of pair (000776 vs 002129): 0.8230997894784288
+maximum lead correlation of pair (000776 vs 000596) (lead = 0:00:01): 0.09578761256749059
+minimum lead correlation of pair (000776 vs 000596) (lead = 0:01:00): 0.0043469723405131265
+maximum lag correlation of pair (000776 vs 000596) (lag = 0:00:01): 0.07990627839846184
+minimum lag correlation of pair (000776 vs 000596) (lag = 0:03:00): -0.0011104776657980687
+Original correlation of pair (000776 vs 000596): 0.06533389024401358
+Lead/lag ratio of pair (000776 vs 000596): 1.340964488198227
+maximum lead correlation of pair (000776 vs 000661) (lead = 0:00:01): 0.11350267566391398
+minimum lead correlation of pair (000776 vs 000661) (lead = 0:02:00): 0.005798267479420475
+maximum lag correlation of pair (000776 vs 000661) (lag = 0:00:01): 0.10220427125059504
+minimum lag correlation of pair (000776 vs 000661) (lag = 0:03:00): -0.016057757138559794
+Original correlation of pair (000776 vs 000661): 0.07971729999335167
+Lead/lag ratio of pair (000776 vs 000661): 1.40937440532038
+maximum lead correlation of pair (000776 vs 002142) (lead = 0:00:01): 0.0879861735531441
+minimum lead correlation of pair (000776 vs 002142) (lead = 0:02:00): -0.006269735486744371
+maximum lag correlation of pair (000776 vs 002142) (lag = 0:00:01): 0.10203197504399503
+minimum lag correlation of pair (000776 vs 002142) (lag = 0:03:00): 0.008591662950897472
+Original correlation of pair (000776 vs 002142): 0.07345420189531085
+Lead/lag ratio of pair (000776 vs 002142): 0.49224454416567354
+maximum lead correlation of pair (000776 vs 000568) (lead = 0:00:40): 0.00871786534213652
+minimum lead correlation of pair (000776 vs 000568) (lead = 0:04:00): -0.010471545195129878
+maximum lag correlation of pair (000776 vs 000568) (lag = 0:00:10): 0.018008271397384163
+minimum lag correlation of pair (000776 vs 000568) (lag = 0:00:04): 0.003362331995779955
+Original correlation of pair (000776 vs 000568): 0.004013960622287659
+Lead/lag ratio of pair (000776 vs 000568): 0.31437898917284685
+maximum lead correlation of pair (000776 vs 002049) (lead = 0:00:01): 0.07122385035197636
+minimum lead correlation of pair (000776 vs 002049) (lead = 0:00:50): -0.0057527729361891095
+maximum lag correlation of pair (000776 vs 002049) (lag = 0:00:01): 0.08279657974598455
+minimum lag correlation of pair (000776 vs 002049) (lag = 0:04:00): -0.009871073773124201
+Original correlation of pair (000776 vs 002049): 0.053439342355744816
+Lead/lag ratio of pair (000776 vs 002049): 0.6789606801963959
+maximum lead correlation of pair (000776 vs 000858) (lead = 0:00:01): 0.14070300626650745
+minimum lead correlation of pair (000776 vs 000858) (lead = 0:02:00): 0.004305467913838427
+maximum lag correlation of pair (000776 vs 000858) (lag = 0:00:01): 0.15451233764158803
+minimum lag correlation of pair (000776 vs 000858) (lag = 0:05:00): -0.016680517879470346
+Original correlation of pair (000776 vs 000858): 0.10792880149886473
+Lead/lag ratio of pair (000776 vs 000858): 0.8819503641177759
+maximum lead correlation of pair (000776 vs 002252) (lead = 0:00:01): 0.13987235326149292
+minimum lead correlation of pair (000776 vs 002252) (lead = 0:05:00): -0.0064279232605228154
+maximum lag correlation of pair (000776 vs 002252) (lag = 0:00:20): 0.16365195376285002
+minimum lag correlation of pair (000776 vs 002252) (lag = 0:05:00): 0.005796277622206326
+Original correlation of pair (000776 vs 002252): 0.133295807497837
+Lead/lag ratio of pair (000776 vs 002252): 0.37207600590485523
+maximum lead correlation of pair (000776 vs 002202) (lead = 0:00:01): 0.1460674906126991
+minimum lead correlation of pair (000776 vs 002202) (lead = 0:03:00): 0.013271791565353068
+maximum lag correlation of pair (000776 vs 002202) (lag = 0:00:01): 0.14221721262011364
+minimum lag correlation of pair (000776 vs 002202) (lag = 0:04:00): 0.0014195469366593964
+Original correlation of pair (000776 vs 002202): 0.118989146649687
+Lead/lag ratio of pair (000776 vs 002202): 0.8351616646843166
+maximum lead correlation of pair (000776 vs 002236) (lead = 0:00:01): 0.12687375073097457
+minimum lead correlation of pair (000776 vs 002236) (lead = 0:02:00): 0.0032082159843765763
+maximum lag correlation of pair (000776 vs 002236) (lag = 0:00:01): 0.12741840135157706
+minimum lag correlation of pair (000776 vs 002236) (lag = 0:03:00): -0.014929395778459592
+Original correlation of pair (000776 vs 002236): 0.10348361791465006
+Lead/lag ratio of pair (000776 vs 002236): 0.8825250073141744
+maximum lead correlation of pair (000776 vs 002600) (lead = 0:00:01): 0.18170494214831637
+minimum lead correlation of pair (000776 vs 002600) (lead = 0:04:00): -0.015082852651163957
+maximum lag correlation of pair (000776 vs 002600) (lag = 0:00:04): 0.20138767001901212
+minimum lag correlation of pair (000776 vs 002600) (lag = 0:05:00): 0.029810350135154724
+Original correlation of pair (000776 vs 002600): 0.17623642096458308
+Lead/lag ratio of pair (000776 vs 002600): 0.49671179770800206
+maximum lead correlation of pair (000776 vs 002414) (lead = 0:00:01): 0.14198124297457723
+minimum lead correlation of pair (000776 vs 002414) (lead = 0:04:00): -0.0023507712853726324
+maximum lag correlation of pair (000776 vs 002414) (lag = 0:00:01): 0.12747591561141836
+minimum lag correlation of pair (000776 vs 002414) (lag = 0:03:00): -0.011947527924812268
+Original correlation of pair (000776 vs 002414): 0.1105463553602164
+Lead/lag ratio of pair (000776 vs 002414): 0.9277052211648807
+maximum lead correlation of pair (000776 vs 002607) (lead = 0:00:10): 0.030753785243121924
+minimum lead correlation of pair (000776 vs 002607) (lead = 0:05:00): -0.0008070959953374304
+maximum lag correlation of pair (000776 vs 002607) (lag = 0:00:30): 0.03908338985907557
+minimum lag correlation of pair (000776 vs 002607) (lag = 0:04:00): -0.004814530165226222
+Original correlation of pair (000776 vs 002607): 0.027297918606720963
+Lead/lag ratio of pair (000776 vs 002607): 0.722424820791786
+maximum lead correlation of pair (000776 vs 002230) (lead = 0:00:01): 0.12490850837506662
+minimum lead correlation of pair (000776 vs 002230) (lead = 0:02:00): 0.0106418115009316
+maximum lag correlation of pair (000776 vs 002230) (lag = 0:00:01): 0.13223581851202715
+minimum lag correlation of pair (000776 vs 002230) (lag = 0:03:00): -0.012113830405403038
+Original correlation of pair (000776 vs 002230): 0.09965797473976953
+Lead/lag ratio of pair (000776 vs 002230): 1.0577723645508221
+maximum lead correlation of pair (000776 vs 002602) (lead = 0:00:01): 0.13901238139177916
+minimum lead correlation of pair (000776 vs 002602) (lead = 0:05:00): 0.0020507030093167363
+maximum lag correlation of pair (000776 vs 002602) (lag = 0:00:08): 0.1548983067584669
+minimum lag correlation of pair (000776 vs 002602) (lag = 0:03:00): 0.009382668563174
+Original correlation of pair (000776 vs 002602): 0.13104834984190147
+Lead/lag ratio of pair (000776 vs 002602): 0.5369717816133696
+maximum lead correlation of pair (000776 vs 002241) (lead = 0:00:04): 0.020010964622706132
+minimum lead correlation of pair (000776 vs 002241) (lead = 0:02:00): -0.0029482680817072473
+maximum lag correlation of pair (000776 vs 002241) (lag = 0:00:01): 0.023495428712679994
+minimum lag correlation of pair (000776 vs 002241) (lag = 0:04:00): -0.01931547574189318
+Original correlation of pair (000776 vs 002241): 0.014654404298433047
+Lead/lag ratio of pair (000776 vs 002241): 0.46964844490722
+maximum lead correlation of pair (000776 vs 002493) (lead = 0:00:01): 0.13990830759972067
+minimum lead correlation of pair (000776 vs 002493) (lead = 0:05:00): 0.004834589643142413
+maximum lag correlation of pair (000776 vs 002493) (lag = 0:00:01): 0.13404194577664055
+minimum lag correlation of pair (000776 vs 002493) (lag = 0:05:00): -0.007701442343115459
+Original correlation of pair (000776 vs 002493): 0.11073126431130499
+Lead/lag ratio of pair (000776 vs 002493): 0.7695345185289046
+maximum lead correlation of pair (000776 vs 002271) (lead = 0:00:01): 0.10718240901768983
+minimum lead correlation of pair (000776 vs 002271) (lead = 0:02:00): 0.002109008110235861
+maximum lag correlation of pair (000776 vs 002271) (lag = 0:00:01): 0.08984463256571568
+minimum lag correlation of pair (000776 vs 002271) (lag = 0:05:00): -0.003960766019853645
+Original correlation of pair (000776 vs 002271): 0.06641712291636273
+Lead/lag ratio of pair (000776 vs 002271): 1.255409563296576
+maximum lead correlation of pair (000776 vs 002311) (lead = 0:00:01): 0.08492928461097544
+minimum lead correlation of pair (000776 vs 002311) (lead = 0:02:00): -0.002239238798615318
+maximum lag correlation of pair (000776 vs 002311) (lag = 0:00:01): 0.07529935295974276
+minimum lag correlation of pair (000776 vs 002311) (lag = 0:05:00): -0.017316665298131983
+Original correlation of pair (000776 vs 002311): 0.06800160314719078
+Lead/lag ratio of pair (000776 vs 002311): 1.3587682345294916
+maximum lead correlation of pair (000776 vs 003816) (lead = 0:00:01): 0.16472497949913112
+minimum lead correlation of pair (000776 vs 003816) (lead = 0:05:00): 0.01421778856206667
+maximum lag correlation of pair (000776 vs 003816) (lag = 0:00:40): 0.21619581491588058
+minimum lag correlation of pair (000776 vs 003816) (lag = 0:05:00): 0.0511962429337921
+Original correlation of pair (000776 vs 003816): 0.16728784267340854
+Lead/lag ratio of pair (000776 vs 003816): 0.44217055078141165
+maximum lead correlation of pair (000776 vs 002410) (lead = 0:00:20): 0.01956150372671051
+minimum lead correlation of pair (000776 vs 002410) (lead = 0:01:00): -0.012672245855467008
+maximum lag correlation of pair (000776 vs 002410) (lag = 0:00:20): 0.021682680956998934
+minimum lag correlation of pair (000776 vs 002410) (lag = 0:05:00): -0.008304594192020764
+Original correlation of pair (000776 vs 002410): 0.007424381341844304
+Lead/lag ratio of pair (000776 vs 002410): 1.0473103946422955
+maximum lead correlation of pair (000776 vs 002736) (lead = 0:00:01): 0.20861616842200867
+minimum lead correlation of pair (000776 vs 002736) (lead = 0:02:00): 0.0044579081065137085
+maximum lag correlation of pair (000776 vs 002736) (lag = 0:00:01): 0.20805892990869365
+minimum lag correlation of pair (000776 vs 002736) (lag = 0:03:00): -0.0023218271388100783
+Original correlation of pair (000776 vs 002736): 0.17241888332797273
+Lead/lag ratio of pair (000776 vs 002736): 0.6517565630606623
+maximum lead correlation of pair (000776 vs 002304) (lead = 0:00:15): 0.03876508280528334
+minimum lead correlation of pair (000776 vs 002304) (lead = 0:04:00): -0.0010043867454050195
+maximum lag correlation of pair (000776 vs 002304) (lag = 0:00:08): 0.03689782027530396
+minimum lag correlation of pair (000776 vs 002304) (lag = 0:02:00): 0.002905303744580471
+Original correlation of pair (000776 vs 002304): 0.03280254124896112
+Lead/lag ratio of pair (000776 vs 002304): 1.3066883875220539
+maximum lead correlation of pair (000776 vs 002601) (lead = 0:00:01): 0.15646517701817475
+minimum lead correlation of pair (000776 vs 002601) (lead = 0:04:00): -0.004904650670576333
+maximum lag correlation of pair (000776 vs 002601) (lag = 0:00:01): 0.15296185511062205
+minimum lag correlation of pair (000776 vs 002601) (lag = 0:02:00): -0.00533869055293219
+Original correlation of pair (000776 vs 002601): 0.12766973110898985
+Lead/lag ratio of pair (000776 vs 002601): 1.1455101730095114
+maximum lead correlation of pair (000776 vs 002352) (lead = 0:00:01): 0.11253189601507405
+minimum lead correlation of pair (000776 vs 002352) (lead = 0:02:00): 0.001701449192850066
+maximum lag correlation of pair (000776 vs 002352) (lag = 0:00:01): 0.10661884895368144
+minimum lag correlation of pair (000776 vs 002352) (lag = 0:02:00): -0.013134551713009436
+Original correlation of pair (000776 vs 002352): 0.08542683357307315
+Lead/lag ratio of pair (000776 vs 002352): 1.1612248072914102
+maximum lead correlation of pair (000776 vs 002415) (lead = 0:00:01): 0.10716905717278792
+minimum lead correlation of pair (000776 vs 002415) (lead = 0:03:00): -0.011017326784309086
+maximum lag correlation of pair (000776 vs 002415) (lag = 0:00:01): 0.10104171326087776
+minimum lag correlation of pair (000776 vs 002415) (lag = 0:04:00): 0.0007022094686470332
+Original correlation of pair (000776 vs 002415): 0.08160353583238088
+Lead/lag ratio of pair (000776 vs 002415): 0.9761539241682701
+maximum lead correlation of pair (000776 vs 002624) (lead = 0:05:00): 0.00024245552562220454
+minimum lead correlation of pair (000776 vs 002624) (lead = 0:00:20): -0.019728881069484852
+maximum lag correlation of pair (000776 vs 002624) (lag = 0:02:00): 0.006047224072060444
+minimum lag correlation of pair (000776 vs 002624) (lag = 0:04:00): -0.01128126397570959
+Original correlation of pair (000776 vs 002624): -0.01341920513979265
+Lead/lag ratio of pair (000776 vs 002624): 3.9691903981813565
+maximum lead correlation of pair (000776 vs 002475) (lead = 0:00:01): 0.12249057232431573
+minimum lead correlation of pair (000776 vs 002475) (lead = 0:02:00): -0.00481774982306267
+maximum lag correlation of pair (000776 vs 002475) (lag = 0:00:01): 0.12945193404781805
+minimum lag correlation of pair (000776 vs 002475) (lag = 0:05:00): -0.010470719667533592
+Original correlation of pair (000776 vs 002475): 0.10023357183964494
+Lead/lag ratio of pair (000776 vs 002475): 0.6749280694342468
+maximum lead correlation of pair (000776 vs 002555) (lead = 0:00:01): -0.06831766357409078
+minimum lead correlation of pair (000776 vs 002555) (lead = 0:00:50): -0.11433654622996568
+maximum lag correlation of pair (000776 vs 002555) (lag = 0:05:00): -0.02983026383691499
+minimum lag correlation of pair (000776 vs 002555) (lag = 0:00:50): -0.08825294109147964
+Original correlation of pair (000776 vs 002555): -0.07764016706598255
+Lead/lag ratio of pair (000776 vs 002555): 1.5466703129735824
+maximum lead correlation of pair (000776 vs 002568) (lead = 0:01:00): 0.03860680877200958
+minimum lead correlation of pair (000776 vs 002568) (lead = 0:00:08): 0.018140678781914582
+maximum lag correlation of pair (000776 vs 002568) (lag = 0:04:00): 0.023283796527462097
+minimum lag correlation of pair (000776 vs 002568) (lag = 0:00:10): 0.0022537191064187522
+Original correlation of pair (000776 vs 002568): 0.010296588577945727
+Lead/lag ratio of pair (000776 vs 002568): 2.4935576327253846
+maximum lead correlation of pair (000776 vs 002459) (lead = 0:00:10): 0.005676226127570023
+minimum lead correlation of pair (000776 vs 002459) (lead = 0:05:00): -0.007353538204827171
+maximum lag correlation of pair (000776 vs 002459) (lag = 0:04:00): 0.0178867939967722
+minimum lag correlation of pair (000776 vs 002459) (lag = 0:00:10): -0.0035523196642376752
+Original correlation of pair (000776 vs 002459): 0.004250396056145372
+Lead/lag ratio of pair (000776 vs 002459): 0.22150556453250492
+maximum lead correlation of pair (000776 vs 300003) (lead = 0:00:01): 0.12972049336267502
+minimum lead correlation of pair (000776 vs 300003) (lead = 0:03:00): -0.009635376542404692
+maximum lag correlation of pair (000776 vs 300003) (lag = 0:00:01): 0.11219282347146521
+minimum lag correlation of pair (000776 vs 300003) (lag = 0:04:00): -0.006167367271803794
+Original correlation of pair (000776 vs 300003): 0.09218368097825376
+Lead/lag ratio of pair (000776 vs 300003): 1.0695485325857916
+maximum lead correlation of pair (000776 vs 002371) (lead = 0:00:01): 0.011760496375525986
+minimum lead correlation of pair (000776 vs 002371) (lead = 0:00:30): -0.005580853699455829
+maximum lag correlation of pair (000776 vs 002371) (lag = 0:03:00): 0.030814322935439408
+minimum lag correlation of pair (000776 vs 002371) (lag = 0:00:04): -0.002941606359917704
+Original correlation of pair (000776 vs 002371): 0.010040835259921745
+Lead/lag ratio of pair (000776 vs 002371): 0.24202428225163924
+maximum lead correlation of pair (000776 vs 002841) (lead = 0:00:01): 0.08503897862380895
+minimum lead correlation of pair (000776 vs 002841) (lead = 0:01:00): 0.0044295748840418045
+maximum lag correlation of pair (000776 vs 002841) (lag = 0:00:01): 0.08520730246940043
+minimum lag correlation of pair (000776 vs 002841) (lag = 0:02:00): 0.0043106091585835594
+Original correlation of pair (000776 vs 002841): 0.07096685201362377
+Lead/lag ratio of pair (000776 vs 002841): 0.8805352029157543
+maximum lead correlation of pair (000776 vs 002791) (lead = 0:00:15): -0.0176689936130117
+minimum lead correlation of pair (000776 vs 002791) (lead = 0:02:00): -0.04801342964427982
+maximum lag correlation of pair (000776 vs 002791) (lag = 0:04:00): -0.019779147395897635
+minimum lag correlation of pair (000776 vs 002791) (lag = 0:01:00): -0.05661307681360588
+Original correlation of pair (000776 vs 002791): -0.03017951391801959
+Lead/lag ratio of pair (000776 vs 002791): 0.7047200882201152
+maximum lead correlation of pair (000776 vs 002460) (lead = 0:00:01): 0.02923600565639329
+minimum lead correlation of pair (000776 vs 002460) (lead = 0:03:00): -0.0060553188986969785
+maximum lag correlation of pair (000776 vs 002460) (lag = 0:00:04): 0.029131076282360693
+minimum lag correlation of pair (000776 vs 002460) (lag = 0:03:00): -0.012753389030246604
+Original correlation of pair (000776 vs 002460): 0.01722088652684206
+Lead/lag ratio of pair (000776 vs 002460): 0.666794039105374
+maximum lead correlation of pair (000776 vs 002916) (lead = 0:00:01): 0.10935066587366918
+minimum lead correlation of pair (000776 vs 002916) (lead = 0:02:00): 0.004507602436826123
+maximum lag correlation of pair (000776 vs 002916) (lag = 0:00:01): 0.11147667423949142
+minimum lag correlation of pair (000776 vs 002916) (lag = 0:04:00): -0.0012637293200612925
+Original correlation of pair (000776 vs 002916): 0.0900100566780884
+Lead/lag ratio of pair (000776 vs 002916): 1.1817346415061118
+maximum lead correlation of pair (000776 vs 002466) (lead = 0:05:00): 0.005487387934911154
+minimum lead correlation of pair (000776 vs 002466) (lead = 0:00:20): -0.022119228872377123
+maximum lag correlation of pair (000776 vs 002466) (lag = 0:00:01): 0.004913806909279363
+minimum lag correlation of pair (000776 vs 002466) (lag = 0:03:00): -0.02177398210980887
+Original correlation of pair (000776 vs 002466): -0.0056379144520295145
+Lead/lag ratio of pair (000776 vs 002466): 0.7056289961655848
+maximum lead correlation of pair (000776 vs 300144) (lead = 0:00:01): 0.08452874383856672
+minimum lead correlation of pair (000776 vs 300144) (lead = 0:03:00): -0.0013437961020769246
+maximum lag correlation of pair (000776 vs 300144) (lag = 0:00:01): 0.0828560862431575
+minimum lag correlation of pair (000776 vs 300144) (lag = 0:04:00): -0.003702526812891157
+Original correlation of pair (000776 vs 300144): 0.06273316486650826
+Lead/lag ratio of pair (000776 vs 300144): 0.974346359076128
+maximum lead correlation of pair (000776 vs 002594) (lead = 0:00:01): 0.14613328511412774
+minimum lead correlation of pair (000776 vs 002594) (lead = 0:05:00): 0.005935310278550752
+maximum lag correlation of pair (000776 vs 002594) (lag = 0:00:01): 0.14051617241940736
+minimum lag correlation of pair (000776 vs 002594) (lag = 0:02:00): -0.004068511320493
+Original correlation of pair (000776 vs 002594): 0.10608397008327897
+Lead/lag ratio of pair (000776 vs 002594): 1.099415033012126
+maximum lead correlation of pair (000776 vs 002714) (lead = 0:00:01): 0.11792047674414284
+minimum lead correlation of pair (000776 vs 002714) (lead = 0:02:00): 0.0019691368902226194
+maximum lag correlation of pair (000776 vs 002714) (lag = 0:00:01): 0.12331547990898123
+minimum lag correlation of pair (000776 vs 002714) (lag = 0:04:00): 0.007079469218489119
+Original correlation of pair (000776 vs 002714): 0.08387384469005107
+Lead/lag ratio of pair (000776 vs 002714): 0.8562180341301706
+maximum lead correlation of pair (000776 vs 002938) (lead = 0:00:01): 0.02090477766344208
+minimum lead correlation of pair (000776 vs 002938) (lead = 0:02:00): -0.0061379985479906645
+maximum lag correlation of pair (000776 vs 002938) (lag = 0:00:01): 0.018766700366024066
+minimum lag correlation of pair (000776 vs 002938) (lag = 0:01:00): 0.0014911918669204278
+Original correlation of pair (000776 vs 002938): 0.015675071806764418
+Lead/lag ratio of pair (000776 vs 002938): 1.0313768605359417
+maximum lead correlation of pair (000776 vs 300059) (lead = 0:00:01): 0.21216952122986774
+minimum lead correlation of pair (000776 vs 300059) (lead = 0:03:00): 0.008861799423939972
+maximum lag correlation of pair (000776 vs 300059) (lag = 0:00:01): 0.1859596595142497
+minimum lag correlation of pair (000776 vs 300059) (lag = 0:04:00): 0.004109319557523957
+Original correlation of pair (000776 vs 300059): 0.15755700963138417
+Lead/lag ratio of pair (000776 vs 300059): 1.0118533234178386
+maximum lead correlation of pair (000776 vs 002709) (lead = 0:00:01): 0.12758330485962838
+minimum lead correlation of pair (000776 vs 002709) (lead = 0:02:00): 0.00015334841603962954
+maximum lag correlation of pair (000776 vs 002709) (lag = 0:00:01): 0.1343151714594993
+minimum lag correlation of pair (000776 vs 002709) (lag = 0:04:00): -0.00204636373671389
+Original correlation of pair (000776 vs 002709): 0.0996442543711596
+Lead/lag ratio of pair (000776 vs 002709): 0.8540487770289963
+maximum lead correlation of pair (000776 vs 300033) (lead = 0:00:01): 0.15847909565352195
+minimum lead correlation of pair (000776 vs 300033) (lead = 0:04:00): -0.006156889770562088
+maximum lag correlation of pair (000776 vs 300033) (lag = 0:00:01): 0.1351547352527181
+minimum lag correlation of pair (000776 vs 300033) (lag = 0:05:00): 0.0066043213178583245
+Original correlation of pair (000776 vs 300033): 0.11083994385401202
+Lead/lag ratio of pair (000776 vs 300033): 1.6328966012099404
+maximum lead correlation of pair (000776 vs 002821) (lead = 0:00:01): 0.027364558090186133
+minimum lead correlation of pair (000776 vs 002821) (lead = 0:02:00): -0.0019605317695441365
+maximum lag correlation of pair (000776 vs 002821) (lag = 0:00:01): 0.02589431550559779
+minimum lag correlation of pair (000776 vs 002821) (lag = 0:00:30): 0.0017640567376513532
+Original correlation of pair (000776 vs 002821): 0.02124016182762648
+Lead/lag ratio of pair (000776 vs 002821): 1.2528268494878123
+maximum lead correlation of pair (000776 vs 300015) (lead = 0:00:04): 0.1047914342669526
+minimum lead correlation of pair (000776 vs 300015) (lead = 0:02:00): -0.003319052258357252
+maximum lag correlation of pair (000776 vs 300015) (lag = 0:00:01): 0.09382891028922438
+minimum lag correlation of pair (000776 vs 300015) (lag = 0:03:00): -0.0062332766564490855
+Original correlation of pair (000776 vs 300015): 0.07555803699300655
+Lead/lag ratio of pair (000776 vs 300015): 1.2015754372924807
+maximum lead correlation of pair (000776 vs 300124) (lead = 0:00:01): 0.10507586287808877
+minimum lead correlation of pair (000776 vs 300124) (lead = 0:02:00): -0.01197930873259892
+maximum lag correlation of pair (000776 vs 300124) (lag = 0:00:01): 0.09559147056626227
+minimum lag correlation of pair (000776 vs 300124) (lag = 0:03:00): -0.005090000489663163
+Original correlation of pair (000776 vs 300124): 0.07740918747600009
+Lead/lag ratio of pair (000776 vs 300124): 1.0435434940561552
+maximum lead correlation of pair (000776 vs 002812) (lead = 0:03:00): 0.010388130324190694
+minimum lead correlation of pair (000776 vs 002812) (lead = 0:02:00): -0.019683401745318175
+maximum lag correlation of pair (000776 vs 002812) (lag = 0:00:01): 0.0022945824593992373
+minimum lag correlation of pair (000776 vs 002812) (lag = 0:00:50): -0.017568018929949452
+Original correlation of pair (000776 vs 002812): 6.492460685142579e-05
+Lead/lag ratio of pair (000776 vs 002812): 0.9290869758805754
+maximum lead correlation of pair (000776 vs 300142) (lead = 0:00:01): 0.07797663326873433
+minimum lead correlation of pair (000776 vs 300142) (lead = 0:04:00): -0.002199542762122924
+maximum lag correlation of pair (000776 vs 300142) (lag = 0:00:01): 0.07402503590086444
+minimum lag correlation of pair (000776 vs 300142) (lag = 0:05:00): -0.0068828634345575665
+Original correlation of pair (000776 vs 300142): 0.05365047743237442
+Lead/lag ratio of pair (000776 vs 300142): 0.8701198784034824
+maximum lead correlation of pair (000776 vs 300014) (lead = 0:00:01): 0.13196387743676616
+minimum lead correlation of pair (000776 vs 300014) (lead = 0:03:00): 0.004513666944920806
+maximum lag correlation of pair (000776 vs 300014) (lag = 0:00:01): 0.12620569567233825
+minimum lag correlation of pair (000776 vs 300014) (lag = 0:05:00): -0.0021152504440762766
+Original correlation of pair (000776 vs 300014): 0.09108602548137477
+Lead/lag ratio of pair (000776 vs 300014): 0.9688445970988644
+maximum lead correlation of pair (000776 vs 300122) (lead = 0:00:01): 0.07796978208051442
+minimum lead correlation of pair (000776 vs 300122) (lead = 0:05:00): -0.008105268917949153
+maximum lag correlation of pair (000776 vs 300122) (lag = 0:00:01): 0.07948418009425944
+minimum lag correlation of pair (000776 vs 300122) (lag = 0:03:00): -0.007258715444350967
+Original correlation of pair (000776 vs 300122): 0.05126668029136481
+Lead/lag ratio of pair (000776 vs 300122): 0.7948366129717725
+maximum lead correlation of pair (000776 vs 300274) (lead = 0:00:01): 0.014962665071489778
+minimum lead correlation of pair (000776 vs 300274) (lead = 0:04:00): -0.015923068841400285
+maximum lag correlation of pair (000776 vs 300274) (lag = 0:00:01): 0.019086335574085067
+minimum lag correlation of pair (000776 vs 300274) (lag = 0:05:00): -0.013623314174193336
+Original correlation of pair (000776 vs 300274): 0.012643702328883871
+Lead/lag ratio of pair (000776 vs 300274): 1.2800609507580918
+maximum lead correlation of pair (000776 vs 300316) (lead = 0:00:01): 0.09151347040478802
+minimum lead correlation of pair (000776 vs 300316) (lead = 0:00:50): -0.006047066252654263
+maximum lag correlation of pair (000776 vs 300316) (lag = 0:00:01): 0.08611664394148996
+minimum lag correlation of pair (000776 vs 300316) (lag = 0:05:00): -0.006201027311090766
+Original correlation of pair (000776 vs 300316): 0.058796745486925824
+Lead/lag ratio of pair (000776 vs 300316): 1.2208421463020787
+maximum lead correlation of pair (000776 vs 300347) (lead = 0:00:01): 0.10446747750291761
+minimum lead correlation of pair (000776 vs 300347) (lead = 0:03:00): -0.004889450391669351
+maximum lag correlation of pair (000776 vs 300347) (lag = 0:00:01): 0.09774794252061082
+minimum lag correlation of pair (000776 vs 300347) (lag = 0:03:00): -0.0044716554704885845
+Original correlation of pair (000776 vs 300347): 0.07024043203704543
+Lead/lag ratio of pair (000776 vs 300347): 0.8569545608566118
+maximum lead correlation of pair (000776 vs 300433) (lead = 0:00:01): 0.15616157883120158
+minimum lead correlation of pair (000776 vs 300433) (lead = 0:02:00): 0.00226775276857954
+maximum lag correlation of pair (000776 vs 300433) (lag = 0:00:01): 0.15014997240104055
+minimum lag correlation of pair (000776 vs 300433) (lag = 0:04:00): 0.0017812167200477655
+Original correlation of pair (000776 vs 300433): 0.12942683528308152
+Lead/lag ratio of pair (000776 vs 300433): 0.7438879056384683
+maximum lead correlation of pair (000776 vs 300408) (lead = 0:00:01): 0.09141856536235102
+minimum lead correlation of pair (000776 vs 300408) (lead = 0:03:00): -0.002721559163576918
+maximum lag correlation of pair (000776 vs 300408) (lag = 0:00:01): 0.07517755062838793
+minimum lag correlation of pair (000776 vs 300408) (lag = 0:03:00): -0.005252847024835795
+Original correlation of pair (000776 vs 300408): 0.06436946111609866
+Lead/lag ratio of pair (000776 vs 300408): 1.1721324721286102
+maximum lead correlation of pair (000776 vs 300413) (lead = 0:00:01): 0.0911647059545984
+minimum lead correlation of pair (000776 vs 300413) (lead = 0:01:00): 0.02262327921710289
+maximum lag correlation of pair (000776 vs 300413) (lag = 0:00:01): 0.08187204859887118
+minimum lag correlation of pair (000776 vs 300413) (lag = 0:05:00): 0.001087468520310691
+Original correlation of pair (000776 vs 300413): 0.06628780980393247
+Lead/lag ratio of pair (000776 vs 300413): 1.2277828329478073
+maximum lead correlation of pair (000776 vs 600000) (lead = 0:00:01): 0.12396686565361319
+minimum lead correlation of pair (000776 vs 600000) (lead = 0:02:00): -0.013951722277546435
+maximum lag correlation of pair (000776 vs 600000) (lag = 0:00:50): 0.1519974743440509
+minimum lag correlation of pair (000776 vs 600000) (lag = 0:03:00): 0.02626847710069086
+Original correlation of pair (000776 vs 600000): 0.1313787181135604
+Lead/lag ratio of pair (000776 vs 600000): 0.20134704899306352
+maximum lead correlation of pair (000776 vs 300529) (lead = 0:00:01): 0.1151130335022955
+minimum lead correlation of pair (000776 vs 300529) (lead = 0:03:00): 0.017733621912615342
+maximum lag correlation of pair (000776 vs 300529) (lag = 0:00:01): 0.10393320233918348
+minimum lag correlation of pair (000776 vs 300529) (lag = 0:03:00): -0.009008310072532145
+Original correlation of pair (000776 vs 300529): 0.08439231448666444
+Lead/lag ratio of pair (000776 vs 300529): 1.2318852099639348
+maximum lead correlation of pair (000776 vs 600010) (lead = 0:00:01): 0.3246800967861999
+minimum lead correlation of pair (000776 vs 600010) (lead = 0:03:00): 0.001757236521308989
+maximum lag correlation of pair (000776 vs 600010) (lag = 0:00:30): 0.36313497042695614
+minimum lag correlation of pair (000776 vs 600010) (lag = 0:05:00): 0.13395863527566493
+Original correlation of pair (000776 vs 600010): 0.3306465277655299
+Lead/lag ratio of pair (000776 vs 600010): 0.5043187244067379
+maximum lead correlation of pair (000776 vs 600015) (lead = 0:00:01): 0.1430810541499026
+minimum lead correlation of pair (000776 vs 600015) (lead = 0:02:00): 0.00643504659839656
+maximum lag correlation of pair (000776 vs 600015) (lag = 0:00:40): 0.1866628137838081
+minimum lag correlation of pair (000776 vs 600015) (lag = 0:05:00): 0.043581759633905544
+Original correlation of pair (000776 vs 600015): 0.1494928695331426
+Lead/lag ratio of pair (000776 vs 600015): 0.3639689019600177
+maximum lead correlation of pair (000776 vs 600016) (lead = 0:00:01): 0.17078857634296832
+minimum lead correlation of pair (000776 vs 600016) (lead = 0:05:00): 0.026847135098412547
+maximum lag correlation of pair (000776 vs 600016) (lag = 0:00:30): 0.2241538375312356
+minimum lag correlation of pair (000776 vs 600016) (lag = 0:04:00): 0.12976115297566493
+Original correlation of pair (000776 vs 600016): 0.17374965741999937
+Lead/lag ratio of pair (000776 vs 600016): 0.3529007282035922
+maximum lead correlation of pair (000776 vs 300498) (lead = 0:00:01): 0.09239609607323385
+minimum lead correlation of pair (000776 vs 300498) (lead = 0:00:50): 0.004858965908184642
+maximum lag correlation of pair (000776 vs 300498) (lag = 0:00:01): 0.0853443466414035
+minimum lag correlation of pair (000776 vs 300498) (lag = 0:04:00): 0.008926408920961257
+Original correlation of pair (000776 vs 300498): 0.06839666742151036
+Lead/lag ratio of pair (000776 vs 300498): 0.8128529692926594
+maximum lead correlation of pair (000776 vs 300628) (lead = 0:00:01): 0.09028474693780725
+minimum lead correlation of pair (000776 vs 300628) (lead = 0:02:00): -0.010276650918727046
+maximum lag correlation of pair (000776 vs 300628) (lag = 0:00:01): 0.0823310906599522
+minimum lag correlation of pair (000776 vs 300628) (lag = 0:02:00): 0.0045100767594732725
+Original correlation of pair (000776 vs 300628): 0.07410699620002616
+Lead/lag ratio of pair (000776 vs 300628): 1.1601756269717796
+maximum lead correlation of pair (000776 vs 300558) (lead = 0:00:01): 0.10952679738624654
+minimum lead correlation of pair (000776 vs 300558) (lead = 0:03:00): -0.0056227596510487945
+maximum lag correlation of pair (000776 vs 300558) (lag = 0:00:01): 0.09233247438361332
+minimum lag correlation of pair (000776 vs 300558) (lag = 0:03:00): 0.002432328614610425
+Original correlation of pair (000776 vs 300558): 0.07547019624119873
+Lead/lag ratio of pair (000776 vs 300558): 1.0454940363406813
+maximum lead correlation of pair (000776 vs 300676) (lead = 0:00:01): 0.11514965828867192
+minimum lead correlation of pair (000776 vs 300676) (lead = 0:05:00): -0.00836927340944928
+maximum lag correlation of pair (000776 vs 300676) (lag = 0:00:01): 0.10110885327341361
+minimum lag correlation of pair (000776 vs 300676) (lag = 0:05:00): -0.008838913510816962
+Original correlation of pair (000776 vs 300676): 0.08325715186310341
+Lead/lag ratio of pair (000776 vs 300676): 1.2484909506349864
+maximum lead correlation of pair (000776 vs 300595) (lead = 0:00:01): 0.12363488966266714
+minimum lead correlation of pair (000776 vs 300595) (lead = 0:04:00): 0.006206265149252985
+maximum lag correlation of pair (000776 vs 300595) (lag = 0:00:01): 0.10676354398444755
+minimum lag correlation of pair (000776 vs 300595) (lag = 0:03:00): -0.009999922229589746
+Original correlation of pair (000776 vs 300595): 0.08570395579406263
+Lead/lag ratio of pair (000776 vs 300595): 1.428143084854243
+maximum lead correlation of pair (000776 vs 300888) (lead = 0:00:04): 0.08865421665012335
+minimum lead correlation of pair (000776 vs 300888) (lead = 0:03:00): -0.00020814137597774388
+maximum lag correlation of pair (000776 vs 300888) (lag = 0:00:01): 0.08422720969186469
+minimum lag correlation of pair (000776 vs 300888) (lag = 0:03:00): -0.009200249090019213
+Original correlation of pair (000776 vs 300888): 0.07025171711070023
+Lead/lag ratio of pair (000776 vs 300888): 1.445789129129822
+maximum lead correlation of pair (000776 vs 300677) (lead = 0:00:01): 0.024485881476575804
+minimum lead correlation of pair (000776 vs 300677) (lead = 0:01:00): -0.007951713371584785
+maximum lag correlation of pair (000776 vs 300677) (lag = 0:00:40): 0.01817399627724945
+minimum lag correlation of pair (000776 vs 300677) (lag = 0:05:00): 0.0018169524696129704
+Original correlation of pair (000776 vs 300677): 0.016470572284341845
+Lead/lag ratio of pair (000776 vs 300677): 0.9116769441614169
+maximum lead correlation of pair (000776 vs 600018) (lead = 0:00:01): 0.10075605944671173
+minimum lead correlation of pair (000776 vs 600018) (lead = 0:02:00): -0.015948698742180065
+maximum lag correlation of pair (000776 vs 600018) (lag = 0:00:40): 0.12293530042124655
+minimum lag correlation of pair (000776 vs 600018) (lag = 0:05:00): 0.0005957490580750704
+Original correlation of pair (000776 vs 600018): 0.10975435251136581
+Lead/lag ratio of pair (000776 vs 600018): 0.27283420040224726
+maximum lead correlation of pair (000776 vs 600028) (lead = 0:00:01): 0.1690229070888684
+minimum lead correlation of pair (000776 vs 600028) (lead = 0:05:00): 0.025346480388143095
+maximum lag correlation of pair (000776 vs 600028) (lag = 0:00:30): 0.23001026714463593
+minimum lag correlation of pair (000776 vs 600028) (lag = 0:05:00): 0.10789643352931962
+Original correlation of pair (000776 vs 600028): 0.17542212826260253
+Lead/lag ratio of pair (000776 vs 600028): 0.37721175192886697
+maximum lead correlation of pair (000776 vs 600011) (lead = 0:00:01): 0.08767887653421827
+minimum lead correlation of pair (000776 vs 600011) (lead = 0:03:00): 0.0006475796517569808
+maximum lag correlation of pair (000776 vs 600011) (lag = 0:00:02): 0.09222045488142504
+minimum lag correlation of pair (000776 vs 600011) (lag = 0:05:00): -0.0007753914251313676
+Original correlation of pair (000776 vs 600011): 0.09187110270086886
+Lead/lag ratio of pair (000776 vs 600011): 0.6176536315414333
+maximum lead correlation of pair (000776 vs 300450) (lead = 0:00:01): 0.09853862473747438
+minimum lead correlation of pair (000776 vs 300450) (lead = 0:00:30): 0.001875517706569298
+maximum lag correlation of pair (000776 vs 300450) (lag = 0:00:01): 0.08247404251784887
+minimum lag correlation of pair (000776 vs 300450) (lag = 0:03:00): -0.0026351359891600436
+Original correlation of pair (000776 vs 300450): 0.05858808090182904
+Lead/lag ratio of pair (000776 vs 300450): 1.1565733737831456
+maximum lead correlation of pair (000776 vs 600025) (lead = 0:00:01): 0.11232720276369801
+minimum lead correlation of pair (000776 vs 600025) (lead = 0:02:00): -0.010598665230331176
+maximum lag correlation of pair (000776 vs 600025) (lag = 0:00:10): 0.12545898006520914
+minimum lag correlation of pair (000776 vs 600025) (lag = 0:04:00): 0.017685162803693134
+Original correlation of pair (000776 vs 600025): 0.1117677424289596
+Lead/lag ratio of pair (000776 vs 600025): 0.4357117326091026
+maximum lead correlation of pair (000776 vs 300601) (lead = 0:00:01): 0.10197457717663447
+minimum lead correlation of pair (000776 vs 300601) (lead = 0:03:00): -0.00963448846011387
+maximum lag correlation of pair (000776 vs 300601) (lag = 0:00:01): 0.0887254195432387
+minimum lag correlation of pair (000776 vs 300601) (lag = 0:04:00): -0.008730505530295817
+Original correlation of pair (000776 vs 300601): 0.07306732415831864
+Lead/lag ratio of pair (000776 vs 300601): 1.2062186461880713
+maximum lead correlation of pair (000776 vs 600019) (lead = 0:00:01): 0.1480484516501404
+minimum lead correlation of pair (000776 vs 600019) (lead = 0:05:00): 0.00658258011004862
+maximum lag correlation of pair (000776 vs 600019) (lag = 0:00:02): 0.15987590444344685
+minimum lag correlation of pair (000776 vs 600019) (lag = 0:04:00): -0.010476500738528271
+Original correlation of pair (000776 vs 600019): 0.15379662019694373
+Lead/lag ratio of pair (000776 vs 600019): 0.4562175769860826
+maximum lead correlation of pair (000776 vs 300866) (lead = 0:00:01): 0.09686111219990051
+minimum lead correlation of pair (000776 vs 300866) (lead = 0:05:00): -0.002659012806277555
+maximum lag correlation of pair (000776 vs 300866) (lag = 0:00:01): 0.09122052341636731
+minimum lag correlation of pair (000776 vs 300866) (lag = 0:02:00): -0.01441123500398146
+Original correlation of pair (000776 vs 300866): 0.06887662376310746
+Lead/lag ratio of pair (000776 vs 300866): 1.1980498367191628
+maximum lead correlation of pair (000776 vs 600050) (lead = 0:00:01): 0.23382602892791543
+minimum lead correlation of pair (000776 vs 600050) (lead = 0:05:00): 0.03117214434370215
+maximum lag correlation of pair (000776 vs 600050) (lag = 0:00:50): 0.28750362277536523
+minimum lag correlation of pair (000776 vs 600050) (lag = 0:05:00): 0.13615098022764338
+Original correlation of pair (000776 vs 600050): 0.2351889365841982
+Lead/lag ratio of pair (000776 vs 600050): 0.43259539122860347
+maximum lead correlation of pair (000776 vs 600061) (lead = 0:00:01): 0.19134243232728146
+minimum lead correlation of pair (000776 vs 600061) (lead = 0:05:00): 0.0007853607297018537
+maximum lag correlation of pair (000776 vs 600061) (lag = 0:00:04): 0.20029554464588034
+minimum lag correlation of pair (000776 vs 600061) (lag = 0:04:00): 0.018063296783134244
+Original correlation of pair (000776 vs 600061): 0.19652581314331158
+Lead/lag ratio of pair (000776 vs 600061): 0.48002843715751514
+maximum lead correlation of pair (000776 vs 600029) (lead = 0:00:01): 0.1025204074931834
+minimum lead correlation of pair (000776 vs 600029) (lead = 0:02:00): -0.006010735037804315
+maximum lag correlation of pair (000776 vs 600029) (lag = 0:00:02): 0.10397445242566951
+minimum lag correlation of pair (000776 vs 600029) (lag = 0:05:00): 0.0012390101185256446
+Original correlation of pair (000776 vs 600029): 0.10422020649876447
+Lead/lag ratio of pair (000776 vs 600029): 0.40660528958329967
+maximum lead correlation of pair (000776 vs 300999) (lead = 0:00:01): 0.11529842419445346
+minimum lead correlation of pair (000776 vs 300999) (lead = 0:02:00): 0.0030271799723442915
+maximum lag correlation of pair (000776 vs 300999) (lag = 0:00:01): 0.09871410109656666
+minimum lag correlation of pair (000776 vs 300999) (lag = 0:05:00): 0.0029558654157270004
+Original correlation of pair (000776 vs 300999): 0.08678489716005489
+Lead/lag ratio of pair (000776 vs 300999): 1.540327028117833
+maximum lead correlation of pair (000776 vs 300759) (lead = 0:00:01): 0.09177865354307375
+minimum lead correlation of pair (000776 vs 300759) (lead = 0:02:00): -0.009172909742246278
+maximum lag correlation of pair (000776 vs 300759) (lag = 0:00:01): 0.07869655591114004
+minimum lag correlation of pair (000776 vs 300759) (lag = 0:04:00): -0.00495776667325046
+Original correlation of pair (000776 vs 300759): 0.0590364219239579
+Lead/lag ratio of pair (000776 vs 300759): 1.2457950618503888
+maximum lead correlation of pair (000776 vs 600009) (lead = 0:00:01): 0.08097907226273755
+minimum lead correlation of pair (000776 vs 600009) (lead = 0:02:00): 0.005415645195710901
+maximum lag correlation of pair (000776 vs 600009) (lag = 0:00:02): 0.07957124414217188
+minimum lag correlation of pair (000776 vs 600009) (lag = 0:05:00): -0.013736808001959717
+Original correlation of pair (000776 vs 600009): 0.07805558237832681
+Lead/lag ratio of pair (000776 vs 600009): 1.0606996393641333
+maximum lead correlation of pair (000776 vs 300896) (lead = 0:00:01): 0.07689831961821328
+minimum lead correlation of pair (000776 vs 300896) (lead = 0:03:00): 0.002425243286396826
+maximum lag correlation of pair (000776 vs 300896) (lag = 0:00:01): 0.06391225731199625
+minimum lag correlation of pair (000776 vs 300896) (lag = 0:04:00): -0.013084736521303687
+Original correlation of pair (000776 vs 300896): 0.04958121807408131
+Lead/lag ratio of pair (000776 vs 300896): 1.3967207623595956
+maximum lead correlation of pair (000776 vs 300760) (lead = 0:00:01): 0.08847569073491222
+minimum lead correlation of pair (000776 vs 300760) (lead = 0:00:50): 0.002661140176922765
+maximum lag correlation of pair (000776 vs 300760) (lag = 0:00:01): 0.07993882377532245
+minimum lag correlation of pair (000776 vs 300760) (lag = 0:02:00): -0.006639588946409498
+Original correlation of pair (000776 vs 300760): 0.06278611028057107
+Lead/lag ratio of pair (000776 vs 300760): 1.1046894823063191
+maximum lead correlation of pair (000776 vs 600031) (lead = 0:00:01): 0.13181275726247701
+minimum lead correlation of pair (000776 vs 600031) (lead = 0:05:00): -0.007388753432085088
+maximum lag correlation of pair (000776 vs 600031) (lag = 0:00:02): 0.12589524460188814
+minimum lag correlation of pair (000776 vs 600031) (lag = 0:03:00): -0.004530900783026314
+Original correlation of pair (000776 vs 600031): 0.13314728982069596
+Lead/lag ratio of pair (000776 vs 600031): 0.9726525375129128
+maximum lead correlation of pair (000776 vs 600109) (lead = 0:00:01): 0.19890227106436917
+minimum lead correlation of pair (000776 vs 600109) (lead = 0:02:00): -0.009467998601282989
+maximum lag correlation of pair (000776 vs 600109) (lag = 0:00:02): 0.20481446301606832
+minimum lag correlation of pair (000776 vs 600109) (lag = 0:04:00): -0.003523963604960297
+Original correlation of pair (000776 vs 600109): 0.19980449066202463
+Lead/lag ratio of pair (000776 vs 600109): 0.6553046906675176
+maximum lead correlation of pair (000776 vs 600030) (lead = 0:00:01): 0.18011383914663484
+minimum lead correlation of pair (000776 vs 600030) (lead = 0:02:00): 0.0020366451967234133
+maximum lag correlation of pair (000776 vs 600030) (lag = 0:00:02): 0.17788803185733626
+minimum lag correlation of pair (000776 vs 600030) (lag = 0:04:00): 0.0031274799305689763
+Original correlation of pair (000776 vs 600030): 0.17880862070786807
+Lead/lag ratio of pair (000776 vs 600030): 0.653356749973182
+maximum lead correlation of pair (000776 vs 300782) (lead = 0:00:01): 0.11592463449762856
+minimum lead correlation of pair (000776 vs 300782) (lead = 0:01:00): -0.013994094719592029
+maximum lag correlation of pair (000776 vs 300782) (lag = 0:00:01): 0.09954799202178985
+minimum lag correlation of pair (000776 vs 300782) (lag = 0:02:00): 0.004510648664739141
+Original correlation of pair (000776 vs 300782): 0.07601985102194024
+Lead/lag ratio of pair (000776 vs 300782): 1.074446569487233
+maximum lead correlation of pair (000776 vs 600104) (lead = 0:00:01): 0.13695671078019955
+minimum lead correlation of pair (000776 vs 600104) (lead = 0:03:00): 0.0006581337709235047
+maximum lag correlation of pair (000776 vs 600104) (lag = 0:00:01): 0.13358261651799927
+minimum lag correlation of pair (000776 vs 600104) (lag = 0:03:00): -0.017398832225681556
+Original correlation of pair (000776 vs 600104): 0.14401079246573134
+Lead/lag ratio of pair (000776 vs 600104): 0.5982888136327014
+maximum lead correlation of pair (000776 vs 600115) (lead = 0:00:01): 0.13115002321822067
+minimum lead correlation of pair (000776 vs 600115) (lead = 0:02:00): -0.006759428388726751
+maximum lag correlation of pair (000776 vs 600115) (lag = 0:00:20): 0.15918026043526734
+minimum lag correlation of pair (000776 vs 600115) (lag = 0:05:00): 0.018087888118692587
+Original correlation of pair (000776 vs 600115): 0.14465176751873995
+Lead/lag ratio of pair (000776 vs 600115): 0.31646828411011463
+maximum lead correlation of pair (000776 vs 300750) (lead = 0:00:01): 0.10753108346889008
+minimum lead correlation of pair (000776 vs 300750) (lead = 0:02:00): -0.001044210364597489
+maximum lag correlation of pair (000776 vs 300750) (lag = 0:00:01): 0.10226996310865916
+minimum lag correlation of pair (000776 vs 300750) (lag = 0:02:00): 0.012842087607207934
+Original correlation of pair (000776 vs 300750): 0.076455868697715
+Lead/lag ratio of pair (000776 vs 300750): 1.0880785661268495
+maximum lead correlation of pair (000776 vs 600079) (lead = 0:00:10): -0.03118396260042647
+minimum lead correlation of pair (000776 vs 600079) (lead = 0:03:00): -0.08734422728479167
+maximum lag correlation of pair (000776 vs 600079) (lag = 0:00:15): -0.033754059424830736
+minimum lag correlation of pair (000776 vs 600079) (lag = 0:03:00): -0.09609139905018557
+Original correlation of pair (000776 vs 600079): -0.044529872480044766
+Lead/lag ratio of pair (000776 vs 600079): 1.0940488193009952
+maximum lead correlation of pair (000776 vs 600143) (lead = 0:00:01): 0.12747495259352504
+minimum lead correlation of pair (000776 vs 600143) (lead = 0:05:00): 0.003652761058632295
+maximum lag correlation of pair (000776 vs 600143) (lag = 0:00:01): 0.13584426126470672
+minimum lag correlation of pair (000776 vs 600143) (lag = 0:04:00): 0.0036783944695692543
+Original correlation of pair (000776 vs 600143): 0.13387048862249828
+Lead/lag ratio of pair (000776 vs 600143): 0.5919435279195352
+maximum lead correlation of pair (000776 vs 600036) (lead = 0:00:01): 0.10655046605273215
+minimum lead correlation of pair (000776 vs 600036) (lead = 0:03:00): 0.002381819265785426
+maximum lag correlation of pair (000776 vs 600036) (lag = 0:00:02): 0.10786327982127701
+minimum lag correlation of pair (000776 vs 600036) (lag = 0:03:00): -0.004213507047613299
+Original correlation of pair (000776 vs 600036): 0.10896666853626756
+Lead/lag ratio of pair (000776 vs 600036): 0.7107787100693247
+maximum lead correlation of pair (000776 vs 600048) (lead = 0:00:01): 0.07945348138573052
+minimum lead correlation of pair (000776 vs 600048) (lead = 0:01:00): -0.0019881428737569314
+maximum lag correlation of pair (000776 vs 600048) (lag = 0:00:02): 0.07511602781512487
+minimum lag correlation of pair (000776 vs 600048) (lag = 0:04:00): 0.00027861517780990364
+Original correlation of pair (000776 vs 600048): 0.0783321412873829
+Lead/lag ratio of pair (000776 vs 600048): 0.7066930483809398
+maximum lead correlation of pair (000776 vs 600085) (lead = 0:00:02): 0.08904467933394127
+minimum lead correlation of pair (000776 vs 600085) (lead = 0:03:00): 0.0028629960826963806
+maximum lag correlation of pair (000776 vs 600085) (lag = 0:00:02): 0.08143633301893759
+minimum lag correlation of pair (000776 vs 600085) (lag = 0:04:00): -0.008313930144907122
+Original correlation of pair (000776 vs 600085): 0.08090056767012853
+Lead/lag ratio of pair (000776 vs 600085): 1.2532268005565053
+maximum lead correlation of pair (000776 vs 600150) (lead = 0:00:01): 0.12581798829932372
+minimum lead correlation of pair (000776 vs 600150) (lead = 0:03:00): -0.00859853517194251
+maximum lag correlation of pair (000776 vs 600150) (lag = 0:00:02): 0.12084511705547712
+minimum lag correlation of pair (000776 vs 600150) (lag = 0:03:00): -0.006363536860102903
+Original correlation of pair (000776 vs 600150): 0.12475636410119942
+Lead/lag ratio of pair (000776 vs 600150): 0.8619516815705289
+maximum lead correlation of pair (000776 vs 600111) (lead = 0:00:01): 0.024115580780886978
+minimum lead correlation of pair (000776 vs 600111) (lead = 0:05:00): -0.01065360403761018
+maximum lag correlation of pair (000776 vs 600111) (lag = 0:00:02): 0.023135136361064696
+minimum lag correlation of pair (000776 vs 600111) (lag = 0:02:00): -0.0074720479288433875
+Original correlation of pair (000776 vs 600111): 0.023709436568231143
+Lead/lag ratio of pair (000776 vs 600111): 0.8032833954800809
+maximum lead correlation of pair (000776 vs 600161) (lead = 0:00:01): 0.08452717544351232
+minimum lead correlation of pair (000776 vs 600161) (lead = 0:03:00): -0.005833417470363478
+maximum lag correlation of pair (000776 vs 600161) (lag = 0:00:01): 0.07900933629531685
+minimum lag correlation of pair (000776 vs 600161) (lag = 0:05:00): -0.00017213363027313906
+Original correlation of pair (000776 vs 600161): 0.08238506804455968
+Lead/lag ratio of pair (000776 vs 600161): 0.9113282956969316
+maximum lead correlation of pair (000776 vs 600176) (lead = 0:00:04): 0.12504984813898784
+minimum lead correlation of pair (000776 vs 600176) (lead = 0:03:00): -0.004685038281077682
+maximum lag correlation of pair (000776 vs 600176) (lag = 0:00:02): 0.12312913308806653
+minimum lag correlation of pair (000776 vs 600176) (lag = 0:05:00): 0.0013934599389066411
+Original correlation of pair (000776 vs 600176): 0.12571268313695622
+Lead/lag ratio of pair (000776 vs 600176): 0.8178084143270814
+maximum lead correlation of pair (000776 vs 600132) (lead = 0:00:01): 0.0852157605292302
+minimum lead correlation of pair (000776 vs 600132) (lead = 0:02:00): -0.005080049730274376
+maximum lag correlation of pair (000776 vs 600132) (lag = 0:00:01): 0.08193561159944729
+minimum lag correlation of pair (000776 vs 600132) (lag = 0:05:00): 0.0026192636602118905
+Original correlation of pair (000776 vs 600132): 0.0829754943399345
+Lead/lag ratio of pair (000776 vs 600132): 0.9198613612973531
+maximum lead correlation of pair (000776 vs 600183) (lead = 0:00:01): 0.10756679288645513
+minimum lead correlation of pair (000776 vs 600183) (lead = 0:05:00): -0.015235375308253942
+maximum lag correlation of pair (000776 vs 600183) (lag = 0:00:02): 0.10318245370271548
+minimum lag correlation of pair (000776 vs 600183) (lag = 0:04:00): -0.019668519751923404
+Original correlation of pair (000776 vs 600183): 0.09999384338726572
+Lead/lag ratio of pair (000776 vs 600183): 0.9290871688750428
+maximum lead correlation of pair (000776 vs 600352) (lead = 0:00:01): 0.1162309892532992
+minimum lead correlation of pair (000776 vs 600352) (lead = 0:03:00): -0.0075505266184821155
+maximum lag correlation of pair (000776 vs 600352) (lag = 0:00:02): 0.12182937377428302
+minimum lag correlation of pair (000776 vs 600352) (lag = 0:04:00): -0.004510121397668138
+Original correlation of pair (000776 vs 600352): 0.1180036240314867
+Lead/lag ratio of pair (000776 vs 600352): 0.7504851099676203
+maximum lead correlation of pair (000776 vs 600332) (lead = 0:00:01): 0.1273642837978689
+minimum lead correlation of pair (000776 vs 600332) (lead = 0:03:00): -0.0034502414193010064
+maximum lag correlation of pair (000776 vs 600332) (lag = 0:00:02): 0.11771216214139682
+minimum lag correlation of pair (000776 vs 600332) (lag = 0:04:00): -0.0032506406760359186
+Original correlation of pair (000776 vs 600332): 0.11700880714131835
+Lead/lag ratio of pair (000776 vs 600332): 0.8961698790671183
+maximum lead correlation of pair (000776 vs 600276) (lead = 0:00:01): 0.023354394630723665
+minimum lead correlation of pair (000776 vs 600276) (lead = 0:03:00): -0.010662308252629947
+maximum lag correlation of pair (000776 vs 600276) (lag = 0:00:30): 0.025755578395201532
+minimum lag correlation of pair (000776 vs 600276) (lag = 0:04:00): -0.015253671204596817
+Original correlation of pair (000776 vs 600276): 0.023353320816082518
+Lead/lag ratio of pair (000776 vs 600276): 0.5329538212601008
+maximum lead correlation of pair (000776 vs 600346) (lead = 0:00:04): 0.09922116960227935
+minimum lead correlation of pair (000776 vs 600346) (lead = 0:04:00): 0.005315074351380311
+maximum lag correlation of pair (000776 vs 600346) (lag = 0:00:01): 0.09072865771781644
+minimum lag correlation of pair (000776 vs 600346) (lag = 0:02:00): 0.0010349644323883926
+Original correlation of pair (000776 vs 600346): 0.09754781589383597
+Lead/lag ratio of pair (000776 vs 600346): 1.189799438807666
+maximum lead correlation of pair (000776 vs 600489) (lead = 0:00:01): 0.09280391013663494
+minimum lead correlation of pair (000776 vs 600489) (lead = 0:04:00): 0.0023087748147326607
+maximum lag correlation of pair (000776 vs 600489) (lag = 0:00:02): 0.10988221570397583
+minimum lag correlation of pair (000776 vs 600489) (lag = 0:03:00): 0.014206145510738871
+Original correlation of pair (000776 vs 600489): 0.0998848893531077
+Lead/lag ratio of pair (000776 vs 600489): 0.32179374745038236
+maximum lead correlation of pair (000776 vs 600196) (lead = 0:00:10): 0.020684528119725
+minimum lead correlation of pair (000776 vs 600196) (lead = 0:04:00): -0.01107256233574676
+maximum lag correlation of pair (000776 vs 600196) (lag = 0:00:02): 0.014100533438655184
+minimum lag correlation of pair (000776 vs 600196) (lag = 0:02:00): -0.00916758445174149
+Original correlation of pair (000776 vs 600196): 0.003419571510627192
+Lead/lag ratio of pair (000776 vs 600196): 1.8483265309021046
+maximum lead correlation of pair (000776 vs 600362) (lead = 0:00:01): 0.12942408013546958
+minimum lead correlation of pair (000776 vs 600362) (lead = 0:05:00): -0.0023015936616930664
+maximum lag correlation of pair (000776 vs 600362) (lag = 0:00:01): 0.10482767580828989
+minimum lag correlation of pair (000776 vs 600362) (lag = 0:05:00): -0.013677355545723984
+Original correlation of pair (000776 vs 600362): 0.1217440887525866
+Lead/lag ratio of pair (000776 vs 600362): 1.1488374915789157
+maximum lead correlation of pair (000776 vs 600655) (lead = 0:00:01): 0.1097263758993372
+minimum lead correlation of pair (000776 vs 600655) (lead = 0:03:00): -0.00443645065791141
+maximum lag correlation of pair (000776 vs 600655) (lag = 0:00:02): 0.11722149750772928
+minimum lag correlation of pair (000776 vs 600655) (lag = 0:03:00): 0.0024524478792172155
+Original correlation of pair (000776 vs 600655): 0.11205941620391086
+Lead/lag ratio of pair (000776 vs 600655): 0.4659245054993504
+maximum lead correlation of pair (000776 vs 600606) (lead = 0:00:01): 0.09445482797717358
+minimum lead correlation of pair (000776 vs 600606) (lead = 0:01:00): -0.006599829805440157
+maximum lag correlation of pair (000776 vs 600606) (lag = 0:00:20): 0.097815249076984
+minimum lag correlation of pair (000776 vs 600606) (lag = 0:04:00): -0.0011170374847006507
+Original correlation of pair (000776 vs 600606): 0.09504127265664213
+Lead/lag ratio of pair (000776 vs 600606): 0.41816895453633623
+maximum lead correlation of pair (000776 vs 600795) (lead = 0:00:01): 0.14969041413212592
+minimum lead correlation of pair (000776 vs 600795) (lead = 0:05:00): 0.007783901534869011
+maximum lag correlation of pair (000776 vs 600795) (lag = 0:00:50): 0.18134313261133586
+minimum lag correlation of pair (000776 vs 600795) (lag = 0:05:00): 0.07087160698182914
+Original correlation of pair (000776 vs 600795): 0.1504252579833202
+Lead/lag ratio of pair (000776 vs 600795): 0.4008950731386557
+maximum lead correlation of pair (000776 vs 600406) (lead = 0:00:01): 0.025715095371565532
+minimum lead correlation of pair (000776 vs 600406) (lead = 0:03:00): -0.01155367182410391
+maximum lag correlation of pair (000776 vs 600406) (lag = 0:00:02): 0.025389758537299488
+minimum lag correlation of pair (000776 vs 600406) (lag = 0:03:00): -0.004778068687689885
+Original correlation of pair (000776 vs 600406): 0.025922434390293896
+Lead/lag ratio of pair (000776 vs 600406): 0.6548110643214776
+maximum lead correlation of pair (000776 vs 600584) (lead = 0:00:01): 0.13883928160228803
+minimum lead correlation of pair (000776 vs 600584) (lead = 0:03:00): 0.007916924105526912
+maximum lag correlation of pair (000776 vs 600584) (lag = 0:00:02): 0.12943608378660193
+minimum lag correlation of pair (000776 vs 600584) (lag = 0:02:00): 0.006110894298357448
+Original correlation of pair (000776 vs 600584): 0.13889849569432816
+Lead/lag ratio of pair (000776 vs 600584): 0.9909685910422341
+maximum lead correlation of pair (000776 vs 600309) (lead = 0:00:01): 0.10343003919639104
+minimum lead correlation of pair (000776 vs 600309) (lead = 0:02:00): -0.012967464328948478
+maximum lag correlation of pair (000776 vs 600309) (lag = 0:00:01): 0.0937771913345814
+minimum lag correlation of pair (000776 vs 600309) (lag = 0:03:00): -0.0017818008708330227
+Original correlation of pair (000776 vs 600309): 0.10429215070944074
+Lead/lag ratio of pair (000776 vs 600309): 0.9642492258826844
+maximum lead correlation of pair (000776 vs 600426) (lead = 0:00:01): 0.08097992794353316
+minimum lead correlation of pair (000776 vs 600426) (lead = 0:05:00): -0.006607042658610226
+maximum lag correlation of pair (000776 vs 600426) (lag = 0:00:02): 0.07199485791764583
+minimum lag correlation of pair (000776 vs 600426) (lag = 0:03:00): -0.007076933246535276
+Original correlation of pair (000776 vs 600426): 0.07933213594938521
+Lead/lag ratio of pair (000776 vs 600426): 0.9589238865549068
+maximum lead correlation of pair (000776 vs 600588) (lead = 0:00:01): 0.13096466728182257
+minimum lead correlation of pair (000776 vs 600588) (lead = 0:01:00): 0.00332356857090421
+maximum lag correlation of pair (000776 vs 600588) (lag = 0:00:02): 0.12589396598784697
+minimum lag correlation of pair (000776 vs 600588) (lag = 0:04:00): -0.01787798743351011
+Original correlation of pair (000776 vs 600588): 0.12368494760235339
+Lead/lag ratio of pair (000776 vs 600588): 0.8782717890880691
+maximum lead correlation of pair (000776 vs 600837) (lead = 0:00:01): 0.19122219266206367
+minimum lead correlation of pair (000776 vs 600837) (lead = 0:02:00): 9.654900091331258e-05
+maximum lag correlation of pair (000776 vs 600837) (lag = 0:00:08): 0.21211815500215325
+minimum lag correlation of pair (000776 vs 600837) (lag = 0:05:00): -0.004951584475309179
+Original correlation of pair (000776 vs 600837): 0.19540138513008198
+Lead/lag ratio of pair (000776 vs 600837): 0.41832172172541443
+maximum lead correlation of pair (000776 vs 600547) (lead = 0:00:02): 0.08056418968306873
+minimum lead correlation of pair (000776 vs 600547) (lead = 0:01:00): -0.011982113797446224
+maximum lag correlation of pair (000776 vs 600547) (lag = 0:00:02): 0.0688743225636095
+minimum lag correlation of pair (000776 vs 600547) (lag = 0:02:00): -0.008383826574737699
+Original correlation of pair (000776 vs 600547): 0.07753213039895893
+Lead/lag ratio of pair (000776 vs 600547): 0.9582684773770861
+maximum lead correlation of pair (000776 vs 600383) (lead = 0:00:01): 0.058348765806609346
+minimum lead correlation of pair (000776 vs 600383) (lead = 0:00:50): -0.006926873122349607
+maximum lag correlation of pair (000776 vs 600383) (lag = 0:00:02): 0.05864805083065504
+minimum lag correlation of pair (000776 vs 600383) (lag = 0:03:00): -0.0027132550206345886
+Original correlation of pair (000776 vs 600383): 0.054068202370570945
+Lead/lag ratio of pair (000776 vs 600383): 0.7196771816235176
+maximum lead correlation of pair (000776 vs 600436) (lead = 0:00:01): 0.1056838630432674
+minimum lead correlation of pair (000776 vs 600436) (lead = 0:05:00): -0.0028852325593073562
+maximum lag correlation of pair (000776 vs 600436) (lag = 0:00:01): 0.09552060891922622
+minimum lag correlation of pair (000776 vs 600436) (lag = 0:05:00): -0.010830602889190355
+Original correlation of pair (000776 vs 600436): 0.10065206279987661
+Lead/lag ratio of pair (000776 vs 600436): 1.0674700216638124
+maximum lead correlation of pair (000776 vs 600585) (lead = 0:00:01): 0.1086838191393226
+minimum lead correlation of pair (000776 vs 600585) (lead = 0:03:00): -0.007749737534950187
+maximum lag correlation of pair (000776 vs 600585) (lag = 0:00:02): 0.10976815741537915
+minimum lag correlation of pair (000776 vs 600585) (lag = 0:03:00): -0.0023936689321636794
+Original correlation of pair (000776 vs 600585): 0.11033376325966492
+Lead/lag ratio of pair (000776 vs 600585): 0.7657096942335307
+maximum lead correlation of pair (000776 vs 600438) (lead = 0:00:01): 0.12210582698896581
+minimum lead correlation of pair (000776 vs 600438) (lead = 0:02:00): 0.006713946824811946
+maximum lag correlation of pair (000776 vs 600438) (lag = 0:00:02): 0.11241957474107285
+minimum lag correlation of pair (000776 vs 600438) (lag = 0:04:00): -0.01690268050526068
+Original correlation of pair (000776 vs 600438): 0.12462391190804056
+Lead/lag ratio of pair (000776 vs 600438): 1.1081875450626746
+maximum lead correlation of pair (000776 vs 600905) (lead = 0:00:01): 0.22191833455041124
+minimum lead correlation of pair (000776 vs 600905) (lead = 0:03:00): 0.03556325706209228
+maximum lag correlation of pair (000776 vs 600905) (lag = 0:00:15): 0.2288324094005562
+minimum lag correlation of pair (000776 vs 600905) (lag = 0:04:00): 0.030291951954411724
+Original correlation of pair (000776 vs 600905): 0.22312784633881663
+Lead/lag ratio of pair (000776 vs 600905): 0.7351742101562508
+maximum lead correlation of pair (000776 vs 600886) (lead = 0:00:01): 0.09575620467899991
+minimum lead correlation of pair (000776 vs 600886) (lead = 0:03:00): -0.007202809292425595
+maximum lag correlation of pair (000776 vs 600886) (lag = 0:00:02): 0.08974700378360545
+minimum lag correlation of pair (000776 vs 600886) (lag = 0:04:00): 0.0006791220190011521
+Original correlation of pair (000776 vs 600886): 0.09256638913521151
+Lead/lag ratio of pair (000776 vs 600886): 0.5783181349846153
+maximum lead correlation of pair (000776 vs 600741) (lead = 0:00:01): 0.09209342881825446
+minimum lead correlation of pair (000776 vs 600741) (lead = 0:04:00): -0.007380202331734817
+maximum lag correlation of pair (000776 vs 600741) (lag = 0:00:01): 0.08888576090633674
+minimum lag correlation of pair (000776 vs 600741) (lag = 0:04:00): 0.009361258034131993
+Original correlation of pair (000776 vs 600741): 0.09156480514637082
+Lead/lag ratio of pair (000776 vs 600741): 0.633834566437262
+maximum lead correlation of pair (000776 vs 600570) (lead = 0:05:00): 0.010982374689301846
+minimum lead correlation of pair (000776 vs 600570) (lead = 0:01:00): -0.030758316392931754
+maximum lag correlation of pair (000776 vs 600570) (lag = 0:04:00): 0.0056312408145213705
+minimum lag correlation of pair (000776 vs 600570) (lag = 0:00:30): -0.035257096882648935
+Original correlation of pair (000776 vs 600570): -0.015695222920179466
+Lead/lag ratio of pair (000776 vs 600570): 0.34573121888622665
+maximum lead correlation of pair (000776 vs 600600) (lead = 0:00:01): 0.07952197156117932
+minimum lead correlation of pair (000776 vs 600600) (lead = 0:02:00): -0.0003684219466834068
+maximum lag correlation of pair (000776 vs 600600) (lag = 0:00:01): 0.07081832067587508
+minimum lag correlation of pair (000776 vs 600600) (lag = 0:02:00): -0.01116699624606968
+Original correlation of pair (000776 vs 600600): 0.07418620543677662
+Lead/lag ratio of pair (000776 vs 600600): 1.0271450400844533
+maximum lead correlation of pair (000776 vs 600660) (lead = 0:00:04): 0.022610533104541586
+minimum lead correlation of pair (000776 vs 600660) (lead = 0:03:00): -0.01019428431322675
+maximum lag correlation of pair (000776 vs 600660) (lag = 0:00:02): 0.01832254363918435
+minimum lag correlation of pair (000776 vs 600660) (lag = 0:02:00): -0.008149744322471418
+Original correlation of pair (000776 vs 600660): 0.01978352340206928
+Lead/lag ratio of pair (000776 vs 600660): 1.2744083119363552
+maximum lead correlation of pair (000776 vs 600848) (lead = 0:00:01): 0.11307443830648709
+minimum lead correlation of pair (000776 vs 600848) (lead = 0:01:00): -0.006364438939788289
+maximum lag correlation of pair (000776 vs 600848) (lag = 0:00:01): 0.11548191219115488
+minimum lag correlation of pair (000776 vs 600848) (lag = 0:02:00): 0.012504777916909142
+Original correlation of pair (000776 vs 600848): 0.11680090054286174
+Lead/lag ratio of pair (000776 vs 600848): 0.5873946058813795
+maximum lead correlation of pair (000776 vs 600690) (lead = 0:00:01): 0.08146091832960295
+minimum lead correlation of pair (000776 vs 600690) (lead = 0:05:00): 0.005399426863345145
+maximum lag correlation of pair (000776 vs 600690) (lag = 0:00:02): 0.08996520496008836
+minimum lag correlation of pair (000776 vs 600690) (lag = 0:05:00): -0.004986707699174988
+Original correlation of pair (000776 vs 600690): 0.0823696577736439
+Lead/lag ratio of pair (000776 vs 600690): 0.8375782818230166
+maximum lead correlation of pair (000776 vs 600519) (lead = 0:00:01): 0.06812429763913082
+minimum lead correlation of pair (000776 vs 600519) (lead = 0:05:00): -0.017396630527274203
+maximum lag correlation of pair (000776 vs 600519) (lag = 0:00:02): 0.07503729740450193
+minimum lag correlation of pair (000776 vs 600519) (lag = 0:03:00): -0.008427587946727952
+Original correlation of pair (000776 vs 600519): 0.07128809526364305
+Lead/lag ratio of pair (000776 vs 600519): 0.7282524902092226
+maximum lead correlation of pair (000776 vs 600918) (lead = 0:00:01): 0.1840085497662725
+minimum lead correlation of pair (000776 vs 600918) (lead = 0:02:00): 0.005695047900239163
+maximum lag correlation of pair (000776 vs 600918) (lag = 0:00:01): 0.18927378273064613
+minimum lag correlation of pair (000776 vs 600918) (lag = 0:05:00): 0.0049428717624746465
+Original correlation of pair (000776 vs 600918): 0.18483236172668457
+Lead/lag ratio of pair (000776 vs 600918): 0.5843498884007969
+maximum lead correlation of pair (000776 vs 600760) (lead = 0:00:04): 0.09197920724053373
+minimum lead correlation of pair (000776 vs 600760) (lead = 0:03:00): -0.021311892779839782
+maximum lag correlation of pair (000776 vs 600760) (lag = 0:00:01): 0.0716590097504697
+minimum lag correlation of pair (000776 vs 600760) (lag = 0:05:00): -0.022764397229960036
+Original correlation of pair (000776 vs 600760): 0.0901041174313882
+Lead/lag ratio of pair (000776 vs 600760): 2.077576903586654
+maximum lead correlation of pair (000776 vs 600900) (lead = 0:00:01): 0.08647523890256234
+minimum lead correlation of pair (000776 vs 600900) (lead = 0:02:00): -0.012316698377700297
+maximum lag correlation of pair (000776 vs 600900) (lag = 0:00:02): 0.09457421910409398
+minimum lag correlation of pair (000776 vs 600900) (lag = 0:03:00): -0.003785131696561276
+Original correlation of pair (000776 vs 600900): 0.08637910857376119
+Lead/lag ratio of pair (000776 vs 600900): 0.4600802795286269
+maximum lead correlation of pair (000776 vs 600919) (lead = 0:00:01): 0.09962846004958192
+minimum lead correlation of pair (000776 vs 600919) (lead = 0:03:00): -0.006447208124966823
+maximum lag correlation of pair (000776 vs 600919) (lag = 0:00:02): 0.11329788912290106
+minimum lag correlation of pair (000776 vs 600919) (lag = 0:03:00): -0.007458094416339143
+Original correlation of pair (000776 vs 600919): 0.10431223319960249
+Lead/lag ratio of pair (000776 vs 600919): 0.3520834403020588
+maximum lead correlation of pair (000776 vs 600845) (lead = 0:00:01): 0.08723732587941577
+minimum lead correlation of pair (000776 vs 600845) (lead = 0:02:00): 0.0025703907826613165
+maximum lag correlation of pair (000776 vs 600845) (lag = 0:00:02): 0.08685630789089717
+minimum lag correlation of pair (000776 vs 600845) (lag = 0:04:00): -0.0003593019373620946
+Original correlation of pair (000776 vs 600845): 0.08445569714457121
+Lead/lag ratio of pair (000776 vs 600845): 0.9460193280457605
+maximum lead correlation of pair (000776 vs 600872) (lead = 0:00:01): 0.10577890604895815
+minimum lead correlation of pair (000776 vs 600872) (lead = 0:02:00): -4.546976218644627e-05
+maximum lag correlation of pair (000776 vs 600872) (lag = 0:00:02): 0.09216396011395218
+minimum lag correlation of pair (000776 vs 600872) (lag = 0:04:00): -0.013754603061724338
+Original correlation of pair (000776 vs 600872): 0.09725982131911098
+Lead/lag ratio of pair (000776 vs 600872): 1.1718082960652534
+maximum lead correlation of pair (000776 vs 600958) (lead = 0:00:20): 0.047540983276263764
+minimum lead correlation of pair (000776 vs 600958) (lead = 0:05:00): 0.011357949053347685
+maximum lag correlation of pair (000776 vs 600958) (lag = 0:00:20): 0.04866681425154682
+minimum lag correlation of pair (000776 vs 600958) (lag = 0:04:00): 0.014211171640825197
+Original correlation of pair (000776 vs 600958): 0.034439812067643336
+Lead/lag ratio of pair (000776 vs 600958): 1.1871406338109265
+maximum lead correlation of pair (000776 vs 600887) (lead = 0:00:01): 0.11014428610986532
+minimum lead correlation of pair (000776 vs 600887) (lead = 0:02:00): -0.020674646988811378
+maximum lag correlation of pair (000776 vs 600887) (lag = 0:00:01): 0.09269874925094689
+minimum lag correlation of pair (000776 vs 600887) (lag = 0:04:00): 0.002464412359627027
+Original correlation of pair (000776 vs 600887): 0.11075604432607712
+Lead/lag ratio of pair (000776 vs 600887): 0.7380962061025775
+maximum lead correlation of pair (000776 vs 601006) (lead = 0:00:01): 0.08340646211726198
+minimum lead correlation of pair (000776 vs 601006) (lead = 0:00:50): -0.011895774861595168
+maximum lag correlation of pair (000776 vs 601006) (lag = 0:00:10): 0.10240644814143697
+minimum lag correlation of pair (000776 vs 601006) (lag = 0:04:00): 0.01585599470116079
+Original correlation of pair (000776 vs 601006): 0.08434361337700634
+Lead/lag ratio of pair (000776 vs 601006): 0.250568472297977
+maximum lead correlation of pair (000776 vs 600745) (lead = 0:00:01): 0.10072485737601043
+minimum lead correlation of pair (000776 vs 600745) (lead = 0:03:00): 0.003011951218257653
+maximum lag correlation of pair (000776 vs 600745) (lag = 0:00:02): 0.08537494620965046
+minimum lag correlation of pair (000776 vs 600745) (lag = 0:02:00): -0.004700512216087821
+Original correlation of pair (000776 vs 600745): 0.09512557212251833
+Lead/lag ratio of pair (000776 vs 600745): 0.9785958115084874
+maximum lead correlation of pair (000776 vs 600763) (lead = 0:03:00): 0.01982909252310448
+minimum lead correlation of pair (000776 vs 600763) (lead = 0:00:30): -0.012800205695645394
+maximum lag correlation of pair (000776 vs 600763) (lag = 0:05:00): 0.016217589866033454
+minimum lag correlation of pair (000776 vs 600763) (lag = 0:00:50): -0.013502615794026618
+Original correlation of pair (000776 vs 600763): 0.001345172243251391
+Lead/lag ratio of pair (000776 vs 600763): 1.2411532047919809
+maximum lead correlation of pair (000776 vs 600999) (lead = 0:00:01): 0.16009554318109834
+minimum lead correlation of pair (000776 vs 600999) (lead = 0:03:00): 0.0015477206447977528
+maximum lag correlation of pair (000776 vs 600999) (lag = 0:00:02): 0.1612435777253163
+minimum lag correlation of pair (000776 vs 600999) (lag = 0:03:00): -0.008010729930767164
+Original correlation of pair (000776 vs 600999): 0.1612860975232501
+Lead/lag ratio of pair (000776 vs 600999): 0.5890315111435142
+maximum lead correlation of pair (000776 vs 600893) (lead = 0:00:01): 0.11193396126301472
+minimum lead correlation of pair (000776 vs 600893) (lead = 0:05:00): -0.011547858968699703
+maximum lag correlation of pair (000776 vs 600893) (lag = 0:00:01): 0.10841052643200538
+minimum lag correlation of pair (000776 vs 600893) (lag = 0:03:00): -0.0011073652326083405
+Original correlation of pair (000776 vs 600893): 0.1166548340967428
+Lead/lag ratio of pair (000776 vs 600893): 1.0701010068728365
+maximum lead correlation of pair (000776 vs 600926) (lead = 0:00:01): 0.08559205655313094
+minimum lead correlation of pair (000776 vs 600926) (lead = 0:02:00): 0.0011178591096716586
+maximum lag correlation of pair (000776 vs 600926) (lag = 0:00:02): 0.08612009050443145
+minimum lag correlation of pair (000776 vs 600926) (lag = 0:03:00): -0.018402544941134094
+Original correlation of pair (000776 vs 600926): 0.08140148923747496
+Lead/lag ratio of pair (000776 vs 600926): 0.6000945881919695
+maximum lead correlation of pair (000776 vs 600809) (lead = 0:00:01): 0.021564897340432005
+minimum lead correlation of pair (000776 vs 600809) (lead = 0:04:00): -0.009152005288843064
+maximum lag correlation of pair (000776 vs 600809) (lag = 0:00:04): 0.023306030008217186
+minimum lag correlation of pair (000776 vs 600809) (lag = 0:05:00): -0.00637033245474492
+Original correlation of pair (000776 vs 600809): 0.017951888105907848
+Lead/lag ratio of pair (000776 vs 600809): 0.34411315306406537
+maximum lead correlation of pair (000776 vs 600989) (lead = 0:00:30): 0.014120449151584228
+minimum lead correlation of pair (000776 vs 600989) (lead = 0:05:00): -0.015467516767844141
+maximum lag correlation of pair (000776 vs 600989) (lag = 0:00:15): -0.0034610040230538606
+minimum lag correlation of pair (000776 vs 600989) (lag = 0:01:00): -0.019332920614824164
+Original correlation of pair (000776 vs 600989): -0.004190911539357774
+Lead/lag ratio of pair (000776 vs 600989): 0.48996874482552755
+maximum lead correlation of pair (000776 vs 601009) (lead = 0:00:01): 0.07312650390665906
+minimum lead correlation of pair (000776 vs 601009) (lead = 0:01:00): -0.005663016797110256
+maximum lag correlation of pair (000776 vs 601009) (lag = 0:00:01): 0.07260819389472013
+minimum lag correlation of pair (000776 vs 601009) (lag = 0:03:00): -0.004562407882870325
+Original correlation of pair (000776 vs 601009): 0.07434229282355344
+Lead/lag ratio of pair (000776 vs 601009): 0.49444311216269604
+maximum lead correlation of pair (000776 vs 601108) (lead = 0:00:01): 0.16824827937574496
+minimum lead correlation of pair (000776 vs 601108) (lead = 0:03:00): 0.003561707527107168
+maximum lag correlation of pair (000776 vs 601108) (lag = 0:00:08): 0.17543692716854856
+minimum lag correlation of pair (000776 vs 601108) (lag = 0:04:00): 0.007136461601931459
+Original correlation of pair (000776 vs 601108): 0.17274933833857245
+Lead/lag ratio of pair (000776 vs 601108): 0.5080124939470092
+maximum lead correlation of pair (000776 vs 601162) (lead = 0:00:01): 0.31530437382588244
+minimum lead correlation of pair (000776 vs 601162) (lead = 0:05:00): 0.022358513083848317
+maximum lag correlation of pair (000776 vs 601162) (lag = 0:00:30): 0.3641762920881395
+minimum lag correlation of pair (000776 vs 601162) (lag = 0:05:00): 0.11124723583183022
+Original correlation of pair (000776 vs 601162): 0.317797309082619
+Lead/lag ratio of pair (000776 vs 601162): 0.42197277929385857
+maximum lead correlation of pair (000776 vs 601012) (lead = 0:00:01): 0.11869299444467911
+minimum lead correlation of pair (000776 vs 601012) (lead = 0:05:00): -0.0006238113506044177
+maximum lag correlation of pair (000776 vs 601012) (lag = 0:00:02): 0.11220429005420902
+minimum lag correlation of pair (000776 vs 601012) (lag = 0:04:00): -0.0052535223714682945
+Original correlation of pair (000776 vs 601012): 0.1151651724191845
+Lead/lag ratio of pair (000776 vs 601012): 0.999031840109815
+maximum lead correlation of pair (000776 vs 601169) (lead = 0:00:01): 0.1628668561912032
+minimum lead correlation of pair (000776 vs 601169) (lead = 0:05:00): 0.020598288408349767
+maximum lag correlation of pair (000776 vs 601169) (lag = 0:00:15): 0.19609914347032062
+minimum lag correlation of pair (000776 vs 601169) (lag = 0:05:00): 0.0801012717520834
+Original correlation of pair (000776 vs 601169): 0.16596089673098258
+Lead/lag ratio of pair (000776 vs 601169): 0.41065007018123645
+maximum lead correlation of pair (000776 vs 601138) (lead = 0:00:01): 0.14747072184501075
+minimum lead correlation of pair (000776 vs 601138) (lead = 0:02:00): -0.008965119873467984
+maximum lag correlation of pair (000776 vs 601138) (lag = 0:00:04): 0.15710960072737612
+minimum lag correlation of pair (000776 vs 601138) (lag = 0:05:00): -0.0009350125021419253
+Original correlation of pair (000776 vs 601138): 0.1510595198311707
+Lead/lag ratio of pair (000776 vs 601138): 0.38696425643584986
+maximum lead correlation of pair (000776 vs 601066) (lead = 0:00:08): 0.03123538980671125
+minimum lead correlation of pair (000776 vs 601066) (lead = 0:00:50): -0.0029770628960040205
+maximum lag correlation of pair (000776 vs 601066) (lag = 0:00:02): 0.03267146199663239
+minimum lag correlation of pair (000776 vs 601066) (lag = 0:02:00): -0.02062550486016348
+Original correlation of pair (000776 vs 601066): 0.02719438758278623
+Lead/lag ratio of pair (000776 vs 601066): 1.342008400357302
+maximum lead correlation of pair (000776 vs 601216) (lead = 0:00:01): 0.17685079557977545
+minimum lead correlation of pair (000776 vs 601216) (lead = 0:05:00): 0.002669158191157854
+maximum lag correlation of pair (000776 vs 601216) (lag = 0:00:08): 0.19130238064332383
+minimum lag correlation of pair (000776 vs 601216) (lag = 0:04:00): 0.025185414075126495
+Original correlation of pair (000776 vs 601216): 0.1785476175727253
+Lead/lag ratio of pair (000776 vs 601216): 0.49594948062965966
+maximum lead correlation of pair (000776 vs 601021) (lead = 0:00:02): 0.07974220886470934
+minimum lead correlation of pair (000776 vs 601021) (lead = 0:03:00): -0.007973307981962528
+maximum lag correlation of pair (000776 vs 601021) (lag = 0:00:02): 0.07489468592170233
+minimum lag correlation of pair (000776 vs 601021) (lag = 0:03:00): -0.002724107054976916
+Original correlation of pair (000776 vs 601021): 0.07892059480657328
+Lead/lag ratio of pair (000776 vs 601021): 1.0282334682939416
+maximum lead correlation of pair (000776 vs 601229) (lead = 0:00:02): 0.14514855793514228
+minimum lead correlation of pair (000776 vs 601229) (lead = 0:04:00): 0.015792036767050315
+maximum lag correlation of pair (000776 vs 601229) (lag = 0:00:30): 0.18212166401599722
+minimum lag correlation of pair (000776 vs 601229) (lag = 0:05:00): 0.04279641963870355
+Original correlation of pair (000776 vs 601229): 0.14945188795416403
+Lead/lag ratio of pair (000776 vs 601229): 0.3366536593860835
+maximum lead correlation of pair (000776 vs 601186) (lead = 0:00:01): 0.11528634691178012
+minimum lead correlation of pair (000776 vs 601186) (lead = 0:02:00): -0.0021624637169852085
+maximum lag correlation of pair (000776 vs 601186) (lag = 0:00:02): 0.12045338762015256
+minimum lag correlation of pair (000776 vs 601186) (lag = 0:04:00): -0.009533553983054924
+Original correlation of pair (000776 vs 601186): 0.12180492744326872
+Lead/lag ratio of pair (000776 vs 601186): 0.537051290399886
+maximum lead correlation of pair (000776 vs 601111) (lead = 0:00:01): 0.08152178362729207
+minimum lead correlation of pair (000776 vs 601111) (lead = 0:03:00): -0.0017015062810521546
+maximum lag correlation of pair (000776 vs 601111) (lag = 0:00:01): 0.08308586055487818
+minimum lag correlation of pair (000776 vs 601111) (lag = 0:03:00): -0.0007460450616926878
+Original correlation of pair (000776 vs 601111): 0.07661359243194206
+Lead/lag ratio of pair (000776 vs 601111): 0.6444428565385822
+maximum lead correlation of pair (000776 vs 601288) (lead = 0:00:01): 0.12385829917488363
+minimum lead correlation of pair (000776 vs 601288) (lead = 0:03:00): 0.06467477690905042
+maximum lag correlation of pair (000776 vs 601288) (lag = 0:00:30): 0.13681202807683876
+minimum lag correlation of pair (000776 vs 601288) (lag = 0:04:00): 0.12202788096047529
+Original correlation of pair (000776 vs 601288): 0.12780073840591427
+Lead/lag ratio of pair (000776 vs 601288): 0.5741407951507368
+maximum lead correlation of pair (000776 vs 601211) (lead = 0:00:01): 0.15843720358037433
+minimum lead correlation of pair (000776 vs 601211) (lead = 0:04:00): -0.005717573066652614
+maximum lag correlation of pair (000776 vs 601211) (lag = 0:00:01): 0.16402462051217792
+minimum lag correlation of pair (000776 vs 601211) (lag = 0:04:00): -0.005103979859500836
+Original correlation of pair (000776 vs 601211): 0.15976665552920583
+Lead/lag ratio of pair (000776 vs 601211): 0.5588874717887502
+maximum lead correlation of pair (000776 vs 601231) (lead = 0:00:02): 0.03061616090937642
+minimum lead correlation of pair (000776 vs 601231) (lead = 0:04:00): -0.002468020167411681
+maximum lag correlation of pair (000776 vs 601231) (lag = 0:00:04): 0.028813341027430793
+minimum lag correlation of pair (000776 vs 601231) (lag = 0:03:00): -0.0010507622343664958
+Original correlation of pair (000776 vs 601231): 0.026040260856495114
+Lead/lag ratio of pair (000776 vs 601231): 0.7920469723784866
+maximum lead correlation of pair (000776 vs 601319) (lead = 0:00:01): 0.21434702565791564
+minimum lead correlation of pair (000776 vs 601319) (lead = 0:05:00): 0.00047256828585374566
+maximum lag correlation of pair (000776 vs 601319) (lag = 0:00:50): 0.25971358110001924
+minimum lag correlation of pair (000776 vs 601319) (lag = 0:05:00): 0.055215873399927944
+Original correlation of pair (000776 vs 601319): 0.21643627492169645
+Lead/lag ratio of pair (000776 vs 601319): 0.3671300503543814
+maximum lead correlation of pair (000776 vs 601328) (lead = 0:00:01): 0.10650601574890864
+minimum lead correlation of pair (000776 vs 601328) (lead = 0:05:00): 0.019434093897714416
+maximum lag correlation of pair (000776 vs 601328) (lag = 0:01:00): 0.16305788251823966
+minimum lag correlation of pair (000776 vs 601328) (lag = 0:05:00): 0.060995227729778244
+Original correlation of pair (000776 vs 601328): 0.1121387612088693
+Lead/lag ratio of pair (000776 vs 601328): 0.28725951443843895
+maximum lead correlation of pair (000776 vs 601166) (lead = 0:00:01): 0.0995870676823992
+minimum lead correlation of pair (000776 vs 601166) (lead = 0:02:00): -0.009993320504062285
+maximum lag correlation of pair (000776 vs 601166) (lag = 0:00:02): 0.10294794977370933
+minimum lag correlation of pair (000776 vs 601166) (lag = 0:04:00): 0.005381877634590543
+Original correlation of pair (000776 vs 601166): 0.10197653202638846
+Lead/lag ratio of pair (000776 vs 601166): 0.5018204393041548
+maximum lead correlation of pair (000776 vs 601088) (lead = 0:00:01): 0.07347546261449131
+minimum lead correlation of pair (000776 vs 601088) (lead = 0:05:00): 0.0009096585367789866
+maximum lag correlation of pair (000776 vs 601088) (lag = 0:00:02): 0.06976989707002347
+minimum lag correlation of pair (000776 vs 601088) (lag = 0:02:00): -0.004374879518016979
+Original correlation of pair (000776 vs 601088): 0.076943725931975
+Lead/lag ratio of pair (000776 vs 601088): 0.6007455471699606
+maximum lead correlation of pair (000776 vs 601377) (lead = 0:00:01): 0.22227011123607818
+minimum lead correlation of pair (000776 vs 601377) (lead = 0:02:00): 0.00736371639914094
+maximum lag correlation of pair (000776 vs 601377) (lag = 0:00:08): 0.22259617985891872
+minimum lag correlation of pair (000776 vs 601377) (lag = 0:04:00): -0.010841781709438022
+Original correlation of pair (000776 vs 601377): 0.22479714306309082
+Lead/lag ratio of pair (000776 vs 601377): 0.5739947307876676
+maximum lead correlation of pair (000776 vs 601360) (lead = 0:00:02): 0.1669440374154227
+minimum lead correlation of pair (000776 vs 601360) (lead = 0:05:00): 0.01214138453930324
+maximum lag correlation of pair (000776 vs 601360) (lag = 0:00:02): 0.16350576922729915
+minimum lag correlation of pair (000776 vs 601360) (lag = 0:05:00): -0.001974318061147458
+Original correlation of pair (000776 vs 601360): 0.16459365877119841
+Lead/lag ratio of pair (000776 vs 601360): 0.8370820534258288
+maximum lead correlation of pair (000776 vs 601100) (lead = 0:00:01): 0.08573555196592965
+minimum lead correlation of pair (000776 vs 601100) (lead = 0:02:00): -0.001344894637292457
+maximum lag correlation of pair (000776 vs 601100) (lag = 0:00:02): 0.07968451353910774
+minimum lag correlation of pair (000776 vs 601100) (lag = 0:04:00): -0.00823723279316762
+Original correlation of pair (000776 vs 601100): 0.08754849363558415
+Lead/lag ratio of pair (000776 vs 601100): 1.048362635586372
+maximum lead correlation of pair (000776 vs 601398) (lead = 0:00:01): 0.03609550564871555
+minimum lead correlation of pair (000776 vs 601398) (lead = 0:01:00): -0.01617566657567739
+maximum lag correlation of pair (000776 vs 601398) (lag = 0:00:50): 0.0896077238132445
+minimum lag correlation of pair (000776 vs 601398) (lag = 0:05:00): 0.02193916806037777
+Original correlation of pair (000776 vs 601398): 0.04192211116427238
+Lead/lag ratio of pair (000776 vs 601398): 0.05306668173929324
+maximum lead correlation of pair (000776 vs 601600) (lead = 0:00:01): 0.19861052823926034
+minimum lead correlation of pair (000776 vs 601600) (lead = 0:03:00): -0.004788627483617186
+maximum lag correlation of pair (000776 vs 601600) (lag = 0:00:02): 0.20522059685161748
+minimum lag correlation of pair (000776 vs 601600) (lag = 0:05:00): -0.0018801972941804297
+Original correlation of pair (000776 vs 601600): 0.20195962966952083
+Lead/lag ratio of pair (000776 vs 601600): 0.583922609589475
+maximum lead correlation of pair (000776 vs 601238) (lead = 0:00:01): 0.09488956436623043
+minimum lead correlation of pair (000776 vs 601238) (lead = 0:05:00): -0.01061197082488739
+maximum lag correlation of pair (000776 vs 601238) (lag = 0:00:02): 0.09876786438336964
+minimum lag correlation of pair (000776 vs 601238) (lag = 0:03:00): -0.02064992381042511
+Original correlation of pair (000776 vs 601238): 0.0976787023292216
+Lead/lag ratio of pair (000776 vs 601238): 0.580851139038939
+maximum lead correlation of pair (000776 vs 601236) (lead = 0:00:01): 0.030424625641297904
+minimum lead correlation of pair (000776 vs 601236) (lead = 0:04:00): -0.011882594872784747
+maximum lag correlation of pair (000776 vs 601236) (lag = 0:00:20): 0.031077192656206523
+minimum lag correlation of pair (000776 vs 601236) (lag = 0:02:00): -0.01861756907249078
+Original correlation of pair (000776 vs 601236): 0.02069801986118264
+Lead/lag ratio of pair (000776 vs 601236): 0.891747237697179
+maximum lead correlation of pair (000776 vs 601618) (lead = 0:00:01): 0.22926441884695997
+minimum lead correlation of pair (000776 vs 601618) (lead = 0:05:00): -0.0004327104476515225
+maximum lag correlation of pair (000776 vs 601618) (lag = 0:00:30): 0.25945799230525907
+minimum lag correlation of pair (000776 vs 601618) (lag = 0:05:00): 0.07259919732807282
+Original correlation of pair (000776 vs 601618): 0.2333751680996427
+Lead/lag ratio of pair (000776 vs 601618): 0.4845758667615817
+maximum lead correlation of pair (000776 vs 601390) (lead = 0:00:01): 0.08153255260002332
+minimum lead correlation of pair (000776 vs 601390) (lead = 0:01:00): -0.006926099815511113
+maximum lag correlation of pair (000776 vs 601390) (lag = 0:00:02): 0.09359335435345222
+minimum lag correlation of pair (000776 vs 601390) (lag = 0:05:00): -0.013478592587032745
+Original correlation of pair (000776 vs 601390): 0.08375503552837532
+Lead/lag ratio of pair (000776 vs 601390): 0.32503997306050375
+maximum lead correlation of pair (000776 vs 601155) (lead = 0:00:01): 0.07730518952509878
+minimum lead correlation of pair (000776 vs 601155) (lead = 0:01:00): -0.012709452576243199
+maximum lag correlation of pair (000776 vs 601155) (lag = 0:00:02): 0.08196552493601347
+minimum lag correlation of pair (000776 vs 601155) (lag = 0:03:00): -0.005059850674602862
+Original correlation of pair (000776 vs 601155): 0.07706994195866428
+Lead/lag ratio of pair (000776 vs 601155): 0.7663079987623549
+maximum lead correlation of pair (000776 vs 601225) (lead = 0:00:01): -0.00030073402596095505
+minimum lead correlation of pair (000776 vs 601225) (lead = 0:02:00): -0.03580378792673483
+maximum lag correlation of pair (000776 vs 601225) (lag = 0:05:00): 0.04169469366998993
+minimum lag correlation of pair (000776 vs 601225) (lag = 0:02:00): -0.027099907001748434
+Original correlation of pair (000776 vs 601225): -0.001265790482259354
+Lead/lag ratio of pair (000776 vs 601225): 1.1575311617591844
+maximum lead correlation of pair (000776 vs 601336) (lead = 0:00:02): 0.0256515756283949
+minimum lead correlation of pair (000776 vs 601336) (lead = 0:05:00): -0.015332829626076322
+maximum lag correlation of pair (000776 vs 601336) (lag = 0:00:10): 0.03114910378842079
+minimum lag correlation of pair (000776 vs 601336) (lag = 0:02:00): -0.04219322994225436
+Original correlation of pair (000776 vs 601336): 0.02425137858887923
+Lead/lag ratio of pair (000776 vs 601336): 0.6693275883084352
+maximum lead correlation of pair (000776 vs 601728) (lead = 0:00:01): 0.30388103241807235
+minimum lead correlation of pair (000776 vs 601728) (lead = 0:05:00): 0.031038333468310482
+maximum lag correlation of pair (000776 vs 601728) (lag = 0:00:40): 0.3255215071439346
+minimum lag correlation of pair (000776 vs 601728) (lag = 0:05:00): 0.1800832931999434
+Original correlation of pair (000776 vs 601728): 0.305455808747888
+Lead/lag ratio of pair (000776 vs 601728): 0.6399468802877014
+maximum lead correlation of pair (000776 vs 601658) (lead = 0:00:01): 0.07101069358281076
+minimum lead correlation of pair (000776 vs 601658) (lead = 0:02:00): 0.00041198187205346065
+maximum lag correlation of pair (000776 vs 601658) (lag = 0:00:04): 0.09508042234997986
+minimum lag correlation of pair (000776 vs 601658) (lag = 0:04:00): -0.009650363245344044
+Original correlation of pair (000776 vs 601658): 0.07525535529486269
+Lead/lag ratio of pair (000776 vs 601658): 0.20636674140930436
+maximum lead correlation of pair (000776 vs 601668) (lead = 0:00:01): 0.09738938580551612
+minimum lead correlation of pair (000776 vs 601668) (lead = 0:00:50): 0.003139777980094689
+maximum lag correlation of pair (000776 vs 601668) (lag = 0:00:02): 0.1036464343966706
+minimum lag correlation of pair (000776 vs 601668) (lag = 0:05:00): 0.0011366221361635087
+Original correlation of pair (000776 vs 601668): 0.09734437106744973
+Lead/lag ratio of pair (000776 vs 601668): 0.3325239606324567
+maximum lead correlation of pair (000776 vs 601601) (lead = 0:00:01): 0.13662028507169685
+minimum lead correlation of pair (000776 vs 601601) (lead = 0:03:00): -0.007411169897090848
+maximum lag correlation of pair (000776 vs 601601) (lag = 0:00:01): 0.13337789824171867
+minimum lag correlation of pair (000776 vs 601601) (lag = 0:03:00): -0.005784186505619475
+Original correlation of pair (000776 vs 601601): 0.13513805109227914
+Lead/lag ratio of pair (000776 vs 601601): 0.5803256725769997
+maximum lead correlation of pair (000776 vs 601669) (lead = 0:00:01): 0.13445260826108138
+minimum lead correlation of pair (000776 vs 601669) (lead = 0:05:00): 0.009545431246179837
+maximum lag correlation of pair (000776 vs 601669) (lag = 0:00:02): 0.130923520602711
+minimum lag correlation of pair (000776 vs 601669) (lag = 0:05:00): 0.0015486687862536555
+Original correlation of pair (000776 vs 601669): 0.13196535233164428
+Lead/lag ratio of pair (000776 vs 601669): 0.7259285249011298
+maximum lead correlation of pair (000776 vs 601766) (lead = 0:00:01): 0.1693709206074932
+minimum lead correlation of pair (000776 vs 601766) (lead = 0:05:00): 0.003755705133752383
+maximum lag correlation of pair (000776 vs 601766) (lag = 0:00:50): 0.20929520427172463
+minimum lag correlation of pair (000776 vs 601766) (lag = 0:04:00): 0.046502458110619226
+Original correlation of pair (000776 vs 601766): 0.1729445309468796
+Lead/lag ratio of pair (000776 vs 601766): 0.35174401021828255
+maximum lead correlation of pair (000776 vs 601698) (lead = 0:00:02): 0.09922402905407425
+minimum lead correlation of pair (000776 vs 601698) (lead = 0:03:00): 0.008936455893663445
+maximum lag correlation of pair (000776 vs 601698) (lag = 0:00:04): 0.09626618801884654
+minimum lag correlation of pair (000776 vs 601698) (lag = 0:03:00): 0.013771791770401316
+Original correlation of pair (000776 vs 601698): 0.09530121860309876
+Lead/lag ratio of pair (000776 vs 601698): 0.9252754166930964
+maximum lead correlation of pair (000776 vs 601688) (lead = 0:00:01): 0.18979314481058066
+minimum lead correlation of pair (000776 vs 601688) (lead = 0:04:00): 0.00115600868597437
+maximum lag correlation of pair (000776 vs 601688) (lag = 0:00:02): 0.19224063195041663
+minimum lag correlation of pair (000776 vs 601688) (lag = 0:04:00): -0.0033686815614725287
+Original correlation of pair (000776 vs 601688): 0.19514871630107142
+Lead/lag ratio of pair (000776 vs 601688): 0.6666501307922678
+maximum lead correlation of pair (000776 vs 601318) (lead = 0:00:01): 0.1468163479453038
+minimum lead correlation of pair (000776 vs 601318) (lead = 0:02:00): 0.001189423206670121
+maximum lag correlation of pair (000776 vs 601318) (lag = 0:00:02): 0.13101250291228836
+minimum lag correlation of pair (000776 vs 601318) (lag = 0:03:00): -0.008818622946499807
+Original correlation of pair (000776 vs 601318): 0.14554950666009217
+Lead/lag ratio of pair (000776 vs 601318): 1.1083183976085336
+maximum lead correlation of pair (000776 vs 601607) (lead = 0:00:01): 0.09342435051804175
+minimum lead correlation of pair (000776 vs 601607) (lead = 0:05:00): -0.004018782503919399
+maximum lag correlation of pair (000776 vs 601607) (lag = 0:00:02): 0.08551021249127796
+minimum lag correlation of pair (000776 vs 601607) (lag = 0:03:00): -0.010520915867141864
+Original correlation of pair (000776 vs 601607): 0.08917352528969294
+Lead/lag ratio of pair (000776 vs 601607): 0.9350331743699807
+maximum lead correlation of pair (000776 vs 601628) (lead = 0:00:01): 0.10583555215840997
+minimum lead correlation of pair (000776 vs 601628) (lead = 0:03:00): -0.004760250106650007
+maximum lag correlation of pair (000776 vs 601628) (lag = 0:00:02): 0.10639462834114817
+minimum lag correlation of pair (000776 vs 601628) (lag = 0:04:00): -0.013073469867372126
+Original correlation of pair (000776 vs 601628): 0.10563298832408365
+Lead/lag ratio of pair (000776 vs 601628): 0.6962813201262937
+maximum lead correlation of pair (000776 vs 601788) (lead = 0:00:01): 0.18149840041113885
+minimum lead correlation of pair (000776 vs 601788) (lead = 0:05:00): 0.004947039201856382
+maximum lag correlation of pair (000776 vs 601788) (lag = 0:00:02): 0.18145383249040023
+minimum lag correlation of pair (000776 vs 601788) (lag = 0:04:00): -0.020385366945302973
+Original correlation of pair (000776 vs 601788): 0.17551738544817447
+Lead/lag ratio of pair (000776 vs 601788): 0.7440572279490404
+maximum lead correlation of pair (000776 vs 601800) (lead = 0:00:01): 0.08890016939531228
+minimum lead correlation of pair (000776 vs 601800) (lead = 0:05:00): -0.010852673477222612
+maximum lag correlation of pair (000776 vs 601800) (lag = 0:00:02): 0.09883531169348181
+minimum lag correlation of pair (000776 vs 601800) (lag = 0:02:00): 0.0020286040911868435
+Original correlation of pair (000776 vs 601800): 0.09149506226106802
+Lead/lag ratio of pair (000776 vs 601800): 0.6001752824604648
+maximum lead correlation of pair (000776 vs 601808) (lead = 0:00:01): 0.08960814238853672
+minimum lead correlation of pair (000776 vs 601808) (lead = 0:04:00): -0.01429147358417237
+maximum lag correlation of pair (000776 vs 601808) (lag = 0:00:01): 0.09359558412167471
+minimum lag correlation of pair (000776 vs 601808) (lag = 0:03:00): -0.0042663365235448576
+Original correlation of pair (000776 vs 601808): 0.0878066327964386
+Lead/lag ratio of pair (000776 vs 601808): 0.6531846475375314
+maximum lead correlation of pair (000776 vs 601696) (lead = 0:00:40): 0.022417497339259455
+minimum lead correlation of pair (000776 vs 601696) (lead = 0:05:00): -0.01060347695397389
+maximum lag correlation of pair (000776 vs 601696) (lag = 0:00:30): 0.015936565584568237
+minimum lag correlation of pair (000776 vs 601696) (lag = 0:02:00): -0.01187030816108001
+Original correlation of pair (000776 vs 601696): 0.003308866212489163
+Lead/lag ratio of pair (000776 vs 601696): 1.890485593909602
+maximum lead correlation of pair (000776 vs 601633) (lead = 0:00:01): 0.13520136201794164
+minimum lead correlation of pair (000776 vs 601633) (lead = 0:05:00): 0.002721379739476269
+maximum lag correlation of pair (000776 vs 601633) (lag = 0:00:02): 0.1294623403589578
+minimum lag correlation of pair (000776 vs 601633) (lag = 0:02:00): -0.0068563533094095856
+Original correlation of pair (000776 vs 601633): 0.131201822587454
+Lead/lag ratio of pair (000776 vs 601633): 0.9265216324815299
+maximum lead correlation of pair (000776 vs 601816) (lead = 0:00:01): 0.09124998714262478
+minimum lead correlation of pair (000776 vs 601816) (lead = 0:05:00): -0.006896440944033493
+maximum lag correlation of pair (000776 vs 601816) (lag = 0:00:08): 0.11246622905808695
+minimum lag correlation of pair (000776 vs 601816) (lag = 0:05:00): 0.006090564698887584
+Original correlation of pair (000776 vs 601816): 0.09417903734132568
+Lead/lag ratio of pair (000776 vs 601816): 0.2417733914635253
+maximum lead correlation of pair (000776 vs 601818) (lead = 0:00:01): 0.14860102867539127
+minimum lead correlation of pair (000776 vs 601818) (lead = 0:05:00): 0.03775173752301037
+maximum lag correlation of pair (000776 vs 601818) (lag = 0:01:00): 0.2339050953745262
+minimum lag correlation of pair (000776 vs 601818) (lag = 0:05:00): 0.13993263533599462
+Original correlation of pair (000776 vs 601818): 0.14955632100258973
+Lead/lag ratio of pair (000776 vs 601818): 0.36429609165975174
+maximum lead correlation of pair (000776 vs 601799) (lead = 0:02:00): 0.01024908472537492
+minimum lead correlation of pair (000776 vs 601799) (lead = 0:00:20): -0.0019308144421880658
+maximum lag correlation of pair (000776 vs 601799) (lag = 0:00:01): 0.014388261620603983
+minimum lag correlation of pair (000776 vs 601799) (lag = 0:02:00): -0.0008195719647612564
+Original correlation of pair (000776 vs 601799): 0.009644773924624116
+Lead/lag ratio of pair (000776 vs 601799): 0.2504415276468401
+maximum lead correlation of pair (000776 vs 601868) (lead = 0:00:01): 0.23878711756144982
+minimum lead correlation of pair (000776 vs 601868) (lead = 0:04:00): 0.011712209987407242
+maximum lag correlation of pair (000776 vs 601868) (lag = 0:00:40): 0.2780407667919716
+minimum lag correlation of pair (000776 vs 601868) (lag = 0:05:00): 0.1618059555533051
+Original correlation of pair (000776 vs 601868): 0.2424427467393379
+Lead/lag ratio of pair (000776 vs 601868): 0.44917674473469066
+maximum lead correlation of pair (000776 vs 601857) (lead = 0:00:01): 0.10295791094748885
+minimum lead correlation of pair (000776 vs 601857) (lead = 0:02:00): 0.003629976067758222
+maximum lag correlation of pair (000776 vs 601857) (lag = 0:00:40): 0.14699851802597605
+minimum lag correlation of pair (000776 vs 601857) (lag = 0:04:00): 0.016893350161490517
+Original correlation of pair (000776 vs 601857): 0.11302566508413439
+Lead/lag ratio of pair (000776 vs 601857): 0.2072952851623931
+maximum lead correlation of pair (000776 vs 601916) (lead = 0:00:01): 0.21151893149486958
+minimum lead correlation of pair (000776 vs 601916) (lead = 0:05:00): 0.041212350029910395
+maximum lag correlation of pair (000776 vs 601916) (lag = 0:01:00): 0.23763544221889596
+minimum lag correlation of pair (000776 vs 601916) (lag = 0:05:00): 0.13632322490547027
+Original correlation of pair (000776 vs 601916): 0.2133261798624759
+Lead/lag ratio of pair (000776 vs 601916): 0.4663138818033175
+maximum lead correlation of pair (000776 vs 601878) (lead = 0:00:01): 0.20090863200438294
+minimum lead correlation of pair (000776 vs 601878) (lead = 0:04:00): -0.007937763380128613
+maximum lag correlation of pair (000776 vs 601878) (lag = 0:00:02): 0.2055710010865313
+minimum lag correlation of pair (000776 vs 601878) (lag = 0:04:00): 0.0026885972739155
+Original correlation of pair (000776 vs 601878): 0.20363990542550314
+Lead/lag ratio of pair (000776 vs 601878): 0.7746745763213112
+maximum lead correlation of pair (000776 vs 601901) (lead = 0:00:01): 0.21294043884409913
+minimum lead correlation of pair (000776 vs 601901) (lead = 0:03:00): -0.008634097793814525
+maximum lag correlation of pair (000776 vs 601901) (lag = 0:00:02): 0.21729388781602474
+minimum lag correlation of pair (000776 vs 601901) (lag = 0:04:00): 0.018724198588273414
+Original correlation of pair (000776 vs 601901): 0.21267835830398318
+Lead/lag ratio of pair (000776 vs 601901): 0.5156880155278324
+maximum lead correlation of pair (000776 vs 601881) (lead = 0:00:01): 0.17630150202895797
+minimum lead correlation of pair (000776 vs 601881) (lead = 0:03:00): 0.00021779701997995382
+maximum lag correlation of pair (000776 vs 601881) (lag = 0:00:02): 0.1835406601215635
+minimum lag correlation of pair (000776 vs 601881) (lag = 0:05:00): 0.0018149751664831575
+Original correlation of pair (000776 vs 601881): 0.1798692246419337
+Lead/lag ratio of pair (000776 vs 601881): 0.5588587157090751
+maximum lead correlation of pair (000776 vs 601988) (lead = 0:00:50): 0.03133401765897815
+minimum lead correlation of pair (000776 vs 601988) (lead = 0:02:00): 0.006302010293210363
+maximum lag correlation of pair (000776 vs 601988) (lag = 0:01:00): 0.07319485698091757
+minimum lag correlation of pair (000776 vs 601988) (lag = 0:04:00): 0.02890475112137171
+Original correlation of pair (000776 vs 601988): 0.03488990056185037
+Lead/lag ratio of pair (000776 vs 601988): 0.15953283358308656
+maximum lead correlation of pair (000776 vs 601939) (lead = 0:00:01): 0.05845229990397247
+minimum lead correlation of pair (000776 vs 601939) (lead = 0:00:30): -0.004582718275706577
+maximum lag correlation of pair (000776 vs 601939) (lag = 0:00:50): 0.13518113237785967
+minimum lag correlation of pair (000776 vs 601939) (lag = 0:04:00): 0.023094726488243556
+Original correlation of pair (000776 vs 601939): 0.05837984586008832
+Lead/lag ratio of pair (000776 vs 601939): 0.08393464105547
+maximum lead correlation of pair (000776 vs 601989) (lead = 0:00:04): 0.2409028088928397
+minimum lead correlation of pair (000776 vs 601989) (lead = 0:03:00): 0.009784841953405243
+maximum lag correlation of pair (000776 vs 601989) (lag = 0:00:40): 0.2622663804911076
+minimum lag correlation of pair (000776 vs 601989) (lag = 0:05:00): 0.12824666186930064
+Original correlation of pair (000776 vs 601989): 0.241555131689733
+Lead/lag ratio of pair (000776 vs 601989): 0.5552699010449814
+maximum lead correlation of pair (000776 vs 601838) (lead = 0:00:01): 0.08023097390871566
+minimum lead correlation of pair (000776 vs 601838) (lead = 0:00:50): -0.007972337191524556
+maximum lag correlation of pair (000776 vs 601838) (lag = 0:00:01): 0.08511788721837665
+minimum lag correlation of pair (000776 vs 601838) (lag = 0:05:00): 0.011346397501046513
+Original correlation of pair (000776 vs 601838): 0.08539657066577036
+Lead/lag ratio of pair (000776 vs 601838): 0.5489135410254466
+maximum lead correlation of pair (000776 vs 601933) (lead = 0:00:01): 0.024342901514122477
+minimum lead correlation of pair (000776 vs 601933) (lead = 0:04:00): -0.010474453901754978
+maximum lag correlation of pair (000776 vs 601933) (lag = 0:00:02): 0.029236363828716912
+minimum lag correlation of pair (000776 vs 601933) (lag = 0:04:00): 0.001313944832017392
+Original correlation of pair (000776 vs 601933): 0.02653862992111711
+Lead/lag ratio of pair (000776 vs 601933): 0.6771879281748003
+maximum lead correlation of pair (000776 vs 601898) (lead = 0:05:00): 0.012642558233073762
+minimum lead correlation of pair (000776 vs 601898) (lead = 0:00:10): -0.005501092328512582
+maximum lag correlation of pair (000776 vs 601898) (lag = 0:04:00): 0.02096288839765578
+minimum lag correlation of pair (000776 vs 601898) (lag = 0:03:00): 0.004528714411314237
+Original correlation of pair (000776 vs 601898): 0.005288024747670178
+Lead/lag ratio of pair (000776 vs 601898): 0.1889524690306413
+maximum lead correlation of pair (000776 vs 601919) (lead = 0:00:01): 0.1633298496704295
+minimum lead correlation of pair (000776 vs 601919) (lead = 0:03:00): -0.0035178736852101685
+maximum lag correlation of pair (000776 vs 601919) (lag = 0:00:02): 0.16219711029786674
+minimum lag correlation of pair (000776 vs 601919) (lag = 0:03:00): -0.011423118179637152
+Original correlation of pair (000776 vs 601919): 0.1619338680493142
+Lead/lag ratio of pair (000776 vs 601919): 0.8944514369458907
+maximum lead correlation of pair (000776 vs 601865) (lead = 0:00:02): 0.03168054341720109
+minimum lead correlation of pair (000776 vs 601865) (lead = 0:04:00): -0.02755670235995967
+maximum lag correlation of pair (000776 vs 601865) (lag = 0:00:01): 0.027072875857990703
+minimum lag correlation of pair (000776 vs 601865) (lag = 0:03:00): -0.003840028798183928
+Original correlation of pair (000776 vs 601865): 0.03024496718442981
+Lead/lag ratio of pair (000776 vs 601865): 1.3833242047408303
+maximum lead correlation of pair (000776 vs 601899) (lead = 0:00:01): 0.08853897627106448
+minimum lead correlation of pair (000776 vs 601899) (lead = 0:05:00): -0.015315793196677044
+maximum lag correlation of pair (000776 vs 601899) (lag = 0:00:08): 0.09888149919660262
+minimum lag correlation of pair (000776 vs 601899) (lag = 0:04:00): -0.0008120994639778366
+Original correlation of pair (000776 vs 601899): 0.08600871595767845
+Lead/lag ratio of pair (000776 vs 601899): 0.41503896589102945
+maximum lead correlation of pair (000776 vs 601985) (lead = 0:00:01): 0.09140938220516366
+minimum lead correlation of pair (000776 vs 601985) (lead = 0:03:00): -0.005491950334529218
+maximum lag correlation of pair (000776 vs 601985) (lag = 0:00:02): 0.09280910052051185
+minimum lag correlation of pair (000776 vs 601985) (lag = 0:04:00): -0.007912296588154628
+Original correlation of pair (000776 vs 601985): 0.09378112712839447
+Lead/lag ratio of pair (000776 vs 601985): 0.47204406616239375
+maximum lead correlation of pair (000776 vs 601998) (lead = 0:00:01): 0.08631180644298814
+minimum lead correlation of pair (000776 vs 601998) (lead = 0:05:00): 0.0019596670578053
+maximum lag correlation of pair (000776 vs 601998) (lag = 0:00:08): 0.09255104053143685
+minimum lag correlation of pair (000776 vs 601998) (lag = 0:05:00): 0.0009077869458964783
+Original correlation of pair (000776 vs 601998): 0.08759423562052139
+Lead/lag ratio of pair (000776 vs 601998): 0.3180069199555812
+maximum lead correlation of pair (000776 vs 601990) (lead = 0:00:01): 0.03130264230904457
+minimum lead correlation of pair (000776 vs 601990) (lead = 0:02:00): -0.016473664103432387
+maximum lag correlation of pair (000776 vs 601990) (lag = 0:00:02): 0.02804581959403691
+minimum lag correlation of pair (000776 vs 601990) (lag = 0:05:00): 0.0009247768203120338
+Original correlation of pair (000776 vs 601990): 0.02719188489039448
+Lead/lag ratio of pair (000776 vs 601990): 0.7515144800029453
+maximum lead correlation of pair (000776 vs 601877) (lead = 0:00:01): 0.09118427366060021
+minimum lead correlation of pair (000776 vs 601877) (lead = 0:03:00): -0.001608851135038258
+maximum lag correlation of pair (000776 vs 601877) (lag = 0:00:01): 0.08239517949696899
+minimum lag correlation of pair (000776 vs 601877) (lag = 0:04:00): 0.00030251901684516487
+Original correlation of pair (000776 vs 601877): 0.08849597967000285
+Lead/lag ratio of pair (000776 vs 601877): 0.8235696006150358
+maximum lead correlation of pair (000776 vs 601966) (lead = 0:00:02): 0.1008895540784216
+minimum lead correlation of pair (000776 vs 601966) (lead = 0:03:00): 0.003585501250029535
+maximum lag correlation of pair (000776 vs 601966) (lag = 0:00:01): 0.08879140905224346
+minimum lag correlation of pair (000776 vs 601966) (lag = 0:03:00): -0.01111178157929754
+Original correlation of pair (000776 vs 601966): 0.09300332121166639
+Lead/lag ratio of pair (000776 vs 601966): 0.8642201110458693
+maximum lead correlation of pair (000776 vs 603019) (lead = 0:02:00): 0.036991479413238895
+minimum lead correlation of pair (000776 vs 603019) (lead = 0:05:00): -0.010899944951262895
+maximum lag correlation of pair (000776 vs 603019) (lag = 0:00:15): 0.022721853251259007
+minimum lag correlation of pair (000776 vs 603019) (lag = 0:03:00): -0.023636456745196058
+Original correlation of pair (000776 vs 603019): 0.0204408644075139
+Lead/lag ratio of pair (000776 vs 603019): 1.3466178376038378
+maximum lead correlation of pair (000776 vs 603087) (lead = 0:00:02): 0.10775492359275374
+minimum lead correlation of pair (000776 vs 603087) (lead = 0:02:00): 0.006203368711430988
+maximum lag correlation of pair (000776 vs 603087) (lag = 0:00:01): 0.09390274103325053
+minimum lag correlation of pair (000776 vs 603087) (lag = 0:02:00): -0.008555228402512279
+Original correlation of pair (000776 vs 603087): 0.1022531980414038
+Lead/lag ratio of pair (000776 vs 603087): 1.625053671010134
+maximum lead correlation of pair (000776 vs 603233) (lead = 0:00:01): 0.0749174879990562
+minimum lead correlation of pair (000776 vs 603233) (lead = 0:04:00): -0.00528726707655184
+maximum lag correlation of pair (000776 vs 603233) (lag = 0:00:02): 0.08369045970285377
+minimum lag correlation of pair (000776 vs 603233) (lag = 0:05:00): 0.00024155027253442636
+Original correlation of pair (000776 vs 603233): 0.07506174718959613
+Lead/lag ratio of pair (000776 vs 603233): 0.7239447648202221
+maximum lead correlation of pair (000776 vs 601888) (lead = 0:00:01): 0.026379180721645884
+minimum lead correlation of pair (000776 vs 601888) (lead = 0:01:00): -0.005574974294075526
+maximum lag correlation of pair (000776 vs 601888) (lag = 0:00:02): 0.024948149619657002
+minimum lag correlation of pair (000776 vs 601888) (lag = 0:02:00): -0.0023583314354731306
+Original correlation of pair (000776 vs 601888): 0.026553887456162332
+Lead/lag ratio of pair (000776 vs 601888): 0.8609291765059663
+maximum lead correlation of pair (000776 vs 601995) (lead = 0:00:01): 0.16412281905347195
+minimum lead correlation of pair (000776 vs 601995) (lead = 0:03:00): -0.004614155507953268
+maximum lag correlation of pair (000776 vs 601995) (lag = 0:00:01): 0.15346476971116177
+minimum lag correlation of pair (000776 vs 601995) (lag = 0:04:00): -0.01701141034688975
+Original correlation of pair (000776 vs 601995): 0.1624671696928059
+Lead/lag ratio of pair (000776 vs 601995): 1.248816048418387
+maximum lead correlation of pair (000776 vs 603195) (lead = 0:00:02): 0.05281164891340391
+minimum lead correlation of pair (000776 vs 603195) (lead = 0:02:00): -0.005040643698006934
+maximum lag correlation of pair (000776 vs 603195) (lag = 0:00:02): 0.045648300329407906
+minimum lag correlation of pair (000776 vs 603195) (lag = 0:02:00): -0.01485659298327825
+Original correlation of pair (000776 vs 603195): 0.043216554585022826
+Lead/lag ratio of pair (000776 vs 603195): 1.0781043348571786
+maximum lead correlation of pair (000776 vs 603160) (lead = 0:00:20): 0.01949278566343806
+minimum lead correlation of pair (000776 vs 603160) (lead = 0:05:00): -0.012918267110442642
+maximum lag correlation of pair (000776 vs 603160) (lag = 0:00:08): 0.029119614835081194
+minimum lag correlation of pair (000776 vs 603160) (lag = 0:03:00): -0.016180858799799882
+Original correlation of pair (000776 vs 603160): 0.023105306621740387
+Lead/lag ratio of pair (000776 vs 603160): 0.6071144176954175
+maximum lead correlation of pair (000776 vs 603338) (lead = 0:00:04): 0.027852381645324897
+minimum lead correlation of pair (000776 vs 603338) (lead = 0:02:00): -0.014655873314694949
+maximum lag correlation of pair (000776 vs 603338) (lag = 0:00:10): 0.022742359024197894
+minimum lag correlation of pair (000776 vs 603338) (lag = 0:05:00): -0.003310032227592956
+Original correlation of pair (000776 vs 603338): 0.012666646582569866
+Lead/lag ratio of pair (000776 vs 603338): 1.2040992356172402
+maximum lead correlation of pair (000776 vs 603658) (lead = 0:00:04): 0.024264544832971364
+minimum lead correlation of pair (000776 vs 603658) (lead = 0:03:00): -0.009304520703155784
+maximum lag correlation of pair (000776 vs 603658) (lag = 0:00:02): 0.03301734758815291
+minimum lag correlation of pair (000776 vs 603658) (lag = 0:03:00): -0.005123245501635276
+Original correlation of pair (000776 vs 603658): 0.02295230815023052
+Lead/lag ratio of pair (000776 vs 603658): 0.8498165953655742
+maximum lead correlation of pair (000776 vs 603288) (lead = 0:00:01): 0.10745604453959746
+minimum lead correlation of pair (000776 vs 603288) (lead = 0:02:00): -0.020651813467926175
+maximum lag correlation of pair (000776 vs 603288) (lag = 0:00:01): 0.10073140227567376
+minimum lag correlation of pair (000776 vs 603288) (lag = 0:04:00): -0.010753108459619598
+Original correlation of pair (000776 vs 603288): 0.11192948510592787
+Lead/lag ratio of pair (000776 vs 603288): 0.8912014594631987
+maximum lead correlation of pair (000776 vs 603369) (lead = 0:00:01): 0.09357425822376089
+minimum lead correlation of pair (000776 vs 603369) (lead = 0:02:00): -0.004952999312621537
+maximum lag correlation of pair (000776 vs 603369) (lag = 0:00:01): 0.09150993444905166
+minimum lag correlation of pair (000776 vs 603369) (lag = 0:05:00): -0.017913003077311484
+Original correlation of pair (000776 vs 603369): 0.09848822138046547
+Lead/lag ratio of pair (000776 vs 603369): 0.9717964578205154
+maximum lead correlation of pair (000776 vs 603993) (lead = 0:00:01): 0.15884365424535968
+minimum lead correlation of pair (000776 vs 603993) (lead = 0:04:00): -0.005075368503192593
+maximum lag correlation of pair (000776 vs 603993) (lag = 0:00:10): 0.17693042200219153
+minimum lag correlation of pair (000776 vs 603993) (lag = 0:05:00): -0.009135663305745422
+Original correlation of pair (000776 vs 603993): 0.16047392412820344
+Lead/lag ratio of pair (000776 vs 603993): 0.41290014675284215
+maximum lead correlation of pair (000776 vs 603392) (lead = 0:02:00): -0.027647563551659926
+minimum lead correlation of pair (000776 vs 603392) (lead = 0:05:00): -0.06450085325102409
+maximum lag correlation of pair (000776 vs 603392) (lag = 0:05:00): -0.010949278375761538
+minimum lag correlation of pair (000776 vs 603392) (lag = 0:00:50): -0.06383171966362891
+Original correlation of pair (000776 vs 603392): -0.03718497126020032
+Lead/lag ratio of pair (000776 vs 603392): 1.0216746374273664
+maximum lead correlation of pair (000776 vs 603486) (lead = 0:00:04): 0.016425355498053882
+minimum lead correlation of pair (000776 vs 603486) (lead = 0:00:40): -0.021625586698799555
+maximum lag correlation of pair (000776 vs 603486) (lag = 0:00:02): 0.02187302906265521
+minimum lag correlation of pair (000776 vs 603486) (lag = 0:00:30): -0.0020640634705338837
+Original correlation of pair (000776 vs 603486): 0.015153545542944973
+Lead/lag ratio of pair (000776 vs 603486): 0.8567600997813768
+maximum lead correlation of pair (000776 vs 603260) (lead = 0:00:01): 0.10233573025886462
+minimum lead correlation of pair (000776 vs 603260) (lead = 0:03:00): -0.00730532435312178
+maximum lag correlation of pair (000776 vs 603260) (lag = 0:00:01): 0.09255337177577522
+minimum lag correlation of pair (000776 vs 603260) (lag = 0:03:00): 0.002084969258529685
+Original correlation of pair (000776 vs 603260): 0.10265527446044359
+Lead/lag ratio of pair (000776 vs 603260): 1.028286676185317
+maximum lead correlation of pair (000776 vs 603259) (lead = 0:00:01): 0.0986532207215193
+minimum lead correlation of pair (000776 vs 603259) (lead = 0:03:00): -0.004640587966478999
+maximum lag correlation of pair (000776 vs 603259) (lag = 0:00:02): 0.08320477192614228
+minimum lag correlation of pair (000776 vs 603259) (lag = 0:03:00): -0.012113777296730606
+Original correlation of pair (000776 vs 603259): 0.09965914138181571
+Lead/lag ratio of pair (000776 vs 603259): 0.8764086614316685
+maximum lead correlation of pair (000776 vs 603517) (lead = 0:00:01): 0.05610104478159051
+minimum lead correlation of pair (000776 vs 603517) (lead = 0:04:00): -0.0025143849692208565
+maximum lag correlation of pair (000776 vs 603517) (lag = 0:00:02): 0.050080247026512086
+minimum lag correlation of pair (000776 vs 603517) (lag = 0:02:00): 0.00255805914982476
+Original correlation of pair (000776 vs 603517): 0.05298458003686333
+Lead/lag ratio of pair (000776 vs 603517): 0.7531227011128799
+maximum lead correlation of pair (000776 vs 603899) (lead = 0:00:02): 0.0786017088851455
+minimum lead correlation of pair (000776 vs 603899) (lead = 0:02:00): -0.003029385812136915
+maximum lag correlation of pair (000776 vs 603899) (lag = 0:00:01): 0.06839805798146033
+minimum lag correlation of pair (000776 vs 603899) (lag = 0:05:00): -0.005413257638138166
+Original correlation of pair (000776 vs 603899): 0.07207295777973535
+Lead/lag ratio of pair (000776 vs 603899): 1.2172762053279147
+maximum lead correlation of pair (000776 vs 603833) (lead = 0:00:01): 0.05719140513042308
+minimum lead correlation of pair (000776 vs 603833) (lead = 0:03:00): -0.0033132165427899353
+maximum lag correlation of pair (000776 vs 603833) (lag = 0:00:01): 0.056444498806802745
+minimum lag correlation of pair (000776 vs 603833) (lag = 0:05:00): -0.013000207362470699
+Original correlation of pair (000776 vs 603833): 0.0607103953421439
+Lead/lag ratio of pair (000776 vs 603833): 0.9486746987252523
+maximum lead correlation of pair (000776 vs 688009) (lead = 0:00:02): 0.11747308018360111
+minimum lead correlation of pair (000776 vs 688009) (lead = 0:04:00): 0.010259657657957517
+maximum lag correlation of pair (000776 vs 688009) (lag = 0:00:40): 0.12478983603966949
+minimum lag correlation of pair (000776 vs 688009) (lag = 0:04:00): 0.050326320722185784
+Original correlation of pair (000776 vs 688009): 0.10894136486803715
+Lead/lag ratio of pair (000776 vs 688009): 0.5332835316572733
+maximum lead correlation of pair (000776 vs 603939) (lead = 0:00:02): 0.02026865915464756
+minimum lead correlation of pair (000776 vs 603939) (lead = 0:04:00): -0.009177918363338916
+maximum lag correlation of pair (000776 vs 603939) (lag = 0:00:04): 0.017613227970891487
+minimum lag correlation of pair (000776 vs 603939) (lag = 0:04:00): -0.010443517245381251
+Original correlation of pair (000776 vs 603939): 0.020339849091762445
+Lead/lag ratio of pair (000776 vs 603939): 1.4128897553189852
+maximum lead correlation of pair (000776 vs 603882) (lead = 0:00:50): -0.023201647683350455
+minimum lead correlation of pair (000776 vs 603882) (lead = 0:00:10): -0.04336750313669983
+maximum lag correlation of pair (000776 vs 603882) (lag = 0:02:00): -0.021980300188755488
+minimum lag correlation of pair (000776 vs 603882) (lag = 0:00:01): -0.04002514733936832
+Original correlation of pair (000776 vs 603882): -0.037494386729128096
+Lead/lag ratio of pair (000776 vs 603882): 1.0656142891590479
+maximum lead correlation of pair (000776 vs 603799) (lead = 0:00:01): 0.002613412066104912
+minimum lead correlation of pair (000776 vs 603799) (lead = 0:05:00): -0.014482282731084931
+maximum lag correlation of pair (000776 vs 603799) (lag = 0:00:02): 0.004014477675961326
+minimum lag correlation of pair (000776 vs 603799) (lag = 0:01:00): -0.011852430520929469
+Original correlation of pair (000776 vs 603799): 0.0038636621878079284
+Lead/lag ratio of pair (000776 vs 603799): 2.413127498599967
+maximum lead correlation of pair (000776 vs 603501) (lead = 0:02:00): -0.0017929748991056267
+minimum lead correlation of pair (000776 vs 603501) (lead = 0:00:04): -0.017350065658807506
+maximum lag correlation of pair (000776 vs 603501) (lag = 0:05:00): 0.0405715376460818
+minimum lag correlation of pair (000776 vs 603501) (lag = 0:00:15): -0.013834791583954448
+Original correlation of pair (000776 vs 603501): -0.008357947658045515
+Lead/lag ratio of pair (000776 vs 603501): 0.494359866945083
+maximum lead correlation of pair (000776 vs 603659) (lead = 0:00:01): 0.011663768162961812
+minimum lead correlation of pair (000776 vs 603659) (lead = 0:01:00): -0.005668041596334438
+maximum lag correlation of pair (000776 vs 603659) (lag = 0:02:00): 0.021016016856652976
+minimum lag correlation of pair (000776 vs 603659) (lag = 0:01:00): -0.001826572300255177
+Original correlation of pair (000776 vs 603659): 0.011755670614399883
+Lead/lag ratio of pair (000776 vs 603659): 0.39921388429902893
+maximum lead correlation of pair (000776 vs 603806) (lead = 0:00:04): 0.06964453499306891
+minimum lead correlation of pair (000776 vs 603806) (lead = 0:05:00): -0.012025179437937133
+maximum lag correlation of pair (000776 vs 603806) (lag = 0:00:02): 0.06458267807118633
+minimum lag correlation of pair (000776 vs 603806) (lag = 0:02:00): -0.010251656324265649
+Original correlation of pair (000776 vs 603806): 0.06453602501199812
+Lead/lag ratio of pair (000776 vs 603806): 0.8537633296449824
+maximum lead correlation of pair (000776 vs 605499) (lead = 0:00:02): 0.06946246560466021
+minimum lead correlation of pair (000776 vs 605499) (lead = 0:02:00): 0.004836404129266485
+maximum lag correlation of pair (000776 vs 605499) (lag = 0:00:01): 0.06098590741614991
+minimum lag correlation of pair (000776 vs 605499) (lag = 0:01:00): -0.015331039358989362
+Original correlation of pair (000776 vs 605499): 0.05699734949036021
+Lead/lag ratio of pair (000776 vs 605499): 1.9544800568761598
+maximum lead correlation of pair (000776 vs 603986) (lead = 0:00:01): 0.09999264417331843
+minimum lead correlation of pair (000776 vs 603986) (lead = 0:00:50): 0.004926721945461543
+maximum lag correlation of pair (000776 vs 603986) (lag = 0:00:02): 0.10461298175839583
+minimum lag correlation of pair (000776 vs 603986) (lag = 0:05:00): -0.015547278558254413
+Original correlation of pair (000776 vs 603986): 0.10704178810401245
+Lead/lag ratio of pair (000776 vs 603986): 1.0551661775283105
+maximum lead correlation of pair (000776 vs 688008) (lead = 0:00:04): 0.047315040323923016
+minimum lead correlation of pair (000776 vs 688008) (lead = 0:01:00): -0.01369201315668109
+maximum lag correlation of pair (000776 vs 688008) (lag = 0:00:02): 0.05518499679071114
+minimum lag correlation of pair (000776 vs 688008) (lag = 0:04:00): -0.01806505350522628
+Original correlation of pair (000776 vs 688008): 0.04124606605120128
+Lead/lag ratio of pair (000776 vs 688008): 0.8444818886071902
+maximum lead correlation of pair (000776 vs 688126) (lead = 0:00:02): 0.10008651116511388
+minimum lead correlation of pair (000776 vs 688126) (lead = 0:03:00): -0.007658653693663567
+maximum lag correlation of pair (000776 vs 688126) (lag = 0:00:01): 0.08649799928992027
+minimum lag correlation of pair (000776 vs 688126) (lag = 0:03:00): -0.003914422998985326
+Original correlation of pair (000776 vs 688126): 0.09097226539516688
+Lead/lag ratio of pair (000776 vs 688126): 1.0086052528165308
+maximum lead correlation of pair (000776 vs 688012) (lead = 0:00:01): 0.09185371293161276
+minimum lead correlation of pair (000776 vs 688012) (lead = 0:03:00): -0.003688810325475243
+maximum lag correlation of pair (000776 vs 688012) (lag = 0:00:01): 0.07749735905896529
+minimum lag correlation of pair (000776 vs 688012) (lag = 0:02:00): 0.0006234862069861417
+Original correlation of pair (000776 vs 688012): 0.08379600718168939
+Lead/lag ratio of pair (000776 vs 688012): 1.350676187378823
+maximum lead correlation of pair (000776 vs 688111) (lead = 0:00:02): 0.04117154610802944
+minimum lead correlation of pair (000776 vs 688111) (lead = 0:02:00): -0.002059440259627946
+maximum lag correlation of pair (000776 vs 688111) (lag = 0:00:04): 0.055836158742419775
+minimum lag correlation of pair (000776 vs 688111) (lag = 0:02:00): 0.0012396337452153343
+Original correlation of pair (000776 vs 688111): 0.038011407733525494
+Lead/lag ratio of pair (000776 vs 688111): 0.6527194720239375
+maximum lead correlation of pair (000776 vs 688169) (lead = 0:00:10): 0.018651344152006488
+minimum lead correlation of pair (000776 vs 688169) (lead = 0:05:00): -0.025608264338333016
+maximum lag correlation of pair (000776 vs 688169) (lag = 0:00:01): 0.020677754977177953
+minimum lag correlation of pair (000776 vs 688169) (lag = 0:05:00): -0.02355717362636317
+Original correlation of pair (000776 vs 688169): 0.011387624893841547
+Lead/lag ratio of pair (000776 vs 688169): 1.0325123720715985
+maximum lead correlation of pair (000776 vs 688036) (lead = 0:00:02): 0.05346083464341015
+minimum lead correlation of pair (000776 vs 688036) (lead = 0:03:00): -0.018180272996482873
+maximum lag correlation of pair (000776 vs 688036) (lag = 0:00:01): 0.04751287316684843
+minimum lag correlation of pair (000776 vs 688036) (lag = 0:02:00): 0.001739080604903859
+Original correlation of pair (000776 vs 688036): 0.05481685075598009
+Lead/lag ratio of pair (000776 vs 688036): 0.9317542120329094
+maximum lead correlation of pair (000776 vs 688561) (lead = 0:00:01): 0.08432071643281669
+minimum lead correlation of pair (000776 vs 688561) (lead = 0:01:00): -0.0013035553070062963
+maximum lag correlation of pair (000776 vs 688561) (lag = 0:00:01): 0.07517726011985652
+minimum lag correlation of pair (000776 vs 688561) (lag = 0:05:00): 0.013436647010677535
+Original correlation of pair (000776 vs 688561): 0.07863483844128852
+Lead/lag ratio of pair (000776 vs 688561): 0.9435626942042814
+maximum lead correlation of pair (000776 vs 688981) (lead = 0:00:04): 0.10420883544386524
+minimum lead correlation of pair (000776 vs 688981) (lead = 0:04:00): 0.015230642266194014
+maximum lag correlation of pair (000776 vs 688981) (lag = 0:00:01): 0.09290301253088754
+minimum lag correlation of pair (000776 vs 688981) (lag = 0:04:00): -0.0041942845625363824
+Original correlation of pair (000776 vs 688981): 0.09487518543971506
+Lead/lag ratio of pair (000776 vs 688981): 1.3639457288551398
+maximum lead correlation of pair (000776 vs 688396) (lead = 0:00:01): 0.10389929442247943
+minimum lead correlation of pair (000776 vs 688396) (lead = 0:03:00): 7.865200183230844e-05
+maximum lag correlation of pair (000776 vs 688396) (lag = 0:00:01): 0.09603409423909728
+minimum lag correlation of pair (000776 vs 688396) (lag = 0:03:00): -0.007735655709774003
+Original correlation of pair (000776 vs 688396): 0.10188441519903135
+Lead/lag ratio of pair (000776 vs 688396): 1.3739059698296665
+maximum lead correlation of pair (000776 vs 688363) (lead = 0:00:01): 0.08038426710282488
+minimum lead correlation of pair (000776 vs 688363) (lead = 0:01:00): -0.008664408225335046
+maximum lag correlation of pair (000776 vs 688363) (lag = 0:00:01): 0.07405753012592638
+minimum lag correlation of pair (000776 vs 688363) (lag = 0:02:00): -0.0045861133950545006
+Original correlation of pair (000776 vs 688363): 0.07658284492672221
+Lead/lag ratio of pair (000776 vs 688363): 1.2030633652316687
+maximum lead correlation of pair (000776 vs 688599) (lead = 0:00:01): 0.056506326587658556
+minimum lead correlation of pair (000776 vs 688599) (lead = 0:00:15): -0.0019015559780004526
+maximum lag correlation of pair (000776 vs 688599) (lag = 0:00:02): 0.058270669394831436
+minimum lag correlation of pair (000776 vs 688599) (lag = 0:03:00): 0.002813477139864733
+Original correlation of pair (000776 vs 688599): 0.05257692994346195
+Lead/lag ratio of pair (000776 vs 688599): 0.5808228226705034
+CPU times: user 2min 40s, sys: 59.8 s, total: 3min 40s
+Wall time: 1h 43min 41s
