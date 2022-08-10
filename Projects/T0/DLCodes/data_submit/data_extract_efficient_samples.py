@@ -34,7 +34,7 @@ def get_file_list():
     return stock_list, dict_stock_dates
 
 def train_dataset_rebuilder(stock, stock_date_list):
-    # 
+    # 测试数据库一般使用db=1
     rs = ut.redis_connection(db=1)
     concat_values = []
     current_month_id = 0
