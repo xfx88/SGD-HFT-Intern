@@ -1,12 +1,9 @@
 import os
 import shutil
 from collections import defaultdict, deque
-
 import numpy as np
-
 from datetime import datetime
 from functools import partial
-
 import utilities as ut
 from joblib import Parallel,delayed
 import pandas as pd
@@ -43,6 +40,7 @@ path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data'
 tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/Data'
 saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_reg'
 
+# move the original factor files (separate pickle files) to the target path (sorted by stock code)
 def move_files():
     files = os.listdir(path)
     for f in files:
@@ -81,6 +79,7 @@ def rotate_key_value_monthly(kv_dict):
     return vk_dict
 
 
+# 自定义生成一些因子衍生字段
 def submit_train_data_date(month, ticker, values, db):
     """
     shape: [stock_num, joint_tick_num, features]
