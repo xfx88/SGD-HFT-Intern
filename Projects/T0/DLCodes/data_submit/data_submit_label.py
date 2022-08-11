@@ -10,6 +10,7 @@ from functools import partial
 import utilities as ut
 from joblib import Parallel,delayed
 import pandas as pd
+
 import rqdatac as rq
 rq.init(15626436420, 'vista2525')
 
