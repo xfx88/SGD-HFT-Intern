@@ -29,7 +29,17 @@ factor_ret_cols = ['timeidx', 'price', 'vwp', 'spread', 'tick_spread', 'ref_ind_
                    'bid_weight_13', 'bid_weight_14', 'ask_dec', 'bid_dec', 'ask_inc',
                    'bid_inc', 'ask_inc2', 'bid_inc2', '1', '2', '5', '10', '20']
 
-def gen_processed_data_to_redis(file_path):
+related_mv_cols = ['ask_weight_14', 'ask_weight_13', 'ask_weight_12', 'ask_weight_11',
+                   'ask_weight_10', 'ask_weight_9', 'ask_weight_8', 'ask_weight_7',
+                   'ask_weight_6', 'ask_weight_5', 'ask_weight_4', 'ask_weight_3',
+                   'ask_weight_2', 'ask_weight_1', 'ask_weight_0', 'bid_weight_0',
+                   'bid_weight_1', 'bid_weight_2', 'bid_weight_3', 'bid_weight_4',
+                   'bid_weight_5', 'bid_weight_6', 'bid_weight_7', 'bid_weight_8',
+                   'bid_weight_9', 'bid_weight_10', 'bid_weight_11', 'bid_weight_12',
+                   'bid_weight_13', 'bid_weight_14', 'ask_dec', 'bid_dec', 'ask_inc',
+                   'bid_inc', 'ask_inc2', 'bid_inc2','turnover']
+                   
+def gen_processed_data_to_redis(file_path, df_full_time):
     rs = ut.redis_connection()
     print(file_path)
     data = pd.read_csv(file_path)[col_factors]
@@ -87,7 +97,7 @@ def getallfile(path, allfile, allname):
     return allfile, allname
 
 def get_float_market_values(start_date , end_date):
-    rs = redis_connection()
+    rs = ut.redis_connection()
     redis_keys = list(rs.keys())
     cnn_redis_keys = [x for x in redis_keys if 'CNN' in str(x)]
     all_keys = [x for x in cnn_redis_keys if (int(str(x).split('_')[1]) <= end_date)
