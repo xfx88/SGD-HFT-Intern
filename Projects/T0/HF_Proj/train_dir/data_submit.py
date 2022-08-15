@@ -10,7 +10,6 @@ import pandas as pd
 from tqdm import tqdm, trange
 import src.logger as logger
 
-
 import rqdatac as rq
 rq.init(15626436420, 'vista2525')
 

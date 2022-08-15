@@ -409,6 +409,7 @@ def main_test(LOGGER):
     test_start_date = 20211001
     test_end_date = 20211031
     world_size = 1
+    LOGGER.info('Testing the models...')
     generate_process_keys(world_size, 1, test_start_date, test_end_date, mode = 'test')
 
     mp.spawn(evaluate,
