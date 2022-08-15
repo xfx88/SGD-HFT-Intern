@@ -1,7 +1,0 @@
-# ignore large files
-*.pkl
-*.pdf
-*.pyc
-*.txt
-*.bak
-*.gitignore
