@@ -1,0 +1,2 @@
+signal coef
+trade.imb.trend.index.4096 -4.4144781106091e-18
