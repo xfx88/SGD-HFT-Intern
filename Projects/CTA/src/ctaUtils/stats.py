@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from helper import * 
+from .helper import * 
 
 class FactorData(pd.DataFrame):
     

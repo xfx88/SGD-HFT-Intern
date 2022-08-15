@@ -1,4 +1,4 @@
-from product_info import *
+from .product_info import *
 from scipy.stats import kurtosis
 from scipy.stats import skew
 ## path of our program
