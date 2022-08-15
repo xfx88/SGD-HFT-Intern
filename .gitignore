@@ -5,9 +5,25 @@
 *.parquet
 *.pdf
 *.tar.gz
+*.csv.gz
 *.zip
 *.rar
 *.mp4
+*.npz
+*.tar
+
+# ignore tensorboard log
+Projects/T0/CNN/tensorboard_logs
+Projects/T0/CNN/lob/log
+Projects/T0/CNN/log
+Projects/T0/CNN/train_dir_0/model
+Projects/T0/CNN/train_dir_1/transformer
+Projects/T0/HF_Proj/LOB-master/lob_modeling/log/
+Projects/T0/CNN/model
+Projects/T0/HF_Proj/transformer-master/docs/source/notebooks/trainings
+Projects/T0/tansformer/docs/source/notebooks/trainings
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
