@@ -10,9 +10,9 @@ import pandas as pd
 class RemoteSrc:
 
     # 147上的路径
-    REMOTE_PATH = "/sgd-data/data/stock/"
+    REMOTE_PATH = "/sgd-data/data/future/"
     # 缓存路径，方便复用，减少网络通讯
-    TEMP = "/home/yby/CTA/backtest_temp/"
+    TEMP = "/home/yby/SGD-HFT-Intern/Projects/CTA/backtest_temp"
 
     def __init__(self):
         self._client = paramiko.Transport(("192.168.1.147", 22))

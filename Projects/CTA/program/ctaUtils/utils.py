@@ -23,8 +23,8 @@ import hfhd.hf as hf
 from tqdm import tqdm, trange
 import pickle
 import redis
-from ctaUtils.RemoteQuery import *
-from ctaUtils.calc_features import *
+from RemoteQuery import *
+from calc_features import *
 
 warnings.filterwarnings("ignore")
 pd.set_option('expand_frame_repr', False)

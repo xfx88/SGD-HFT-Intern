@@ -1,9 +1,9 @@
-from .product_info import *
+from product_info import *
 from scipy.stats import kurtosis
 from scipy.stats import skew
 ## path of our program
 
-HEAD_PATH = "/home/yby/leadlag"
+HEAD_PATH = "/home/yby/SGD-HFT-Intern/Projects/CTA"
 
 ## path of data
 DATA_PATH = HEAD_PATH
