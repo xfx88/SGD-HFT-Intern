@@ -6,7 +6,7 @@ import numpy as np
 import os
 import rqdatac as rq
 import torch.nn.functional as F
-import utilities as ut
+import HF_Proj.train_dir.tst.utilities as ut
 import time
 import torch.multiprocessing as mp
 from torch import distributed as dist

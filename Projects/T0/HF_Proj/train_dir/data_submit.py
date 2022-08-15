@@ -2,16 +2,16 @@ import os
 from collections import defaultdict
 import numpy as np
 from datetime import datetime
-import utilities as ut
-# import tst.utilities as ut
-from joblib import Parallel,delayed
-import logging
+import tst.utilities as ut
+from joblib import Parallel, delayed
 import pandas as pd
 from tqdm import tqdm, trange
 import src.logger as logger
 
 import rqdatac as rq
 rq.init(15626436420, 'vista2525')
+
+
 
 col_factors = ['date', 'time', 'timeidx', 'price', 'vwp', 'ask_price', 'bid_price', 'ask_price2', 'bid_price2',
                'ask_price4', 'bid_price4', 'ask_price8', 'bid_price8', 'spread', 'tick_spread',

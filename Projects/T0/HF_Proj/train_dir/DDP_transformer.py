@@ -29,6 +29,7 @@ from collections import OrderedDict
 
 from contextlib import nullcontext
 
+
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12355"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -199,17 +200,19 @@ def train(local_rank, world_size, validation = False, Resume = None):
 
     net = Transformer(tOpt).to(local_rank)
 
+    ddp_net = DDP(net, device_ids=[local_rank], output_device=local_rank)
+    loss_function = TickMSE(scale_factor=1e6).to(local_rank)
+    opt = Optimiser(ddp_net, scale_factor=5e-2, warmup_steps=4000)
 
     if prior_epochs != 0:
         LOGGER.info(f"Prior epoch: {prior_epochs}, training resumes.")
         net.load_state_dict(model_data['state_dict'])
-        optimizer.load_state_dict(model_data['optimizer_dict'])
+        # FIXME: check whether it is the method that applies to `net` or the method that applies to `opt`!
+        net.load_state_dict(model_data['optimizer_dict'])
     else:
         LOGGER.info(f"No prior epoch, training start.")
 
-    ddp_net = DDP(net, device_ids=[local_rank], output_device=local_rank)
-    loss_function = TickMSE(scale_factor=1e6).to(local_rank)
-    opt = Optimiser(ddp_net, scale_factor=5e-2, warmup_steps=4000)
+
 
     ddp_net.train()
 
@@ -345,7 +348,7 @@ def generate_process_keys(world_size, epoch, start_date, end_date, mode = 'train
     if bytes(f'{mode}_world_dict_{world_size}_epoch_{epoch}', encoding = 'utf-8') in all_redis_keys:
         return
 
-    keys_to_dist = [x for x in all_redis_keys if len()
+    keys_to_dist = [x for x in all_redis_keys if len(all_redis_keys)
                     and (str(x).split('_')[1].isdigit())
                     and (int(str(x).split('_')[1]) <= end_date)
                     and (int(str(x).split('_')[1]) >= start_date)]

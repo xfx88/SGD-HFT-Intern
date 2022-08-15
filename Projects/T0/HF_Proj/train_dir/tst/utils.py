@@ -2,7 +2,32 @@ from typing import Optional, Union
 
 import numpy as np
 import torch
+import math
 
+
+class Optimiser:
+
+    def __init__(self, model, optimiser=None, scale_factor=1.0, warmup_steps=2000, beta1=0.9, beta2=0.98, epsilon=1e-9):
+
+        if optimiser is not None: self.optimiser = optimiser
+        else: self.optimiser = torch.optim.Adam(model.parameters(), lr=0, betas=(beta1, beta2), eps=epsilon)
+        # else: self.optimiser = torch.optim.SGD(model.parameters(), lr = 0)
+        self.scale_factor = scale_factor
+        self.warmup_steps = math.pow(warmup_steps, -1.5)
+        self.current_step = 0
+        self.inv_sqrt_d_input = math.pow(model.module.in_features, -0.5)
+
+        self.lrate = lambda step: self.inv_sqrt_d_input * min(math.pow(step, -0.5), step * self.warmup_steps)
+        self.rate = None
+
+    def step(self):
+        self.current_step += 1
+        self.rate = self.scale_factor * self.lrate(self.current_step)
+        for i in self.optimiser.param_groups: i['lr'] = self.rate
+        self.optimiser.step()
+
+    def zero_grad(self):
+        self.optimiser.zero_grad()
 
 def generate_original_PE(length: int, d_model: int) -> torch.Tensor:
     """Generate positional encoding as described in original paper.  :class:`torch.Tensor`

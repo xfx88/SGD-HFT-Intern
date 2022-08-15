@@ -16,7 +16,6 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 BATCH_SIZE = 256
 EPOCHS = 5
 
-
 if __name__ == "__main__":
 
     # 0. set up distributed device
