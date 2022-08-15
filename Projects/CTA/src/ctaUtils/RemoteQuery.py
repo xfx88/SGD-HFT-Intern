@@ -33,19 +33,18 @@ class RemoteSrc:
 
         # 本地文件名，用于判断此前是否查询调用过
         local_path = f"{self.TEMP_l1}{ticker}_{date}.csv.gz" if level == 'l1' else f"{self.TEMP_l2}{ticker}_{date}.csv.gz"
-        self.REMOTE_PATH = self.REMOTE_PATH_l1 if level == 'l1' else self.REMOTE_PATH_l2
+        remote_path = self.REMOTE_PATH_l1 if level == 'l1' else self.REMOTE_PATH_l2
 
         # 本地文件名，用于判断此前是否查询调用过
-        local_path = f"{self.TEMP_l1}{ticker}_{date}.csv.gz"
         if not os.path.exists(local_path):
-            files_currentDay = self._SFTP.listdir(f"{self.REMOTE_PATH}{date}/tick_csv/")
+            files_currentDay = self._SFTP.listdir(f"{remote_path}{date}/tick_csv/")
             if date in self.future_day_dict.keys():
                 future_current_day = self.future_day_dict[date]
             else:
                 future_current_day = [s.split('.')[0] for s in files_currentDay]
             file_idx = future_current_day.index(ticker)
 
-            self._SFTP.get(remotepath=f"{self.REMOTE_PATH}{date}/tick_csv/{files_currentDay[file_idx]}",
+            self._SFTP.get(remotepath=f"{remote_path}{date}/tick_csv/{files_currentDay[file_idx]}",
                         localpath=local_path)
 
         data = pd.read_csv(local_path)
@@ -63,8 +62,8 @@ class RemoteSrc:
             raise ValueError("Either ``l1`` or ``l2`` can be specified for parameter ``level``.")
 
         # 本地文件名，用于判断此前是否查询调用过
-        self.REMOTE_PATH = self.REMOTE_PATH_l1 if level == 'l1' else self.REMOTE_PATH_l2
-        files_currentDay = self._SFTP.listdir(f"{self.REMOTE_PATH}{date}/tick_csv/")
+        remote_path = self.REMOTE_PATH_l1 if level == 'l1' else self.REMOTE_PATH_l2
+        files_currentDay = self._SFTP.listdir(f"{remote_path}{date}/tick_csv/")
         return files_currentDay
         # if date in self.future_day_dict.keys():
         #     future_current_day = self.future_day_dict[date]
