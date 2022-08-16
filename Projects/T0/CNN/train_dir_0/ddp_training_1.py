@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN/")
 
 import numpy as np
 import torch

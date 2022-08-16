@@ -116,8 +116,7 @@ def redis_connection(db = 0):
     @param db: 数据库ID
     @return: redis连接对象
     """
-    return redis.Redis(
-        host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD, db = db, health_check_interval=30)
+    return redis.Redis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD, db = db, health_check_interval=30)
 
 def save_data_to_redis(rs, key, df):
     """

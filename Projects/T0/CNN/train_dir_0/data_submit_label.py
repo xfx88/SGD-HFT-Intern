@@ -8,7 +8,7 @@ from datetime import datetime
 from functools import partial
 
 import utilities as ut
-from joblib import Parallel,delayed
+from joblib import Parallel, delayed
 import pandas as pd
 import rqdatac as rq
 rq.init(15626436420, 'vista2525')
@@ -108,7 +108,7 @@ def move_files():
 
 
 def gen_date_ticker_dict(start_date = 20210701, end_date = 20211031):
-    trading_dates = rq.get_trading_dates(start_date=start_date, end_date = end_date)
+    trading_dates = rq.get_trading_dates(start_date=start_date, end_date=end_date)
     trading_dates = list(map(lambda x: datetime.strftime(x, "%Y%m%d"), trading_dates))
 
     date_ticker_dict = defaultdict(list)
