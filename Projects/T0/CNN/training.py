@@ -7,13 +7,13 @@ import torch.utils.data.distributed
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from tensorboardX import SummaryWriter
-
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
 import time, argparse
 import json, sys
-# 
+
+
 from sklearn.metrics import confusion_matrix, classification_report, cohen_kappa_score
 
 # work-around to allow import from directory on same level
@@ -339,7 +339,7 @@ if __name__ == '__main__':
 
     tt.arg.device = tt.arg.device if torch.cuda.is_available() else 'cpu'
     # replace dataset_root with your own
-    tt.arg.dataset_root = 'lob/LOB_data'
+    tt.arg.dataset_root = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/lob/LOB_data'
     tt.arg.dataset = 'mini' if tt.arg.dataset is None else tt.arg.dataset
     tt.arg.num_ways = 5 if tt.arg.num_ways is None else tt.arg.num_ways
     tt.arg.num_shots = 1 if tt.arg.num_shots is None else tt.arg.num_shots

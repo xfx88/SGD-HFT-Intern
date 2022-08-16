@@ -39,9 +39,9 @@ related_mv_cols = ['ask_weight_14', 'ask_weight_13', 'ask_weight_12', 'ask_weigh
                    'bid_weight_13', 'bid_weight_14', 'ask_dec', 'bid_dec', 'ask_inc',
                    'bid_inc', 'ask_inc2', 'bid_inc2','turnover']
 
-path = '/home/yby/YBY/Data/Data/'
-tgt_path = '/home/yby/YBY/Data/'
-saving_path = '/home/yby/YBY/Data_reg'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/Data'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/Data_reg'
 
 def move_files():
     files = os.listdir(path)
