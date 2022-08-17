@@ -54,13 +54,13 @@ related_mv_cols = ['ask_weight_14', 'ask_weight_13', 'ask_weight_12', 'ask_weigh
 
 def gen_mapping():
     cnt = 0
-    classifier_mappping = {}
+    classifier_mapping = {}
     for i in range(3):
         for j in range(3):
             for k in range(3):
-                classifier_mappping[(i, j, k)] = cnt
+                classifier_mapping[(i, j, k)] = cnt
                 cnt += 1
-    return classifier_mappping
+    return classifier_mapping
 
 MAPPING = gen_mapping()
 
@@ -90,8 +90,7 @@ path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
 tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
 saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
-
-def gen_date_ticker_dict(start_date = 20210501, end_date = 20211130):
+def gen_date_ticker_dict(start_date = 20210701, end_date = 20211031):
     trading_dates = rq.get_trading_dates(start_date=start_date, end_date = end_date)
     trading_dates = list(map(lambda x: datetime.strftime(x, "%Y%m%d"), trading_dates))
 
@@ -152,7 +151,7 @@ def parallel_submit_statdict(db):
         for ticker, dates in ticker_dates.items():
             draw_stats(month, ticker, dates)
 
-    with open("statDict_for_submit.pkl", "wb") as f:
+    with open("/home/yby/SGD-HFT-Intern/Projects/T0/CNN/data_submit_progs/statDict_for_submit.pkl", "wb") as f:
         pickle.dump(stat_dict, f)
 
     return
@@ -201,10 +200,12 @@ def submit_train_data(month, ticker, values, db, stat_dict):
         df["p_5"] = (df["p_5"]) / std_now[1]
         df["p_18"] = (df["p_18"]) / std_now[2]
 
+        # cls这里对应的为三分类问题
         df['cls_2'] = df['p_2'].apply(lambda x: judger(x, 1.645))
         df['cls_5'] = df['p_5'].apply(lambda x: judger(x, 1.645))
         df['cls_18'] = df['p_18'].apply(lambda x: judger(x, 1.645))
 
+        # 这里subcls对应的是五分类问题
         df['subcls_2'] = df['p_2'].apply(lambda x: judger_to5(x, 1.3, 2.55))
         df['subcls_5'] = df['p_5'].apply(lambda x: judger_to5(x, 1.3, 2.55))
         df['subcls_18'] = df['p_18'].apply(lambda x: judger_to5(x, 1.3, 2.55))
@@ -218,7 +219,7 @@ def submit_train_data(month, ticker, values, db, stat_dict):
         value_list.append(partition)
     #
     concat_value = np.concatenate(value_list, axis = 0)
-    #
+    # 决定是否存储进redis，标签为distlabels
     ut.save_data_to_redis(rs, bytes(f'distlabels_{ticker}_{month}', encoding = 'utf-8'), concat_value)
 
     rs.close()
@@ -231,7 +232,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     """
 
     stat_dict = dict()
-    temp_dict = pickle.load(open("statDict_for_submit.pkl", "rb"))
+    temp_dict = pickle.load(open("/home/yby/SGD-HFT-Intern/Projects/T0/CNN/data_submit_progs/statDict_for_submit.pkl", "rb"))
     for m, t in temp_dict.items():
         try:
             stat_dict[m]
@@ -253,8 +254,8 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
         if month != '05' and month != '06':
-            Parallel(n_jobs=40, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db, stat_dict.copy())
-                                                          for ticker, dates in ticker_dates.items())
+            Parallel(n_jobs=48, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db, stat_dict.copy())
+                                                          for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 

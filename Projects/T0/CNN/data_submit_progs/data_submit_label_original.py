@@ -109,7 +109,7 @@ saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 stat_dict = defaultdict(partial(defaultdict, float))
 
 
-def gen_date_ticker_dict(start_date = 20211101, end_date = 20211130):
+def gen_date_ticker_dict(start_date = 20210701, end_date = 20211031):
     trading_dates = rq.get_trading_dates(start_date=start_date, end_date = end_date)
     trading_dates = list(map(lambda x: datetime.strftime(x, "%Y%m%d"), trading_dates))
 

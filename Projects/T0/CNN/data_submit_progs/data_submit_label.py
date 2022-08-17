@@ -3,7 +3,7 @@ import shutil
 from collections import defaultdict, deque
 
 import numpy as np
-
+from tqdm import tqdm, trange
 from datetime import datetime
 from functools import partial
 
@@ -102,7 +102,7 @@ def move_files():
         shutil.move(current_path, f"{target_path}/{date}.pkl")
 
 
-def gen_date_ticker_dict(start_date = 20211101, end_date = 20211130):
+def gen_date_ticker_dict(start_date = 20210701, end_date = 20211031):
     trading_dates = rq.get_trading_dates(start_date=start_date, end_date = end_date)
     trading_dates = list(map(lambda x: datetime.strftime(x, "%Y%m%d"), trading_dates))
 
@@ -187,7 +187,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     date_ticker_dict = gen_date_ticker_dict()
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
-        Parallel(n_jobs=24, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db) for ticker, dates in ticker_dates.items())
+        Parallel(n_jobs=24, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db) for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 

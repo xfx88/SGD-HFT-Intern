@@ -1,14 +1,14 @@
 import os
 import shutil
 from collections import defaultdict, deque
-
+from tqdm import tqdm, trange
 import numpy as np
 
 from datetime import datetime
 from functools import partial
 
 import utilities as ut
-from joblib import Parallel,delayed
+from joblib import Parallel, delayed
 import pandas as pd
 import rqdatac as rq
 rq.init(15626436420, 'vista2525')
@@ -42,13 +42,13 @@ related_mv_cols = ['ask_weight_14', 'ask_weight_13', 'ask_weight_12', 'ask_weigh
 
 def gen_mapping():
     cnt = 0
-    classifier_mappping = {}
+    classifier_mapping = {}
     for i in range(3):
         for j in range(3):
             for k in range(3):
-                classifier_mappping[(i, j, k)] = cnt
+                classifier_mapping[(i, j, k)] = cnt
                 cnt += 1
-    return classifier_mappping
+    return classifier_mapping
 
 MAPPING = gen_mapping()
 
@@ -68,7 +68,7 @@ def move_files():
         shutil.move(current_path, f"{target_path}/{date}.pkl")
 
 
-def gen_date_ticker_dict(start_date = 20210701, end_date = 20211031):
+def gen_date_ticker_dict(start_date = 20210701, end_date = 20211130):
     trading_dates = rq.get_trading_dates(start_date=start_date, end_date = end_date)
     trading_dates = list(map(lambda x: datetime.strftime(x, "%Y%m%d"), trading_dates))
 
@@ -112,6 +112,7 @@ def submit_train_data(month, ticker, values, db):
         df['date_time'] = df.apply(lambda x: str(x['date']) + ' ' + x['time'], axis = 1)
         df['date_time'] = pd.to_datetime(df['date_time'])
 
+        # 此时cls对应的是二分类问题
         df['cls_2'] = df.apply(lambda x: 1 if x['p_2'] > 0 else 0, axis = 1)
         df['cls_5'] = df.apply(lambda x: 1 if x['p_5'] > 0 else 0, axis = 1)
         df['cls_18'] = df.apply(lambda x: 1 if x['p_18'] > 0 else 0, axis = 1)
@@ -135,15 +136,18 @@ def submit_train_data(month, ticker, values, db):
         df[related_mv_cols] = df[related_mv_cols].div(df['circulation_mv'], axis=0) * (10 ** 8)
         df = df.fillna(0)
 
-        # if not os.path.exists(f'{saving_path}{ticker}'): os.makedirs(f'{saving_path}{ticker}')
+        # 决定是否存储到本地
+        # if not os.path.exists(f'{saving_path}{ticker}'): 
+            # os.makedirs(f'{saving_path}{ticker}')
+        # ut.save_pkl(df, f'{saving_path}{ticker}/{date}.pkl')
         # df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
 
         partition = df[factor_ret_cols].values.astype(np.float32)
         partition = np.pad(partition, ((63, 0), (0, 0)), 'constant')
         value_list.append(partition)
-    #
+
     concat_value = np.concatenate(value_list, axis = 0)
-    #
+    # 决定是否传入redis，标签是bilabel
     ut.save_data_to_redis(rs, bytes(f'bilabels_{ticker}_{month}', encoding = 'utf-8'), concat_value)
 
     rs.close()
@@ -157,8 +161,8 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     date_ticker_dict = gen_date_ticker_dict()
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
-        Parallel(n_jobs=36, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
-                                                      for ticker, dates in ticker_dates.items())
+        Parallel(n_jobs=48, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
+                                                      for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 
