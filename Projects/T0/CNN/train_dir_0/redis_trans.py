@@ -1,6 +1,6 @@
 import redis
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/train_dir_0/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/")
 import utilities as ut
 import pickle
 from tqdm import tqdm

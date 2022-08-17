@@ -3,12 +3,12 @@ import pandas as pd
 import torch
 import numpy as np
 from collections import OrderedDict
-
 import os
 from dataclasses import dataclass
 from torch.utils.data import random_split
 
 import redis
+import gzip
 import pickle
 from pympler import asizeof
 import torch.nn.functional as F
@@ -55,6 +55,18 @@ class TrainingOptions:
     dropout: float = 0.15  # Dropout rate
     pe: str = None  # Positional encoding
     chunk_mode: str or None = None
+
+
+# 使用二进制方式储存，减小体积
+def save_pkl(data, path):
+    serialized = pickle.dumps(data)
+    with gzip.open(path, 'wb', compresslevel=1, encoding=None) as file_obj:
+        file_obj.write(serialized)
+
+def load_pkl(path):
+    with gzip.open(path, 'rb', compresslevel=1, encoding=None) as file_obj:
+        raw_data = file_obj.read()
+    return pickle.loads(raw_data)
 
 
 def train_val_splitter(dataset, epoch_idx, percent = 0.85, validation = True):
@@ -125,6 +137,7 @@ def save_data_to_redis(rs, key, df):
     @param key: redis key
     @param df: dataframe 数据
     """
+    # serialization
     df_bytes = pickle.dumps(df)
     return rs.set(key, df_bytes)
 
@@ -136,9 +149,8 @@ def read_data_from_redis(rs, key):
     @param key: redis key
     @return: Dataframe
     """
+    # de-serialization
     df_bytes_from_redis = pickle.loads(rs.get(key))
-    # if not df_bytes_from_redis:
-    #     return None
     return df_bytes_from_redis
 
 def dump_data(obj, file_name):

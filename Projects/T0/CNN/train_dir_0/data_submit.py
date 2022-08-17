@@ -1,12 +1,10 @@
 import os
 import shutil
 from collections import defaultdict, deque
-
 import numpy as np
-
 from datetime import datetime
 from functools import partial
-
+from tqdm import tqdm, trange
 import utilities as ut
 from joblib import Parallel,delayed
 import pandas as pd
@@ -30,12 +28,12 @@ factor_ret_cols = ['timeidx','price','vwp','spread','tick_spread','ref_ind_0','r
                    'bid_weight_14','ask_dec','bid_dec','ask_inc','bid_inc','ask_inc2','bid_inc2','turnover','p_2','p_5','p_18','p_diff']
 
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
 
 def move_files():
     files = os.listdir(path)
-    for f in files:
+    for f in tqdm(files):
         ticker = f.split("_")[1][:6]
         date = f.split("_")[0]
         current_path = path + "/" + f
@@ -103,10 +101,10 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
         Parallel(n_jobs=48, verbose=2, timeout=10000)(delayed(submit_train_data_date)(month, ticker, dates, db)
-                                                      for ticker, dates in ticker_dates.items())
+                                                      for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 
 if __name__ == "__main__":
     # move_files()
-    parallel_submit_ticker_monthly_numpy_train(0)
+    parallel_submit_ticker_monthly_numpy_train(1)

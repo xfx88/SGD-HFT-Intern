@@ -6,6 +6,7 @@ import numpy as np
 
 from datetime import datetime
 from functools import partial
+from tqdm import tqdm, trange
 
 import utilities as ut
 from joblib import Parallel,delayed
@@ -92,9 +93,9 @@ def label_marker_18(df: pd.DataFrame):
 
     return df
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
-saving_path = '/home/wuzhihan/Data_labels/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
 def move_files():
     files = os.listdir(path)
@@ -159,8 +160,12 @@ def submit_train_data(month, ticker, values, db):
         t_tomap = [MAPPING[t] for t in t_tomap]
         df['cls_all'] = t_tomap
         if len(df) > 4800: continue
-        if not os.path.exists(f'{saving_path}{ticker}'): os.makedirs(f'{saving_path}{ticker}')
-        df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
+        if not os.path.exists(f'{saving_path}{ticker}'): 
+            os.makedirs(f'{saving_path}{ticker}')
+
+        # 决定是否要储存到本地
+        ut.save_pkl(df, f'{saving_path}{ticker}/{date}.pkl')
+        # df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
 
 
     return
@@ -173,7 +178,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
         Parallel(n_jobs=36, verbose=4, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
-                                                      for ticker, dates in ticker_dates.items())
+                                                      for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 

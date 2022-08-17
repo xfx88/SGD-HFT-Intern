@@ -1,12 +1,10 @@
 import os
 import shutil
 from collections import defaultdict, deque
-
 import numpy as np
-
+from tqdm import tqdm, trange
 from datetime import datetime
 from functools import partial
-
 import utilities as ut
 from joblib import Parallel, delayed
 import pandas as pd
@@ -91,9 +89,9 @@ def label_marker_18(df: pd.DataFrame):
 
     return df
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
-saving_path = '/home/wuzhihan/Data_labels/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
 def move_files():
     files = os.listdir(path)
@@ -154,26 +152,31 @@ def submit_train_data(month, ticker, values, db):
 
         df['cls_2'] = df.apply(label_marker_2, axis = 1)
         df = label_marker_5(df)
-        df.set_index('date_time', inplace = True)
+        df.set_index('date_time', inplace=True)
         df = label_marker_18(df)
 
-        # t_tomap = list(df[['cls_2', 'cls_5', 'cls_18']].itertuples(index = False, name = None))
-        # t_tomap = [MAPPING[t] for t in t_tomap]
-        # df['cls_all'] = t_tomap
+        t_tomap = list(df[['cls_2', 'cls_5', 'cls_18']].itertuples(index=False, name=None))
+        t_tomap = [MAPPING[t] for t in t_tomap]
+        df['cls_all'] = t_tomap
 
         if len(df) > 4800: continue
 
-        if not os.path.exists(f'{saving_path}{ticker}'): os.makedirs(f'{saving_path}{ticker}')
-        df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
+        if not os.path.exists(f'{saving_path}{ticker}'): 
+            os.makedirs(f'{saving_path}{ticker}')
+
+        # 决定是否要储存到本地
+        # ut.save_pkl(df, f'{saving_path}{ticker}/{date}.pkl')
+        # df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
 
         df = df[factor_ret_cols]
         partition = df.values
         partition = np.pad(partition, ((63, 0), (0, 0)), 'constant')
         value_list.append(partition)
 
-    concat_value = np.concatenate(value_list, axis = 0)
+    concat_value = np.concatenate(value_list, axis=0)
 
-    ut.save_data_to_redis(rs, bytes(f'clslabels_{ticker}_{month}', encoding = 'utf-8'), concat_value)
+    # 决定是否要存储到redis
+    ut.save_data_to_redis(rs, bytes(f'clslabels_{ticker}_{month}', encoding='utf-8'), concat_value)
 
     rs.close()
 
@@ -186,8 +189,8 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     date_ticker_dict = gen_date_ticker_dict()
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
-        Parallel(n_jobs=1, verbose=2, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
-                                                      for ticker, dates in ticker_dates.items())
+        Parallel(n_jobs=48, verbose=2, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
+                                                      for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 
