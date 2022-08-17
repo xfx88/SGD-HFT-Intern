@@ -187,7 +187,7 @@ def train(local_rank, world_size, start_date, end_date, validation = False, Resu
     torch.cuda.set_device(local_rank)
 
     if local_rank == 0:
-        tsboard_path = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/tensorboard_logs/cls5all_relu_v2_manu"
+        tsboard_path = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/tensorboard_logs2/cls5all_relu_v2_manu"
         if not os.path.exists(tsboard_path):
             os.makedirs(tsboard_path)
         WRITER = SummaryWriter(log_dir=tsboard_path)

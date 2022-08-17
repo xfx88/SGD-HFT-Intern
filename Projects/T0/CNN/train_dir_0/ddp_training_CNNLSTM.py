@@ -74,7 +74,8 @@ def spearman(
         pred_i = torchsort.soft_rank(
                  pred_i,
                  regularization=regularization,
-                 regularization_strength=regularization_strength,)
+                 regularization_strength=regularization_strength,
+                 )
 
         corr += weight[i] * corrcoef(target_i, pred_i / pred_i.shape[-1])
 
