@@ -52,9 +52,9 @@ def gen_mapping():
 
 MAPPING = gen_mapping()
 
-path = '/home/yby/YBY/Data/'
-tgt_path = '/home/yby/YBY/Data/'
-saving_path = '/home/yby/YBY/Data_labels/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
 def move_files():
     files = os.listdir(path)

@@ -14,7 +14,7 @@ class RemoteSrc:
     # 147上的路径
     REMOTE_PATH = "/sgd-data/data/stock/"
     # 缓存路径，方便复用，减少网络通讯
-    TEMP = "/home/yby/YBY/CNN/backtest_temp/"
+    TEMP = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/backtest_temp/"
 
     def __init__(self):
         self._client = paramiko.Transport(("192.168.1.147", 22))

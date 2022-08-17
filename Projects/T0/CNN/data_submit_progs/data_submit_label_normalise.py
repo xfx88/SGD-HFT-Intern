@@ -86,11 +86,9 @@ def judger_to5(x, threshold1, threshold2):
     return 0
 
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
-saving_path = '/home/wuzhihan/Data_labels/'
-
-
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
 
 def gen_date_ticker_dict(start_date = 20210501, end_date = 20211130):

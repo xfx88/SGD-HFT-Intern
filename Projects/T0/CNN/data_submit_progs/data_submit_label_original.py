@@ -52,7 +52,7 @@ related_mv_cols = ['ask_weight_14','ask_weight_13','ask_weight_12','ask_weight_1
 
 class RemoteSrc:
     REMOTE_PATH = "/sgd-data/data/stock/"
-    TEMP = "/home/yby/YBY/tickdata_temp/"
+    TEMP = "/home/yby/SGD-HFT-Intern/Projects/T0/tickdata_temp/"
 
     def __init__(self):
         if not os.path.exists(self.TEMP):
@@ -103,9 +103,9 @@ def judger_to5(x, threshold1, threshold2):
     return 0
 
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
-saving_path = '/home/wuzhihan/Data_labels/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 stat_dict = defaultdict(partial(defaultdict, float))
 
 

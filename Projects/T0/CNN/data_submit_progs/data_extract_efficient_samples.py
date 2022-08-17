@@ -12,9 +12,8 @@ import utilities as ut
 from joblib import Parallel,delayed
 import pandas as pd
 
-loading_path = "/home/yby/YBY/Data_labels/"
-saving_path = "/home/yby/YBY/Data_labels_sampled/"
-
+loading_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
+saving_path = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels_sampled/"
 month_list = ["07", "08", "09", "10", "11"]
 
 factor_ret_cols = ['timeidx','price_pct','vwp_pct','spread','tick_spread','ref_ind_0','ref_ind_1','ask_weight_14',

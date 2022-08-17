@@ -24,13 +24,13 @@ factor_ret_cols = ['timeidx','price','vwp','spread','tick_spread','ref_ind_0','r
 
 def gen_mapping():
     cnt = 0
-    classifier_mappping = {}
+    classifier_mapping = {}
     for i in range(2):
         for j in range(2):
             for k in range(2):
-                classifier_mappping[(i, j, k)] = cnt
+                classifier_mapping[(i, j, k)] = cnt
                 cnt += 1
-    return classifier_mappping
+    return classifier_mapping
 
 class HFDataset(Dataset):
 

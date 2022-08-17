@@ -1,8 +1,8 @@
 import os
 import shutil
 
-path = '/home/yby/YBY/Data_56'
-tgt_path = '/home/yby/YBY/Data/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_56'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
 
 def move_files():
     files = os.listdir(path)
