@@ -1,6 +1,5 @@
-
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import torch.multiprocessing as mp
 from torch import distributed as dist

@@ -6,6 +6,7 @@ import numpy as np
 
 from datetime import datetime
 from functools import partial
+from tqdm import tqdm, trange
 
 import utilities as ut
 from joblib import Parallel,delayed
@@ -30,8 +31,9 @@ factor_ret_cols = ['timeidx','price','vwp','spread','tick_spread','ref_ind_0','r
                    'bid_weight_14','ask_dec','bid_dec','ask_inc','bid_inc','ask_inc2','bid_inc2','turnover','p_2','p_5','p_18','p_diff']
 
 
-path = '/home/wuzhihan/Data/'
-tgt_path = '/home/wuzhihan/Data/'
+path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data/'
+tgt_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data2/'
+saving_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 
 def move_files():
     files = os.listdir(path)
@@ -94,6 +96,7 @@ def submit_train_data(month, ticker, values, db):
 
     concat_value = np.concatenate(value_list, axis = 0)
 
+    # 决定是否存储data到redis
     ut.save_data_to_redis(rs, bytes(f'numpy_{ticker}_{month}', encoding = 'utf-8'), concat_value)
 
     rs.close()
@@ -108,7 +111,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
         Parallel(n_jobs=1, verbose=2, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
-                                                      for ticker, dates in ticker_dates.items())
+                                                      for ticker, dates in tqdm(ticker_dates.items()))
     return
 
 
