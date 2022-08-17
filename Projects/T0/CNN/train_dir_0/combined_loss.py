@@ -2,7 +2,7 @@
 
 import torch
 import torch.nn as nn
-import torchsort
+import fast_soft_sort.pytorch_ops as torchsort
 
 def corrcoef(target, pred):
     pred_n = pred - pred.mean() + torch.rand(pred.shape).cuda() * 1e-12

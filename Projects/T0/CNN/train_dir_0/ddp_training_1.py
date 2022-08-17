@@ -10,7 +10,7 @@ import torch.multiprocessing as mp
 from collections import defaultdict
 from torch import distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
-import torchsort
+import fast_soft_sort.pytorch_ops as torchsort
 
 import utilities as ut
 

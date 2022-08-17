@@ -2,8 +2,8 @@ import redis
 # import utilities as ut
 import pickle
 from tqdm import tqdm
-import os
-from joblib import Parallel,delayed
+import os 
+from joblib import Parallel, delayed
 
 start_date = 20210701
 end_date = 20211130

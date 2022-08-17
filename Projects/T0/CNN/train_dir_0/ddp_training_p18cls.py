@@ -11,7 +11,7 @@ from collections import defaultdict
 from torch import distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.tensorboard import SummaryWriter
-import torchsort
+import fast_soft_sort.pytorch_ops as torchsort
 
 import utilities as ut
 

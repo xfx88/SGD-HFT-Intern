@@ -1,3 +1,5 @@
+import torch
+
 class MetricRUC:
     def __init__(self, name: str, classnum: int):
         self.name = name.upper()

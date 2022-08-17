@@ -11,7 +11,7 @@ from torch.utils.tensorboard import SummaryWriter
 import utilities as ut
 from torch.nn.utils import weight_norm
 from torch.optim import lr_scheduler, SGD
-import torchsort
+import fast_soft_sort.pytorch_ops as torchsort
 
 import math
 import random

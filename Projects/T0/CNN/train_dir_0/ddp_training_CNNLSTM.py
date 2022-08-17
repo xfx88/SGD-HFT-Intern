@@ -13,7 +13,6 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 
 import fast_soft_sort.pytorch_ops as torchsort
 
-
 import utilities as ut
 
 import math
