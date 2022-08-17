@@ -1,8 +1,8 @@
 import logging
 import threading
 
-format = "||%(asctime)s||%(name)s||%(levelname)s||%(module)s||%(funcName)s||%(lineno)s||%(message)s||"
-# format = "||%(asctime)s||%(levelname)s||%(module)s||%(lineno)s||%(message)s||"
+# format = "||%(asctime)s||%(name)s||%(levelname)s||%(module)s||%(funcName)s||%(lineno)s||%(message)s||"
+format = "||%(asctime)s||%(levelname)s||%(module)s||%(lineno)s||%(message)s||"
 
 initLock = threading.Lock()
 rootLoggerInitialized = False

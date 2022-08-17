@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import torch.multiprocessing as mp
 from collections import defaultdict
@@ -12,7 +12,7 @@ from torch.utils.tensorboard import SummaryWriter
 import torchsort
 
 import paramiko
-import utilities as ut
+import src.utilities as ut
 
 import math
 import random
@@ -21,7 +21,7 @@ import os
 import gc
 import src.logger as logger
 from src.dataset_clsall import HFDataset
-from utilities import *
+from CNN.train_dir_1.src.utilities import *
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12354"

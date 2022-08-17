@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -21,7 +24,7 @@ import pickle
 from scipy.stats import spearmanr
 from joblib import Parallel, delayed
 from collections import OrderedDict
-
+exit()
 GLOBAL_SEED = 12309
 DB_ID = 1
 WARMUP = 500
@@ -170,18 +173,17 @@ def ddpModel_to_normal(ddp_state_dict: OrderedDict):
 
     return new_state_dict
 
-
 def train(local_rank, world_size, world_dict, shard_dict, validation = False, Resume = None):
     dist.init_process_group("nccl", rank=local_rank, world_size=world_size)
     torch.cuda.set_device(local_rank)
 
     if local_rank == 0:
-        tsboard_path = "/home/wuzhihan/Projects/CNN/tensorboard_logs/transformer"
+        tsboard_path = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/tensorboard_logs/transformer"
         if not os.path.exists(tsboard_path):
             os.makedirs(tsboard_path)
         WRITER = SummaryWriter(log_dir=tsboard_path)
 
-    model_path = '/home/wuzhihan/Projects/CNN/train_dir_1/transformer/param_cls/'
+    model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_1/transformer/param_cls/'
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     if Resume:
@@ -496,7 +498,7 @@ def main_train(LOGGER):
     train_end_date = '20211031'
     world_size = len(os.environ["CUDA_VISIBLE_DEVICES"].split(","))
     LOGGER.info('Splitting indices for distributed training.')
-    world_dict, shard_dict = distribute_to_child(start_date = train_start_date ,
+    world_dict, shard_dict = distribute_to_child(start_date = train_start_date,
                                                 end_date = train_end_date,
                                                 seq_len = SEQ_LEN,
                                                 db = DB_ID,
