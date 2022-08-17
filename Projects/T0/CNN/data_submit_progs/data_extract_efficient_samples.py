@@ -11,6 +11,7 @@ from functools import partial
 import utilities as ut
 from joblib import Parallel,delayed
 import pandas as pd
+from tqdm import tqdm
 
 loading_path = '/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels/'
 saving_path = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels_sampled/"
@@ -61,8 +62,8 @@ def train_dataset_rebuilder(stock, stock_date_list):
 
 def parallel_submit_data():
     stock_list, dick_stock_dates = get_file_list()
-    Parallel(n_jobs=24, verbose=10, timeout=10000)(delayed(train_dataset_rebuilder)(stock, dick_stock_dates[stock])
-                                                   for stock in stock_list)
+    Parallel(n_jobs=48, verbose=10, timeout=10000)(delayed(train_dataset_rebuilder)(stock, dick_stock_dates[stock])
+                                                   for stock in tqdm(stock_list))
 
 if __name__ == "__main__":
     parallel_submit_data()

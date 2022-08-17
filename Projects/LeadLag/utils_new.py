@@ -21,7 +21,6 @@ from tqdm import tqdm, trange
 import pickle
 import redis
 from RemoteQuery import *
-from cal_features import *
 
 warnings.filterwarnings("ignore")
 pd.set_option('expand_frame_repr', False)
@@ -82,11 +81,11 @@ def get_tick(code, date) -> pd.DataFrame:
     # asset = asset[cond1 & cond2]
 
 
-    # calculate necessary features
-    asset['midquote'] = np.log((asset['ask_price1'] + asset['bid_price1'])/2) # log midquote price
-    asset['wpr'] = calc_wap1(asset)
-    asset['wpr_ret'] = log_return(asset['wpr'])
-    asset['rel_vol'] = realized_volatility(asset['wpr_ret'])
+    # # calculate necessary features
+    # asset['midquote'] = np.log((asset['ask_price1'] + asset['bid_price1'])/2) # log midquote price
+    # asset['wpr'] = calc_wap1(asset)
+    # asset['wpr_ret'] = log_return(asset['wpr'])
+    # asset['rel_vol'] = realized_volatility(asset['wpr_ret'])
 
 
     return asset

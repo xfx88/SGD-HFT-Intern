@@ -254,7 +254,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
         if month != '05' and month != '06':
-            Parallel(n_jobs=48, verbose=5, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db, stat_dict.copy())
+            Parallel(n_jobs=48, verbose=10, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db, stat_dict.copy())
                                                           for ticker, dates in tqdm(ticker_dates.items()))
     return
 

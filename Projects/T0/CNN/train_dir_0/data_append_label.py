@@ -6,7 +6,7 @@ import numpy as np
 
 from datetime import datetime
 from functools import partial
-from tqdm import tqdm, trange
+from tqdm import tqdm
 
 import utilities as ut
 from joblib import Parallel,delayed
@@ -110,7 +110,7 @@ def parallel_submit_ticker_monthly_numpy_train(db):
     date_ticker_dict = gen_date_ticker_dict()
     ticker_date_dict = rotate_key_value_monthly(date_ticker_dict)
     for month, ticker_dates in ticker_date_dict.items():
-        Parallel(n_jobs=1, verbose=2, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
+        Parallel(n_jobs=48, verbose=11, timeout=10000)(delayed(submit_train_data)(month, ticker, dates, db)
                                                       for ticker, dates in tqdm(ticker_dates.items()))
     return
 
