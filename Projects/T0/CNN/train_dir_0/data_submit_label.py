@@ -168,6 +168,7 @@ def submit_train_data(month, ticker, values, db):
         # ut.save_pkl(df, f'{saving_path}{ticker}/{date}.pkl')
         # df.to_pickle(f'{saving_path}{ticker}/{date}.pkl')
 
+        # 只取需要的字段，这里没取cls_all
         df = df[factor_ret_cols]
         partition = df.values
         partition = np.pad(partition, ((63, 0), (0, 0)), 'constant')

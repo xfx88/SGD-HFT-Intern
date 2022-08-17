@@ -10,7 +10,9 @@ import torch.multiprocessing as mp
 from collections import defaultdict
 from torch import distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
-import torchsort
+
+import fast_soft_sort.pytorch_ops as torchsort
+
 
 import utilities as ut
 
@@ -348,6 +350,8 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     LOGGER.info(f'local rank {local_rank}: GPU calculating.')
     datalen = len(train_dataset)
     INPUT_SHAPE = (-1, INPUT_SIZE, SEQ_LEN, 1)
+
+    loss = 0
     for epoch_idx in range(prior_epochs, EPOCHS):
         total_loss = 0.0
         if epoch_idx != 0 and epoch_idx % 5 == 0: opt.scale_factor /= 2
@@ -355,7 +359,6 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
         for batch_idx, (x, y) in enumerate(train_dataset):
             opt.optimiser.zero_grad()
             netout = net(x.permute(0,2,1).to(local_rank))
-
             loss = loss_function(netout, y.to(local_rank))
             total_loss += loss.item()
 

@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 import numpy as np
 from collections import OrderedDict
-
+import gzip
 import os
 from dataclasses import dataclass
 from torch.utils.data import random_split
@@ -56,6 +56,16 @@ class TrainingOptions:
     pe: str = None  # Positional encoding
     chunk_mode: str or None = None
 
+# 使用二进制方式储存，减小体积
+def save_pkl(data, path):
+    serialized = pickle.dumps(data)
+    with gzip.open(path, 'wb', compresslevel=1, encoding=None) as file_obj:
+        file_obj.write(serialized)
+
+def load_pkl(path):
+    with gzip.open(path, 'rb', compresslevel=1, encoding=None) as file_obj:
+        raw_data = file_obj.read()
+    return pickle.loads(raw_data)
 
 def train_val_splitter(dataset, epoch_idx, percent = 0.85, validation = True):
     len_train = int(len(dataset) * percent)
