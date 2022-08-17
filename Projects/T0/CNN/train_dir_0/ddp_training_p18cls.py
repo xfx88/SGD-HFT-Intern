@@ -340,12 +340,12 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     torch.cuda.set_device(local_rank)
 
     if local_rank == 0:
-        tsboard_path = "/home/wuzhihan/Projects/CNN/tensorboard_logs/cls18_vs"
+        tsboard_path = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/tensorboard_logs/cls18_vs"
         if not os.path.exists(tsboard_path):
             os.makedirs(model_path)
         WRITER = SummaryWriter(log_dir = tsboard_path)
 
-    model_path = 'model/CNN/param_0_cls/'
+    model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN/param_0_cls/'
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     if Resume:

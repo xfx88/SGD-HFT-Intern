@@ -216,12 +216,12 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     torch.cuda.set_device(local_rank)
 
     if local_rank == 0:
-        tsboard_path = "/home/wuzhihan/Projects/CNN/tensorboard_logs/CNN_param_clsall_matrix_elu_v3"
+        tsboard_path = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/tensorboard_logs/CNN_param_clsall_matrix_elu_v3"
         if not os.path.exists(tsboard_path):
             os.makedirs(tsboard_path)
         WRITER = SummaryWriter(log_dir=tsboard_path)
 
-    model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN_param_clsall_matrix_elu_v3'
+    model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN_param_clsall_matrix_elu_v3'
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     if Resume:
