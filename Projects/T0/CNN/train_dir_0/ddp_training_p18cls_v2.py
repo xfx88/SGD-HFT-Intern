@@ -2,6 +2,8 @@
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
+import numpy as np
+import torch
 import torch.multiprocessing as mp
 from collections import defaultdict
 from torch import distributed as dist
@@ -10,18 +12,17 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 import fast_soft_sort.pytorch_ops as torchsort
-
 import paramiko
-import utilities as ut
-
 import math
 import random
 import pickle
 import os
+
 import gc
+import utilities as ut
 import src.logger as logger
 from src.dataset_cls import HFDataset, HFDatasetVal
-from utilities import *
+
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12354"
@@ -282,7 +283,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     if Resume:
         model_name = f'CNNLstmCLS_epoch_31_bs8000_sl64_ts5.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name), map_location='cpu')
-        model_data['state_dict'] = ddpModel_to_normal(model_data['state_dict'])
+        model_data['state_dict'] = ut.ddpModel_to_normal(model_data['state_dict'])
 
     LOGGER = logger.getLogger()
     LOGGER.setLevel('INFO') if local_rank == 0 else LOGGER.setLevel('WARNING')
@@ -308,7 +309,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     # lossfn_p5 = FocalLoss(class_num = OUTPUT_SIZE // 3, gamma = 2)
     # lossfn_p18 = FocalLoss(class_num = OUTPUT_SIZE // 3, gamma = 4)
     optimiser = torch.optim.Adam(ddp_net.parameters(), lr = 1e-4)
-    # opt = Optimiser(ddp_net, scale_factor = 0.1, warmup_steps=WARMUP)
+    opt = Optimiser(ddp_net, scale_factor=0.1, warmup_steps=WARMUP)
 
     # if prior_epochs != 0:
     #     optimiser.load_state_dict(model_data['optimizer_dict'])
