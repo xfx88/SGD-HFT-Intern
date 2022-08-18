@@ -1,29 +1,31 @@
 import gc
-import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import warnings
-warnings.filterwarnings('ignore')
 from datetime import datetime
 from collections import namedtuple
+import sys
+import os
 import numpy as np
 import pandas as pd
-from label_extractor import *
 import math
+from scipy.stats import spearmanr
+import matplotlib.pyplot as plt
+import seaborn as sns
 from typing import List
+
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from torch.nn.utils import weight_norm
 torch.device('cuda:1')
 
-from src.dataset3 import HFDatasetCls
 import utilities as ut
-from scipy.stats import spearmanr
-import matplotlib.pyplot as plt
-import seaborn as sns
+from src.dataset3 import HFDatasetCls
+from label_extractor import *
 
-import os
+import warnings
+warnings.filterwarnings('ignore')
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 
 RET_COLS = ['cls_5']
@@ -69,7 +71,7 @@ TIMESTEP = 5
 # SEQ_LEN = 64
 # TIMESTEP = 1
 
-DATA_PATH = "/home/wuzhihan/Data_labels"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels"
 
 class CNNBlock(nn.Module):
     def __init__(self, in_channels: int,
@@ -227,7 +229,7 @@ class Predict:
         self.model.eval()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN/param_clsall_matrix_v3/'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN/param_clsall_matrix_v3/'
         model_name = 'CNNLstmCLS_epoch_31_bs10000_sl64_ts3.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict
@@ -247,7 +249,8 @@ class Predict:
         self.model.eval()
 
     def all_bars(self, start_date, end_date):
-
+        prediction_result_path = 'CNNprediction/param_1/'
+        
         all_keys = generate_keys(start_date, end_date, stock_id=None, prefix='numpy')
         sp2 = []
         sp5 = []

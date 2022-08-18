@@ -1,29 +1,32 @@
-import gc
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import warnings
-warnings.filterwarnings('ignore')
+from scipy.stats import spearmanr
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+import gc
+
 from datetime import datetime
 from collections import namedtuple
-from Backtest import RemoteSrc
 import numpy as np
 import pandas as pd
-from label_extractor import label_extractor
 import math
 from typing import List
+
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from torch.nn.utils import weight_norm
 
 from src.dataset3 import HFDatasetCls
+from Backtest import RemoteSrc
 import utilities as ut
-from scipy.stats import spearmanr
-import matplotlib.pyplot as plt
-import seaborn as sns
+from label_extractor import label_extractor
 
-import os
+import warnings
+warnings.filterwarnings('ignore')
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 RET_COLS = ['cls_5']
@@ -64,7 +67,7 @@ TIMESTEP = 5
 # SEQ_LEN = 64
 # TIMESTEP = 1
 
-DATA_PATH = "/home/wuzhihan/Data_labels"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels"
 
 class CNNBlock(nn.Module):
     def __init__(self, in_channels: int,
@@ -218,7 +221,7 @@ class Predict:
         self.remote_server = RemoteSrc()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN_param_cls5all_matrix_relu_v3_manu'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN_param_cls5all_matrix_relu_v3_manu'
         model_name = 'CNNLstmCLS_epoch_60_bs9600_sl64_ts3.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict

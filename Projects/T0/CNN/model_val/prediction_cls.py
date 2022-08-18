@@ -1,6 +1,5 @@
-
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -67,7 +66,7 @@ TIMESTEP = 5
 # SEQ_LEN = 64
 # TIMESTEP = 1
 
-DATA_PATH = "/home/wuzhihan/Data_labels"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels"
 
 class CNNBlock(nn.Module):
     def __init__(self, in_channels: int,
@@ -208,7 +207,7 @@ class Predict:
         self.model.eval()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN/param_cls18_v2_adam_datamodified/'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN/param_cls18_v2_adam_datamodified/'
         model_name = 'CNNLstmCLS_epoch_39_bs5000_sl64_ts5.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict

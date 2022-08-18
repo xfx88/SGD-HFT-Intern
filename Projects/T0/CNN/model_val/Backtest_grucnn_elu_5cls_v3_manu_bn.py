@@ -45,7 +45,7 @@ eg6 = EgBar('603290', '20211015', '09:47:07')  # 390元，大涨结束，回调
 pred_cols = ['subcls_2', 'subcls_5', 'subcls_18', 'subcls_diff']
 EgBar = namedtuple('EgBar', ['stock_id', 'date', 'TIME'])
 
-DATA_PATH = "/home/wuzhihan/Data_labels"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels"
 
 GLOBAL_SEED = 2098
 
@@ -207,7 +207,7 @@ def gen_open_pos(x: list, times = 1):
 
 class RemoteSrc:
     REMOTE_PATH = "/sgd-data/data/stock/"
-    TEMP = "/home/wuzhihan/Projects/CNN/backtest_temp/"
+    TEMP = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/backtest_temp/"
 
     def __init__(self):
         self._client = paramiko.Transport(("192.168.1.147", 22))
@@ -248,7 +248,7 @@ class Predict:
         self.remote_server = RemoteSrc()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN_param_cls5all_gelu_postnorm_v3_manu'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN_param_cls5all_gelu_postnorm_v3_manu'
         model_name = f'CNNLstmCLS_epoch_79_bs10000_sl64_ts2.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict

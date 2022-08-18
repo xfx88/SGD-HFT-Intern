@@ -7,7 +7,7 @@ import os
 import numpy as np
 
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 factor_ret_cols = ['timeidx','price','vwp','spread','tick_spread','ref_ind_0','ref_ind_1','ask_weight_14',
                    'ask_weight_13','ask_weight_12','ask_weight_11','ask_weight_10','ask_weight_9','ask_weight_8','ask_weight_7',

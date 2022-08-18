@@ -30,7 +30,7 @@ factor_ret_cols = ['timeidx','price','vwp','ask_price','bid_price','ask_price2',
                    'circulation_mv', 'p_2','p_5','p_18','p_diff']
 
 
-path = '/home/wuzhihan/Data/'
+path = "/home/yby/SGD-HFT-Intern/Projects/T0/Data"
 
 
 def gen_date_ticker_dict(start_date = 20211101, end_date = 20211130):

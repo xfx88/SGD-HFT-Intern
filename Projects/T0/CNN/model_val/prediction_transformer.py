@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/train_dir_1/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_1")
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -10,7 +10,8 @@ import numpy as np
 import pandas as pd
 from tst import TransformerEncoder
 
-from fast_soft_sort.pytorch_ops import soft_rank
+from train_dir_0.fast_soft_sort.pytorch_ops import soft_rank
+
 from typing import List
 import torch
 import torch.nn as nn
@@ -73,7 +74,7 @@ tOpt = ut.TrainingOptions(BATCH_SIZE=BATCH_SIZE,
                           pe = "regular"
                           )
 
-DATA_PATH = "/home/wuzhihan/Data"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data"
 
 
 
@@ -139,7 +140,7 @@ class Predict:
         self.model.eval()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_1/transformer/param_reg/'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_1/transformer/param_reg/'
         model_name = 'TST_epoch_19_bs1_sl64.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict

@@ -1,34 +1,33 @@
-import gc
 import sys
-sys.path.append("/home/wuzhihan/Projects/CNN/")
+sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-
-import multiprocessing
-
-import warnings
-warnings.filterwarnings('ignore')
 from datetime import datetime
 from collections import namedtuple
-from Backtest import RemoteSrc
 import numpy as np
 import pandas as pd
-from label_extractor import label_extractor
+from scipy.stats import spearmanr
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+import gc
 import math
 from typing import List
-import torch
 from tqdm import tqdm
+
+import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from torch.nn.utils import weight_norm
 
 from src.dataset3 import HFDatasetCls
 import utilities as ut
-from scipy.stats import spearmanr
-import matplotlib.pyplot as plt
-import seaborn as sns
+from Backtest import RemoteSrc
+from label_extractor import label_extractor
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4,5,6"
+import warnings
+warnings.filterwarnings('ignore')
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 
 RET_COLS = ['cls_5']
 
@@ -40,6 +39,7 @@ factor_ret_cols = ['timeidx','price_pct','vwp_pct', 'currentRet','spread','tick_
                    'bid_weight_7','bid_weight_8','bid_weight_9','bid_weight_10','bid_weight_11','bid_weight_12','bid_weight_13',
                    'bid_weight_14','ask_dec','bid_dec','ask_inc','bid_inc','ask_inc2','bid_inc2','turnover',"hl_spread", "net_vol",
                    'subcls_2', 'subcls_5', 'subcls_18', 'subcls_diff']
+                   
 # pred_cols = ['subcls_2', 'subcls_5', 'subcls_18', 'subcls_diff']
 # factor_ret_cols = ['timeidx','price_pct','vwp_pct','spread','tick_spread','ref_ind_0','ref_ind_1','ask_weight_14',
 #                    'ask_weight_13','ask_weight_12','ask_weight_11','ask_weight_10','ask_weight_9','ask_weight_8','ask_weight_7',
@@ -60,7 +60,7 @@ OUTPUT_SIZE = 20
 SEQ_LEN = 64
 TIMESTEP = 5
 
-DATA_PATH = "/home/wuzhihan/Data_labels"
+DATA_PATH = "/home/yby/SGD-HFT-Intern/Projects/T0/Data_labels"
 
 class CNNBlock(nn.Module):
     def __init__(self, in_channels: int,
@@ -224,7 +224,7 @@ class Predict:
         self.remote_server = RemoteSrc()
 
     def _load_model(self):
-        model_path = '/home/wuzhihan/Projects/CNN/train_dir_0/model/CNN_param_cls5all_relu_v2_manu'
+        model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/train_dir_0/model/CNN_param_cls5all_relu_v2_manu'
         model_name = f'CNNLstmCLS_epoch_79_bs10000_sl64_ts2.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name))
         from collections import OrderedDict
