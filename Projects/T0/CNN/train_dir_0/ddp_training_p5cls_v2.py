@@ -6,7 +6,7 @@ os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12355"
 os.environ["OMP_NUM_THREADS"] = '4'
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,5,6,7,8,9"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,5,6,7,8,9"
 import torch.multiprocessing as mp
 
 from torch import distributed as dist
@@ -96,6 +96,8 @@ class ConvLstmNet(nn.Module):
 
         self.out_fcn0 = nn.Linear(in_features=seq_len, out_features=1)
         self.out_fcn1 = nn.Linear(in_features=in_features, out_features=out_features)
+
+        self.relu = nn.ReLU()
 
         for layer in self.modules():
             if isinstance(layer, nn.Conv1d):
