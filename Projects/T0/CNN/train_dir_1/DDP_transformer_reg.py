@@ -10,7 +10,7 @@ from tst import TransformerEncoder
 import tst.utilities as ut
 from tst.utilities import factor_ret_cols
 from src.dataset_reg import HFDataset
-import torchsort
+import fast_soft_sort.pytorch_ops as torchsort
 
 import src.logger as logger
 

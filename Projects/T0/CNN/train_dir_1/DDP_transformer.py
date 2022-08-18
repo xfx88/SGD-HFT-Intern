@@ -17,9 +17,8 @@ import torch.nn as nn
 import torch.multiprocessing as mp
 from torch import distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
+
 from tst import TransformerEncoder
-
-
 import tst.utilities as ut
 from tst.utilities import factor_ret_cols
 from src.dataset import HFDataset, HFDatasetVal
@@ -33,6 +32,8 @@ SEQ_LEN = 64
 INPUT_SIZE = 44
 OUTPUT_SIZE = 6
 EPOCHS = 80
+
+exit()
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12359"

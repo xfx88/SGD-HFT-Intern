@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch
 from functools import partial
 import math
-import utilities as ut
+import train_dir_1.utilities as ut
 
 
 

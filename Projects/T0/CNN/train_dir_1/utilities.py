@@ -84,8 +84,6 @@ def ddpModel_to_normal(ddp_state_dict: OrderedDict):
 
     return new_state_dict
 
-
-
 def getallfile(path):
     allfilelist = os.listdir(path)
     # 遍历该文件夹下的所有目录或者文件
@@ -99,7 +97,6 @@ def getallfile(path):
             allpath.append(filepath)
             allname.append(file)
     return allpath, allname
-
 
 def gen_df_full_time():
   full_time = list(pd.date_range(start='09:30:00', end='11:30:00', freq='S'))
