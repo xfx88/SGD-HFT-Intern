@@ -1,15 +1,16 @@
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import warnings
-warnings.filterwarnings('ignore')
 from datetime import datetime
 from collections import namedtuple
+import os
 import numpy as np
 import pandas as pd
-from train_dir_0.fast_soft_sort.pytorch_ops import soft_rank
-
+from scipy.stats import spearmanr
+import matplotlib.pyplot as plt
+import seaborn as sns
 from typing import List
+
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
@@ -17,11 +18,11 @@ torch.device('cuda:1')
 
 from src.dataset3 import HFDatasetCls
 import utilities as ut
-from scipy.stats import spearmanr
-import matplotlib.pyplot as plt
-import seaborn as sns
+from train_dir_0.fast_soft_sort.pytorch_ops import soft_rank
 
-import os
+import warnings
+warnings.filterwarnings('ignore')
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 RET_COLS = ['cls_18']
