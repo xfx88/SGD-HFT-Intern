@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 from tst.multiHeadAttention import MultiHeadAttention, MultiHeadAttentionChunk, MultiHeadAttentionWindow
 from tst.positionwiseFeedForward import PositionwiseFeedForward
-from tst.utilities import TrainingOptions
+from train_dir_1.tst.utilities import TrainingOptions
 
 
 class Decoder(nn.Module):

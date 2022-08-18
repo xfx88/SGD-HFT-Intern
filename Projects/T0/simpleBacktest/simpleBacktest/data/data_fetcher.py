@@ -18,7 +18,7 @@ import paramiko
 class RemoteSrc:
     dict_path = "./"
     REMOTE_PATH = "/sgd-data/data/stock/"
-    TEMP = "/home/wuzhihan/Projects/CNN/backtest_temp/"
+    TEMP = "/home/yby/SGD-HFT-Intern/Projects/T0/CNN/backtest_temp/"
 
     def __init__(self):
         self._client = paramiko.Transport(("192.168.1.147", 22))

@@ -46,8 +46,8 @@ factor_ret_cols = ['timeidx','price_pct','vwp_pct','spread','tick_spread','ref_i
 #                    'bid_weight_7','bid_weight_8','bid_weight_9','bid_weight_10','bid_weight_11','bid_weight_12','bid_weight_13',
 #                    'bid_weight_14','ask_dec','bid_dec','ask_inc','bid_inc','ask_inc2','bid_inc2','preclose','limit','turnover',
 #                    'circulation_mv', 'p_2','p_5','p_18','p_diff']
-res_col = ['cls_2','cls_5','cls_18',
-           'cls_2_pred','cls_5_pred','cls_18_pred']
+
+res_col = ['cls_2','cls_5','cls_18','cls_2_pred','cls_5_pred','cls_18_pred']
 
 EgBar = namedtuple('EgBar', ['stock_id', 'date', 'TIME'])
 
