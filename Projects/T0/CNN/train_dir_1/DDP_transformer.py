@@ -2,29 +2,29 @@ import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.multiprocessing as mp
-from torch import distributed as dist
-from torch.utils.tensorboard import SummaryWriter
-from torch.nn.parallel import DistributedDataParallel as DDP
-import math
-from tst import TransformerEncoder
-import tst.utilities as ut
-from tst.utilities import factor_ret_cols
-from src.dataset import HFDataset, HFDatasetVal
-
-import src.logger as logger
-
 import os
 import gc
 import random
 import pickle
-
+import math
 from scipy.stats import spearmanr
 from joblib import Parallel, delayed
 from collections import OrderedDict
-exit()
+
+from torch.utils.tensorboard import SummaryWriter
+import torch
+import torch.nn as nn
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+from tst import TransformerEncoder
+
+
+import tst.utilities as ut
+from tst.utilities import factor_ret_cols
+from src.dataset import HFDataset, HFDatasetVal
+import src.logger as logger
+
 GLOBAL_SEED = 12309
 DB_ID = 1
 WARMUP = 500
