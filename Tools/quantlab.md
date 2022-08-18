@@ -2,7 +2,7 @@
 
 <div align=center>
 
-## 盛冠达实习日志
+## QuantLab、Sunnytrader
 </div>
 
 > Background is cheap, show me the alpha.

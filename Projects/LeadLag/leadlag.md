@@ -5,6 +5,11 @@
 ## Leadlag Research
 </div>
 
+> Background is cheap, show me the alpha.
+> Talk is cheap, show me the code.
+> Create alpha, and be an alpha.
+
+
 ---
 
 <div align=center>
