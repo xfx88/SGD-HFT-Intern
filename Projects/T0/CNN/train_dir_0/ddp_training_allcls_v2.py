@@ -2,20 +2,24 @@
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import torch.multiprocessing as mp
-from torch import distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.tensorboard import SummaryWriter
-import utilities as ut
-from torch.nn.utils import weight_norm
-from torch.optim import lr_scheduler, SGD
-
+import numpy as np
 import math
 import random
 import gc
+import os
+
+from torch.utils.tensorboard import SummaryWriter
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.nn.utils import weight_norm
+from torch.optim import lr_scheduler, SGD
+
+
 import src.logger as logger
-from src.dataset_clsall import HFDataset
-from utilities import *
+from src.dataset_clsall import HFDataset5cls
+import utilities as ut
+
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12308"
@@ -227,7 +231,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     if Resume:
         model_name = f'CNNLstmCLS_epoch_19_bs10000_sl64_ts3.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name), map_location='cpu')
-        model_data['state_dict'] = ddpModel_to_normal(model_data['state_dict'])
+        model_data['state_dict'] = ut.ddpModel_to_normal(model_data['state_dict'])
 
     LOGGER = logger.getLogger()
     LOGGER.setLevel('INFO') if local_rank == 0 else LOGGER.setLevel('WARNING')
@@ -267,13 +271,13 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     train_ids = local_rank_id[:len_train]
     val_ids = local_rank_id[len_train:]
 
-    train_dataset = HFDataset(local_ids = train_ids,
+    train_dataset = HFDataset5cls(local_ids = train_ids,
                               shard_dict = shard_dict,
                               batch_size=BATCH_SIZE,
                               seq_len=SEQ_LEN,
                               time_step = TIMESTEP)
 
-    val_dataset = HFDataset(local_ids=val_ids,
+    val_dataset = HFDataset5cls(local_ids=val_ids,
                                shard_dict=shard_dict,
                                batch_size=BATCH_SIZE,
                                seq_len=SEQ_LEN,

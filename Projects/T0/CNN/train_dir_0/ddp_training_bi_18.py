@@ -1,24 +1,26 @@
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import torch.multiprocessing as mp
-from torch import distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.tensorboard import SummaryWriter
-import utilities as ut
-from torch.nn.utils import weight_norm
-from torch.optim import lr_scheduler, SGD
-
+import numpy as np
 import math
 import random
 import gc
+import os
+
+from torch.utils.tensorboard import SummaryWriter
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.nn.utils import weight_norm
+from torch.optim import lr_scheduler, SGD
+
 import src.logger as logger
 from src.dataset_clsall import HFDatasetBi
-from utilities import *
+import utilities as ut
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12310"
-os.environ["CUDA_VISIBLE_DEVICES"] = "7,8,9"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 os.environ["OMP_NUM_THREADS"] = '2'
 
 DB_ID = 0
@@ -298,7 +300,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     if Resume:
         model_name = f'CNNLstmCLS_epoch_7_bs8000_sl64_ts5.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name), map_location='cpu')
-        model_data['state_dict'] = ddpModel_to_normal(model_data['state_dict'])
+        model_data['state_dict'] = ut.ddpModel_to_normal(model_data['state_dict'])
 
     LOGGER = logger.getLogger()
     LOGGER.setLevel('INFO') if local_rank == 0 else LOGGER.setLevel('WARNING')

@@ -1,17 +1,18 @@
 import datetime
-import pandas as pd
-import torch
 import numpy as np
+import pandas as pd
 from collections import OrderedDict
 import os
+from pympler import asizeof
 from dataclasses import dataclass
-from torch.utils.data import random_split
-
 import redis
 import gzip
 import pickle
-from pympler import asizeof
+
+import torch
 import torch.nn.functional as F
+from torch.utils.data import random_split
+
 from settings import REDIS_HOST,REDIS_PORT,REDIS_PASSWORD
 
 allpath = []

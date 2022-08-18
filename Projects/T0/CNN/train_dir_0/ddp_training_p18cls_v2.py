@@ -1,33 +1,33 @@
-
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import numpy as np
-import torch
-import torch.multiprocessing as mp
 from collections import defaultdict
-from torch import distributed as dist
-from torchsampler import ImbalancedDatasetSampler
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
-import fast_soft_sort.pytorch_ops as torchsort
 import paramiko
 import math
 import random
 import pickle
 import os
-
 import gc
+
+from torch.utils.tensorboard import SummaryWriter
+import torch
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torchsampler import ImbalancedDatasetSampler
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.utils.data import DataLoader
+
 import utilities as ut
 import src.logger as logger
 from src.dataset_cls import HFDataset, HFDatasetVal
+import fast_soft_sort.pytorch_ops as torchsort
 
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12354"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,4,8,9"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 
 DB_ID = 0
 

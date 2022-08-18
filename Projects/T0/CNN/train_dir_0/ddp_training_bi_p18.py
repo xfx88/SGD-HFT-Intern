@@ -1,24 +1,27 @@
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
-import torch.multiprocessing as mp
-from torch import distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.tensorboard import SummaryWriter
-import utilities as ut
-from torch.nn.utils import weight_norm
-from torch.optim import lr_scheduler, SGD
-
+import numpy as np
+import os
 import math
 import random
 import gc
 import src.logger as logger
-from src.dataset_clsall import HFDataset
+from src.dataset_clsall import HFDataset5cls
 from utilities import *
+
+from torch.utils.tensorboard import SummaryWriter
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.nn.utils import weight_norm
+from torch.optim import lr_scheduler, SGD
+
+import utilities as ut
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12308"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,5,6,7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 os.environ["OMP_NUM_THREADS"] = '4'
 
 DB_ID = 0
@@ -328,13 +331,13 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     train_ids = local_rank_id[:len_train]
     val_ids = local_rank_id[len_train:]
 
-    train_dataset = HFDataset(local_ids = train_ids,
+    train_dataset = HFDataset5cls(local_ids = train_ids,
                               shard_dict = shard_dict,
                               batch_size=BATCH_SIZE,
                               seq_len=SEQ_LEN,
                               time_step = TIMESTEP)
 
-    val_dataset = HFDataset(local_ids=val_ids,
+    val_dataset = HFDataset5cls(local_ids=val_ids,
                                shard_dict=shard_dict,
                                batch_size=BATCH_SIZE,
                                seq_len=SEQ_LEN,

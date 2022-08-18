@@ -1,32 +1,30 @@
-
 import sys
 sys.path.append("/home/yby/SGD-HFT-Intern/Projects/T0/CNN")
 
 import numpy as np
-import torch
-import torch.nn as nn
-from torch.utils.data import DataLoader, random_split
-import torch.multiprocessing as mp
-from collections import defaultdict
-from torch import distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-import fast_soft_sort.pytorch_ops as torchsort
-
-import utilities as ut
-
 import math
 import random
 import pickle
 import os
 import gc
+from collections import defaultdict
+
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, random_split
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+
+import utilities as ut
 import src.logger as logger
 from src.dataset import HFDataset
-from utilities import *
+import fast_soft_sort.pytorch_ops as torchsort
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12356"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-os.environ["CUDA_VISIBLE_DEVICES"] = "7,8"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 
 DB_ID = 0
 
@@ -324,7 +322,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     if Resume:
         model_name = f'CNN_epoch_2_bs8000_sl64_ts5.pth.tar'
         model_data = torch.load(os.path.join(model_path, model_name), map_location='cpu')
-        model_data['state_dict'] = ddpModel_to_normal(model_data['state_dict'])
+        model_data['state_dict'] = ut.ddpModel_to_normal(model_data['state_dict'])
 
     LOGGER = logger.getLogger()
     LOGGER.setLevel('INFO') if local_rank == 0 else LOGGER.setLevel('WARNING')
