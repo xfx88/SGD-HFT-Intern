@@ -243,7 +243,8 @@ class Predict:
         self.model.eval()
 
     def all_bars(self, start_date, end_date):
-
+        
+        prediction_result_path = 'CNNprediction/param_1/'
         all_keys = generate_keys(start_date, end_date, stock_id=None, prefix='numpy')
         sp2 = []
         sp5 = []
@@ -264,7 +265,7 @@ class Predict:
                 os.makedirs(result_path)
 
             test_data = load_data(ticker_keys)
-            test_dataset = HFDataset(test_data, LEN_SEQ=SEQ_LEN, batch_size=5000)
+            test_dataset = HFDatasetCls(test_data, LEN_SEQ=SEQ_LEN, batch_size=5000)
 
             with torch.no_grad():
                 for idx, (x, y) in enumerate(test_dataset):
