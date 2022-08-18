@@ -6,7 +6,7 @@ from tst.encoder import Encoder
 from tst.decoder import Decoder
 from tst.utils import generate_original_PE, generate_regular_PE
 
-from tst.utilities import TrainingOptions
+from train_dir_1.utilities import TrainingOptions
 
 class Transformer(nn.Module):
     """Transformer model from Attention is All You Need.

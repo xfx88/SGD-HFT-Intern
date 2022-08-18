@@ -34,6 +34,19 @@ factor_ret_cols = ['timeidx','price','vwp','ask_price','bid_price','ask_price2',
                    'bid_weight_7','bid_weight_8','bid_weight_9','bid_weight_10','bid_weight_11','bid_weight_12','bid_weight_13',
                    'bid_weight_14','ask_dec','bid_dec','ask_inc','bid_inc','ask_inc2','bid_inc2','preclose','limit','turnover',
                    'circulation_mv', 'p_2','p_5','p_18','p_diff']
+
+
+# factor_ret_cols = ['timeidx', 'price', 'vwp', 'spread', 'tick_spread', 'ref_ind_0', 'ref_ind_1',
+#                    'ask_weight_14', 'ask_weight_13', 'ask_weight_12', 'ask_weight_11',
+#                    'ask_weight_10', 'ask_weight_9', 'ask_weight_8', 'ask_weight_7',
+#                    'ask_weight_6', 'ask_weight_5', 'ask_weight_4', 'ask_weight_3',
+#                    'ask_weight_2', 'ask_weight_1', 'ask_weight_0', 'bid_weight_0',
+#                    'bid_weight_1', 'bid_weight_2', 'bid_weight_3', 'bid_weight_4',
+#                    'bid_weight_5', 'bid_weight_6', 'bid_weight_7', 'bid_weight_8',
+#                    'bid_weight_9', 'bid_weight_10', 'bid_weight_11', 'bid_weight_12',
+#                    'bid_weight_13', 'bid_weight_14', 'ask_dec', 'bid_dec', 'ask_inc',
+#                    'bid_inc', 'ask_inc2', 'bid_inc2', '10']
+
 @dataclass
 class TrainingOptions:
     EPOCHS: int
@@ -54,6 +67,7 @@ class TrainingOptions:
     padding: int = None
     dropout: float = 0.15  # Dropout rate
     pe: str = None  # Positional encoding
+    # pe: str = "original"  # Positional encoding
     chunk_mode: str or None = None
 
 # 使用二进制方式储存，减小体积
@@ -123,8 +137,7 @@ def redis_connection(db = 0):
     @param db: 数据库ID
     @return: redis连接对象
     """
-    return redis.Redis(
-        host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD, db = db, health_check_interval=30)
+    return redis.Redis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD, db=db, health_check_interval=30)
 
 def save_data_to_redis(rs, key, df):
     """

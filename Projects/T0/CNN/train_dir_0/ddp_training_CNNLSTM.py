@@ -294,7 +294,7 @@ def train(local_rank, world_size, world_dict, shard_dict, validation = False, Re
     dist.init_process_group("nccl", rank=local_rank, world_size=world_size)
     torch.cuda.set_device(local_rank)
 
-    model_path = 'model/CNN/param_2/'
+    model_path = '/home/yby/SGD-HFT-Intern/Projects/T0/CNN/model/CNN/param_2/'
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     if Resume:

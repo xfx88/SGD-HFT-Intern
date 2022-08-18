@@ -16,7 +16,7 @@ cnn_redis_keys = [x for x in redis_keys if 'CNN' in str(x)]
 redis_keys = [x for x in cnn_redis_keys if (int(str(x).split('_')[1]) <= end_date)
                     and (int(str(x).split('_')[1]) >= start_date)]
 
-file_path = "/home/yby/YBY/Data/"
+file_path = "/home/yby/SGD-HFT-Intern/Projects/T0/Data/"
 
 def read_and_save_data(keys):
     # rs1 = redis.Redis(host = "103.24.176.114", port = 6379, password="adGaqIwPFoDJ4Ljf")

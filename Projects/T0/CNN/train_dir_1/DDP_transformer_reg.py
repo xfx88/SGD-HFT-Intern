@@ -1,27 +1,27 @@
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.multiprocessing as mp
-from torch import distributed as dist
-from torch.utils.tensorboard import SummaryWriter
-from torch.nn.parallel import DistributedDataParallel as DDP
-import math
-from tst import TransformerEncoder
-import tst.utilities as ut
-from tst.utilities import factor_ret_cols
-from src.dataset_reg import HFDataset
-import fast_soft_sort.pytorch_ops as torchsort
-
-import src.logger as logger
-
 import os
 import gc
 import random
 import pickle
-
 from scipy.stats import spearmanr
 from joblib import Parallel, delayed
 from collections import OrderedDict
+import math
+
+from torch.utils.tensorboard import SummaryWriter
+import torch
+import torch.nn as nn
+import torch.multiprocessing as mp
+from torch import distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+
+import utilities as ut
+from utilities import factor_ret_cols
+from src.dataset_reg import HFDataset
+import src.logger as logger
+import fast_soft_sort.pytorch_ops as torchsort
+from tst import TransformerEncoder
+
 
 GLOBAL_SEED = 12309
 DB_ID = 1
@@ -34,7 +34,7 @@ EPOCHS = 50
 
 os.environ["MASTER_ADDR"] = "localhost"
 os.environ["MASTER_PORT"] = "12359"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6,7,8,9"
 os.environ["OMP_NUM_THREADS"] = "8"
 torch.manual_seed(GLOBAL_SEED)
 torch.cuda.manual_seed(GLOBAL_SEED)
